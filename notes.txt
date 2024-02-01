@@ -1,0 +1,17 @@
+CODEC
+Dual power supplies
+- 5v for analog
+- 3v3 for digital
+Vcc needs 5v
+Vdd needs 3v3
+Analog input voltage from -0v3 to +6v5
+Max current 10mA
+
+PW SUPPLY FUSE
+6V 3A 40A 5A 2920 Resettable Fuses ROHS
+
+LM3940IMP-3.3_NOPB
+3v3 voltage regulator. what about the 5 volts dumbass
+
+PW SUPPLY CAPS in parallel (wtf)
+10u, 100n, 10u, 100n
