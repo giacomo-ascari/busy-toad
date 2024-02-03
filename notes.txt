@@ -13,5 +13,7 @@ PW SUPPLY FUSE
 LM3940IMP-3.3_NOPB
 3v3 voltage regulator. what about the 5 volts dumbass
 
+Look into 5v volts regulators to be able to use the 9v thing
+
 PW SUPPLY CAPS in parallel (wtf)
 10u, 100n, 10u, 100n
