@@ -22,3 +22,6 @@ https://www.mouser.dk/ProductDetail/Texas-Instruments/TLV320AIC3104IRHBR?qs=t6sY
 
 what if i use the one already mounted on the daisy seed? can i connect two of those???
 in theory yes, apparently
+
+## FANCY TOOLS
+https://coolors.co/30bced-303036-fffaff-fc5130-050401
