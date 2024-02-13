@@ -9,11 +9,3 @@ Max current 10mA
 
 PW SUPPLY FUSE
 6V 3A 40A 5A 2920 Resettable Fuses ROHS
-
-LM3940IMP-3.3_NOPB
-3v3 voltage regulator. what about the 5 volts dumbass
-
-Look into 5v volts regulators to be able to use the 9v thing
-
-PW SUPPLY CAPS in parallel (wtf)
-10u, 100n, 10u, 100n

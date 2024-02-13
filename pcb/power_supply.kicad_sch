@@ -721,9 +721,9 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/lm3940imp-3.3nopb/texas-instruments?region=nac" (at 142.875 1113.03 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "3" (uuid 224ca2ed-8e08-4102-81e6-b74485a24193))
-    (pin "2" (uuid dcd41251-3ed0-44d4-be24-f1a482d5399e))
     (pin "1" (uuid 19c9bc15-c8b0-4eb7-9e9c-39a941b55007))
+    (pin "2" (uuid dcd41251-3ed0-44d4-be24-f1a482d5399e))
+    (pin "3" (uuid 224ca2ed-8e08-4102-81e6-b74485a24193))
     (pin "4" (uuid 7d73e7c5-0d30-4257-a34d-07d007ad6723))
     (instances
       (project "bt_pcb"
@@ -771,9 +771,9 @@
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "1" (uuid b5e07b9a-6b2f-4333-8f3b-4cbe7ce08f46))
+    (pin "2" (uuid 85481586-c8fa-4ecf-9610-7cd092c2d31f))
     (pin "3" (uuid d2963d89-e419-4ecd-90dd-612f95c14a8b))
     (pin "4" (uuid 9f55af12-d50c-4b37-b480-0287dc0b5647))
-    (pin "2" (uuid 85481586-c8fa-4ecf-9610-7cd092c2d31f))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -823,8 +823,8 @@
     (property "Datasheet" "~" (at 74.295 75.946 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 78a9ad38-5d55-4410-9e85-004428859a9d))
     (pin "1" (uuid 53971c79-fa10-473f-9f58-c70001fcb2ac))
+    (pin "2" (uuid 78a9ad38-5d55-4410-9e85-004428859a9d))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -849,8 +849,8 @@
     (property "Datasheet" "~" (at 208.28 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b24193cf-f365-47ca-a436-09beb6650bc1))
     (pin "1" (uuid 568f290a-64df-417e-acfd-13989c1eeaa7))
+    (pin "2" (uuid b24193cf-f365-47ca-a436-09beb6650bc1))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -875,8 +875,8 @@
     (property "Datasheet" "~" (at 116.205 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid db5daeac-a938-4488-90e6-5206834403c0))
     (pin "1" (uuid 9342a89d-864d-4f10-9a59-4eb378a72101))
+    (pin "2" (uuid db5daeac-a938-4488-90e6-5206834403c0))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -901,8 +901,8 @@
     (property "Datasheet" "~" (at 169.545 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 77bc8413-f845-49f8-b0ad-a40e00a1b3f5))
     (pin "1" (uuid 299b7805-1ad5-4573-be41-bbec7d277d64))
+    (pin "2" (uuid 77bc8413-f845-49f8-b0ad-a40e00a1b3f5))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -927,8 +927,8 @@
     (property "Datasheet" "~" (at 109.855 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 901f7529-0683-4aea-b515-aa39effc3254))
     (pin "1" (uuid 05353a8a-11ca-4b04-b33d-585d73f417ea))
+    (pin "2" (uuid 901f7529-0683-4aea-b515-aa39effc3254))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -1105,8 +1105,8 @@
     (property "Datasheet" "~" (at 182.245 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 9c37a5a0-ead7-4098-95d9-a460e95ff318))
     (pin "1" (uuid 903912d1-023b-4690-a4f7-b96dc66b45f4))
+    (pin "2" (uuid 9c37a5a0-ead7-4098-95d9-a460e95ff318))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -1131,8 +1131,8 @@
     (property "Datasheet" "~" (at 149.86 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c8ed29ab-da11-4600-b690-df59622a86f3))
     (pin "1" (uuid b226394c-43be-41ea-97eb-0601a81b4f4c))
+    (pin "2" (uuid c8ed29ab-da11-4600-b690-df59622a86f3))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -1182,8 +1182,8 @@
     (property "Datasheet" "~" (at 106.68 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid edca557a-ba97-4ca7-9408-de29c8d19101))
     (pin "1" (uuid effff81d-9715-4e9e-8bd0-97a8b9938871))
+    (pin "2" (uuid edca557a-ba97-4ca7-9408-de29c8d19101))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
