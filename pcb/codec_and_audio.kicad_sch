@@ -1360,8 +1360,8 @@
     (property "Datasheet" "~" (at 97.79 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 35c5daf7-185a-4a8b-9c74-9cab21c5ef1f))
     (pin "1" (uuid 1d38532f-cdef-49ae-9da6-3438ea531c3c))
+    (pin "2" (uuid 35c5daf7-185a-4a8b-9c74-9cab21c5ef1f))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
@@ -1450,11 +1450,11 @@
     (property "Sim.Name" "kicad_builtin_opamp" (at 97.79 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "5" (uuid 5dd9cefc-1355-411c-85dc-5a8fabe40098))
-    (pin "2" (uuid 95c03558-794c-452a-8cb8-aa51848945ae))
-    (pin "4" (uuid a906b601-79b9-4093-8f13-dd21300134ee))
-    (pin "3" (uuid 7244921c-7df0-4c63-a6a8-7ad67adbb5b1))
     (pin "1" (uuid 7f05daff-fb59-4e4c-96ce-bf239464baf9))
+    (pin "2" (uuid 95c03558-794c-452a-8cb8-aa51848945ae))
+    (pin "3" (uuid 7244921c-7df0-4c63-a6a8-7ad67adbb5b1))
+    (pin "4" (uuid a906b601-79b9-4093-8f13-dd21300134ee))
+    (pin "5" (uuid 5dd9cefc-1355-411c-85dc-5a8fabe40098))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
@@ -1479,8 +1479,8 @@
     (property "Datasheet" "~" (at 80.01 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 8211f97c-71fa-4039-8bc6-0c32cf312a4e))
     (pin "1" (uuid 219a48c2-edbc-4c2f-807e-7c973dd5a9f3))
+    (pin "2" (uuid 8211f97c-71fa-4039-8bc6-0c32cf312a4e))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
