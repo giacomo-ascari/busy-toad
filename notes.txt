@@ -9,5 +9,3 @@ Max current 10mA
 
 PW SUPPLY FUSE
 6V 3A 40A 5A 2920 Resettable Fuses ROHS
-
-https://support.focusrite.com/hc/en-gb/articles/115004171025-Differences-between-Mic-Line-and-Instrument-level

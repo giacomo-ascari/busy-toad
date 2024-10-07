@@ -2,26 +2,26 @@
 
 ## Intro
 
-evolution of the digital pedal: geekyToad
+Evolution of the digital pedal: geekyToad
 
-### Software of choice: KiCAD
+## Hardware
 
-### MCU
+### MCU - STM32H750VBT6
 
-stm32h750
-https://www.mouser.dk/ProductDetail/STMicroelectronics/STM32H750VBT6?qs=sGAEpiMZZMuI9neUTtPr7zWYd8yNnBbm60PgquT%2FyNhWon6x3TDxMg%3D%3D
+- LQFP100 14x14x1.4mm
+- ARM Cortex-M7, 480MHz, FPU, 128kB flash, 1024kB RAM
+- [mouser link](https://www.mouser.dk/ProductDetail/STMicroelectronics/STM32H750VBT6?qs=sGAEpiMZZMuI9neUTtPr7zWYd8yNnBbm60PgquT%2FyNhWon6x3TDxMg%3D%3D)
 
+### CODEC - PCM3060
 
-### ADC/DAC
+- same codec as the daisy seed
+- [ti link](https://www.ti.com/product/PCM3060#features)
 
-pcm3060
-https://www.ti.com/product/PCM3060#features
+Honorable mention:
+tlv320aic3104-21 [mouser link](https://www.mouser.dk/ProductDetail/Texas-Instruments/TLV320AIC3104IRHBR?qs=t6sYTo5dwUzbYVbTYmm%2FAg%3D%3D)
 
-tlv320aic3104-21
-https://www.mouser.dk/ProductDetail/Texas-Instruments/TLV320AIC3104IRHBR?qs=t6sYTo5dwUzbYVbTYmm%2FAg%3D%3D
+## Various notes
 
-what if i use the one already mounted on the daisy seed? can i connect two of those???
-in theory yes, apparently
-
-## FANCY TOOLS
-https://coolors.co/30bced-303036-fffaff-fc5130-050401
+- STM32 Cube IDE
+- [colori belli](https://coolors.co/30bced-303036-fffaff-fc5130-050401)
+- [Differences-between-Mic-Line-and-Instrument-level](https://support.focusrite.com/hc/en-gb/articles/115004171025-Differences-between-Mic-Line-and-Instrument-level)
