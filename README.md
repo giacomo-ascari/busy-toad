@@ -11,17 +11,19 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 The majority of the inputs is a straight up copy of geekyToad with some additions and optimizations.
 - Two instr/line/mic/mic48v inputs as XLR Combo Jack
 - Two instr/line outputs as XLR Combo Jack
+- One stereo output for headphones
 - OLED display, power LED, two non-assigned (yet) LEDs
 - Two rotary encoders with push buttons
 - Mute/unmute button, Next/previous tab buttons
-- Volume knob, Expression pedal input (TS) (one for every ADC available)
-- USB host
+- Volume knobs for effects/drummachine/master, mute/unmute stomp button, expression pedal input (TS) amap
+- USB host to load samples for drummachine into the flash
 
 ### Features
 
-- Effect chain for every input
+- Effect chain for every input (with programmable expression pedals)
 - Drum machine (samples + synth)
-- Mixing matrix
+- Mixing matrix for effect chains and drum machine
+- Display brightness control
 
 ## Hardware
 
@@ -52,6 +54,9 @@ Honorable mention: w25q512jv
 
 ## Various notes
 
-- STM32 Cube IDE
-- [colori belli](https://coolors.co/30bced-303036-fffaff-fc5130-050401)
+- STM32 Cube IDE because yes.
+- Is there a almost standard connector for stlink things?
+- This version will only feature one MCU. I feel like this should be a mix of prototype/learning experience and functional product.
+- I'm extremely dubious about the feasibility of the 48v phantom power for condenser microphones.
+- [nice colors, i like them](https://coolors.co/30bced-303036-fffaff-fc5130-050401)
 - [Differences-between-Mic-Line-and-Instrument-level](https://support.focusrite.com/hc/en-gb/articles/115004171025-Differences-between-Mic-Line-and-Instrument-level)
