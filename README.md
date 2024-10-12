@@ -14,7 +14,7 @@ The majority of the inputs is a straight up copy of geekyToad with some addition
 - One stereo output for headphones
 - OLED display, power LED, two non-assigned (yet) LEDs
 - Two rotary encoders with push buttons
-- Mute/unmute button, Next/previous tab buttons
+- Next/previous tab buttons
 - Volume knobs for effects/drummachine/master, mute/unmute stomp button, expression pedal input (TS) amap
 - USB host to load samples for drummachine into the flash
 
