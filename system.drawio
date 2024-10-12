@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" modified="2024-10-12T13:11:53.957Z" version="24.6.2" etag="eORD_Ua8F2uF6z-a-WqS" type="github">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" modified="2024-10-12T14:44:13.280Z" version="24.6.2" etag="wycUcjRrvsHPDbISKOwc" type="github">
   <diagram name="Page-1" id="uh2Nt5NAZ1hEic4aWEry">
     <mxGraphModel dx="2280" dy="763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,12 +24,13 @@
             <mxPoint x="130" y="60" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UstajCVp14i0uRyYP5gG-24" value="USB OTG host" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="UstajCVp14i0uRyYP5gG-4" target="UstajCVp14i0uRyYP5gG-23" edge="1">
+        <mxCell id="UstajCVp14i0uRyYP5gG-24" value="SPI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" parent="1" source="UstajCVp14i0uRyYP5gG-4" target="UstajCVp14i0uRyYP5gG-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="430" y="560" />
               <mxPoint x="420" y="560" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="r3QqPI56EwGwf8NJcsX5-3" value="4w SPI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UstajCVp14i0uRyYP5gG-4" target="r3QqPI56EwGwf8NJcsX5-2">
@@ -62,7 +63,7 @@
         <mxCell id="UstajCVp14i0uRyYP5gG-18" value="Stereo headphone output" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="-50" y="530" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="UstajCVp14i0uRyYP5gG-23" value="USB socket" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+        <mxCell id="UstajCVp14i0uRyYP5gG-23" value="SD card" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="360" y="640" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="r3QqPI56EwGwf8NJcsX5-9" value="Analog" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UstajCVp14i0uRyYP5gG-25" target="UstajCVp14i0uRyYP5gG-4">
