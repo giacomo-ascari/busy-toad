@@ -16,7 +16,7 @@ The majority of the inputs is a straight up copy of geekyToad with some addition
 - Two rotary encoders with push buttons
 - Next/previous tab buttons
 - Volume knobs for effects/drummachine/master, mute/unmute stomp button, expression pedal input (TS) amap
-- USB host to load samples for drummachine into the flash
+- SD card to load samples for drummachine into the flash
 
 ### Features
 
