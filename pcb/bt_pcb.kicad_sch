@@ -1343,8 +1343,8 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2364b96f-13fa-4528-9b1e-e2ff696dd6e9)
   )
-  (text "TODO LIST:\n- check the voltage references\n- finish the codec\n- make the sd card\n- and much more"
-    (at 55.245 80.645 0)
+  (text "TODO LIST:\n- finish the codec\n- make the sd card\n- 5v power input from usb\n- UI\n  - display and leds\n  - adc for externals\n  - rotary encoders"
+    (at 31.75 95.885 0)
     (effects (font (size 2.54 2.54)) (justify left bottom))
     (uuid 4b4436d0-c848-4a13-885f-59cd111d9165)
   )

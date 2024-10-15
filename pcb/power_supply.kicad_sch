@@ -635,12 +635,6 @@
     (uuid ffd39f11-4d4d-4cce-afa2-68a9e353eccd)
   )
 
-  (text "TL431, LM385, LM336 is typically good enough for me. (i.e., the cheapest ones I can find =P )\nGood voltage references are expensive =(\n431's on LCSC start at 1-2 cents each =P \nCan get 431's which claim 0.5% or better initial tolerance for ~4-6 cents each (ME431AXG, AZ431AN-ATRE1). \nThe limit seems  to be 20ppm/C before things get expensive?"
-    (at 44.45 113.665 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 4ad5710e-42b2-45dd-8a52-26b4d2ac2f58)
-  )
-
   (hierarchical_label "3V3" (shape output) (at 175.895 113.03 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0fc1d363-67e3-47f8-81b1-a45bfaee263d)
