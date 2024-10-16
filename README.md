@@ -57,6 +57,12 @@ Honorable mention: w25q512jv
 - STM32 Cube IDE because yes.
 - Debugging is done with cortex jtag/swd 10 pin connection.
 - This version will only feature one MCU. I feel like this should be a mix of prototype/learning experience and functional product.
+- circuitry for codec I/O:
+  - some instrumentation amplifier with high impedance inputs might be the way to go. cheaper, more reliable than my own implementation and with less footprint. however, i don't know which one to choose. the INA family looks promising. the rest of the buffering could be probably done with some other buffer bank ICs (they exist, right?).
+    - INA116: instrumentation amplifier with extremely low input bias
+    - INA105 and 106: differential amplifiers with unit and fixed gain
+    - INA1620: beast, dual differential signals amp
+    - INA321 and 2321: instrumentation amplifiers, also dual channel
 - I'm extremely dubious about the feasibility of the 48v phantom power for condenser microphones. A solution can be just buying an external mic pre-amp.
 - [nice colors, i like them](https://coolors.co/30bced-303036-fffaff-fc5130-050401)
 - [Differences-between-Mic-Line-and-Instrument-level](https://support.focusrite.com/hc/en-gb/articles/115004171025-Differences-between-Mic-Line-and-Instrument-level)
