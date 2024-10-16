@@ -55,8 +55,8 @@ Honorable mention: w25q512jv
 ## Various notes
 
 - STM32 Cube IDE because yes.
-- Is there a almost standard connector for stlink things?
+- Debugging is done with cortex jtag/swd 10 pin connection.
 - This version will only feature one MCU. I feel like this should be a mix of prototype/learning experience and functional product.
-- I'm extremely dubious about the feasibility of the 48v phantom power for condenser microphones.
+- I'm extremely dubious about the feasibility of the 48v phantom power for condenser microphones. A solution can be just buying an external mic pre-amp.
 - [nice colors, i like them](https://coolors.co/30bced-303036-fffaff-fc5130-050401)
 - [Differences-between-Mic-Line-and-Instrument-level](https://support.focusrite.com/hc/en-gb/articles/115004171025-Differences-between-Mic-Line-and-Instrument-level)
