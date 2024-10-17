@@ -63,6 +63,8 @@ Honorable mention: w25q512jv
     - INA105 and 106: differential amplifiers with unit and fixed gain
     - INA1620: beast, dual differential signals amp
     - INA321 and 2321: instrumentation amplifiers, also dual channel
+    - MCP6001/1R/1U/2/4: low power opamp
+    - Most of this circuitry is integrated in the TLV320xx codec. Should I just give up?
 - I'm extremely dubious about the feasibility of the 48v phantom power for condenser microphones. A solution can be just buying an external mic pre-amp.
 - [nice colors, i like them](https://coolors.co/30bced-303036-fffaff-fc5130-050401)
 - [Differences-between-Mic-Line-and-Instrument-level](https://support.focusrite.com/hc/en-gb/articles/115004171025-Differences-between-Mic-Line-and-Instrument-level)
