@@ -67,6 +67,7 @@ Honorable mention:
   - INA1620: beast, dual differential signals amp
   - INA321 and 2321: instrumentation amplifiers, also dual channel
   - MCP6001/1R/1U/2/4: low power opamp used in gt
+  - Quad Analog Switch/ Multiplexer/Demultiplexer MC74HC4066A
 - Available in lab
   - CA3140 (opamp)
   - MCP6294 (quad opamp)
