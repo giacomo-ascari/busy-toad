@@ -77,5 +77,5 @@ Honorable mention:
   - AD623ANZ (opamp dif amp)
   - AD620ANZ (opamp dif amp)
 - I'm extremely dubious about the feasibility of the 48v phantom power for condenser microphones. A solution can be just buying an external mic pre-amp.
-- [nice colors, i like them](https://coolors.co/30bced-303036-fffaff-fc5130-050401)
+- [cool colors, i like them](https://coolors.co/30bced-303036-fffaff-fc5130-050401)
 - [Differences-between-Mic-Line-and-Instrument-level](https://support.focusrite.com/hc/en-gb/articles/115004171025-Differences-between-Mic-Line-and-Instrument-level)

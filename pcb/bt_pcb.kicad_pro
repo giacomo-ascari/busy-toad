@@ -479,6 +479,14 @@
     [
       "4ada0139-8712-47ce-9d4c-ab8fef312f7b",
       "Codec and audio IO"
+    ],
+    [
+      "fb924787-351e-471a-8373-66e7df7b6a71",
+      "Input A"
+    ],
+    [
+      "393cdf85-7f27-4cef-b6a8-755ca71a41cd",
+      "Input B"
     ]
   ],
   "text_variables": {}
