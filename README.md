@@ -61,6 +61,7 @@ Honorable mention:
 - STM32 Cube IDE because yes.
 - Debugging is done with cortex jtag/swd 10 pin connection.
 - This version will only feature one MCU. I feel like this should be a mix of prototype/learning experience and functional product.
+- Some inspiration is taken from [here](https://khronscave.blogspot.com/2019/10/55-focusrite-scarlett-2i2-teardown.html)
 - circuitry for codec I/O:
   - INA116: instrumentation amplifier with extremely low input bias
   - INA105 and 106: differential amplifiers with unit and fixed gain
