@@ -141,35 +141,41 @@
         <mxCell id="T5VHMVA-ks1R065T1fPF-2" value="Effect chain 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="420" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T5VHMVA-ks1R065T1fPF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5VHMVA-ks1R065T1fPF-3" target="T5VHMVA-ks1R065T1fPF-1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="T5VHMVA-ks1R065T1fPF-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5VHMVA-ks1R065T1fPF-3" target="T5VHMVA-ks1R065T1fPF-2">
+        <mxCell id="T5VHMVA-ks1R065T1fPF-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5VHMVA-ks1R065T1fPF-3" target="T5VHMVA-ks1R065T1fPF-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T5VHMVA-ks1R065T1fPF-3" value="Routing matrix" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="320" width="40" height="160" as="geometry" />
+          <mxGeometry x="280" y="320" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="T5VHMVA-ks1R065T1fPF-4" value="Routing matrix" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="320" width="40" height="280" as="geometry" />
         </mxCell>
-        <mxCell id="T5VHMVA-ks1R065T1fPF-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5VHMVA-ks1R065T1fPF-6" target="T5VHMVA-ks1R065T1fPF-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="T5VHMVA-ks1R065T1fPF-6" value="IN&lt;div&gt;A&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="120" y="320" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="T5VHMVA-ks1R065T1fPF-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5VHMVA-ks1R065T1fPF-7" target="T5VHMVA-ks1R065T1fPF-3">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="80" y="320" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T5VHMVA-ks1R065T1fPF-7" value="IN&lt;div&gt;B&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="120" y="440" width="40" height="40" as="geometry" />
+          <mxGeometry x="80" y="440" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="T5VHMVA-ks1R065T1fPF-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5VHMVA-ks1R065T1fPF-14" target="T5VHMVA-ks1R065T1fPF-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="T5VHMVA-ks1R065T1fPF-14" value="Drum machine" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="400" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5VHMVA-ks1R065T1fPF-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="T5VHMVA-ks1R065T1fPF-17" target="T5VHMVA-ks1R065T1fPF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T5VHMVA-ks1R065T1fPF-17" value="Routing matrix" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="420" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T5VHMVA-ks1R065T1fPF-21" value="OUT&lt;div&gt;A&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="760" y="320" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5VHMVA-ks1R065T1fPF-22" value="OUT&lt;div&gt;B&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="760" y="440" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T5VHMVA-ks1R065T1fPF-25" value="" style="shape=orEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="320" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
