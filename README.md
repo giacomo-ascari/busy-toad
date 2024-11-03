@@ -44,10 +44,11 @@ Honorable mentions:
 
 ### FLASH - N/A
 
-- serial flash memory ???
-
-Honorable mention:
-- w25q512jv (still on the table!)
+- w25q512jveim (still on the table!)
+- the quad spi interface with the mcu needs a lot of pins
+  - finding an accomodation is hard
+  - a sd/mmc could probably perform the same way and offer file transfer as bonus
+  - proably will be connected with 4-wire spi only
 
 ### DISPLAY - 3.83" OLED
 
@@ -55,6 +56,7 @@ Honorable mention:
 - looks really interesting and promising, especially for the grayscale control (could have controllable brightness and such)
 - framerate unknow, but still probably better than normal lcd displays
 - [buydisplay link](https://www.buydisplay.com/catalog/product/view/id/1847/s/arduino-raspberry-pi-3-83-inch-oled-module-320x132-spi-16-level-grayscale/)
+- ALTERNATIVE: ILI9341 SPI LCD display (the usual basically)
 
 ## Various notes
 
