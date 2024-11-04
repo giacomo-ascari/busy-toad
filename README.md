@@ -64,6 +64,7 @@ Honorable mentions:
 - STM32 Cube IDE because yes.
 - Debugging is done with cortex jtag/swd 10 pin connection.
 - This version will only feature one MCU. I feel like this should be a mix of prototype/learning experience and functional product.
+- For the Eq: Linkwitz–Riley filters
 - circuitry for codec I/O:
   - INA116: instrumentation amplifier with extremely low input bias
   - INA105 and 106: differential amplifiers with unit and fixed gain
