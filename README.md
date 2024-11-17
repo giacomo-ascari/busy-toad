@@ -12,11 +12,10 @@ The majority of the inputs is a straight up copy of geekyToad with some addition
 - Two instr/line/mic/mic48v inputs as XLR Combo Jack
 - Two instr/line outputs as XLR Combo Jack
 - One stereo output for headphones
-- OLED display, power LED, two non-assigned (yet) LEDs
+- OLED display, power LED, some non-assigned (yet) LEDs
 - Two rotary encoders with push buttons
-- Next/previous tab buttons
 - Volume knobs for effects/drummachine/master, mute/unmute stomp button, expression pedal input (TS) amap
-- SD card to load samples for drummachine into the flash
+- USB device only connection
 
 ### Features
 
@@ -42,13 +41,10 @@ Honorable mentions:
 - E.D.'s favorite: tlv320aic3104-21
 - daisy seed's: pcm3060 [ti link](https://www.ti.com/product/PCM3060#features)
 
-### FLASH - N/A
+### FLASH - W25Q512JV
 
 - w25q512jveim (still on the table!)
-- the quad spi interface with the mcu needs a lot of pins
-  - finding an accomodation is hard
-  - a sd/mmc could probably perform the same way and offer file transfer as bonus
-  - proably will be connected with 4-wire spi only
+- the quad spi interface with the mcu needs a lot of pins :/
 
 ### DISPLAY - 3.83" OLED
 

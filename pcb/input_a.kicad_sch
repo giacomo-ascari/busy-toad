@@ -985,10 +985,6 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e318ded1-6448-4cdf-8ff6-1fd02783437d)
   )
-  (hierarchical_label "AINCS" (shape input) (at 210.185 90.17 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ef94e805-27b0-4bac-8ebd-d95d6b348286)
-  )
 
   (symbol (lib_id "Device:C_Polarized") (at 135.89 163.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
