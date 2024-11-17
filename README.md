@@ -34,7 +34,8 @@ The majority of the inputs is a straight up copy of geekyToad with some addition
 
 ### CODEC - CS4272
 
-- same codec on some focusrite scarlet interfaces
+- same codec on some focusrite scarlet interfaces [apparently](https://khronscave.blogspot.com/2019/10/55-focusrite-scarlett-2i2-teardown.html)
+- it just works. no fancy headphone/microphones things. low-power portable electronics are overrated
 - [cirrus logic link](https://www.cirrus.com/products/cs4272/)
 
 Honorable mentions:
@@ -59,7 +60,7 @@ Honorable mentions:
 - STM32 Cube IDE because yes.
 - Debugging is done with cortex jtag/swd 10 pin connection.
 - This version will only feature one MCU. I feel like this should be a mix of prototype/learning experience and functional product.
-- Some inspiration is taken from [here](https://khronscave.blogspot.com/2019/10/55-focusrite-scarlett-2i2-teardown.html)
+- For the Eq: Linkwitz–Riley filters
 - circuitry for codec I/O:
   - INA116: instrumentation amplifier with extremely low input bias
   - INA105 and 106: differential amplifiers with unit and fixed gain
