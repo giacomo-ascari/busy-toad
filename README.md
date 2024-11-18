@@ -8,19 +8,22 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 
 ### I/O
 
-The majority of the inputs is a straight up copy of geekyToad with some additions and optimizations.
-- Two instr/line/mic/mic48v inputs as XLR Combo Jack
-- Two instr/line outputs as XLR Combo Jack
-- One stereo output for headphones
+- Two audio instr/line inputs as TRS Jack (differential or single-ended)
+- Two audio instr/line outputs as TRS Jack (differential or single-ended)
+- One stereo output for headphones, hardwired to the two outputs
 - OLED display, power LED, some non-assigned (yet) LEDs
 - Two rotary encoders with push buttons
-- Volume knobs for effects/drummachine/master, mute/unmute stomp button, expression pedal input (TS) amap
-- USB device only connection
+- Volume knobs for heaphones
+- Two digital inputs as TS Jack (e.g. for stomp buttons)
+- Two analog inputs as TS Jack (e.g. expression pedal or knob)
+- USB C device for power and FS data transfer
 
 ### Features
 
-- Effect chain for every input (with programmable expression pedals)
-- Drum machine (samples + synth)
+- Two effect chains (primary and secondary)
+- Programmable digital/analog inputs as dynamic controls of effects
+- Drum machine (synth + samples)
+- Chromatic tuner
 - Mixing matrix for effect chains and drum machine
 - Display brightness control
 
@@ -58,7 +61,7 @@ Honorable mentions:
 ## Various notes
 
 - STM32 Cube IDE because yes.
-- Debugging is done with cortex jtag/swd 10 pin connection.
+- Debugging is done with cortex 4-wire-jtag/swd 10 pin connection.
 - This version will only feature one MCU. I feel like this should be a mix of prototype/learning experience and functional product.
 - For the Eq: Linkwitz–Riley filters
 - circuitry for codec I/O:
