@@ -14,8 +14,8 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 - OLED display, power LED, some non-assigned (yet) LEDs
 - Two rotary encoders with push buttons
 - Volume knobs for heaphones
-- Two digital inputs as TS Jack (e.g. for stomp buttons)
-- Two analog inputs as TS Jack (e.g. expression pedal or knob)
+- Two digital inputs as TS Jack (e.g. stomp buttons)
+- Two analog inputs as TRS Jack (e.g. expression pedals)
 - USB C device for power and FS data transfer
 
 ### Features
@@ -79,6 +79,7 @@ Honorable mentions:
   - LM386N (audio amp)
   - AD623ANZ (opamp dif amp)
   - AD620ANZ (opamp dif amp)
+- Expression pedals are hard man [...](https://missionengineering.com/understanding-expression-pedals/)
 - I'm extremely dubious about the feasibility of the 48v phantom power for condenser microphones. A solution can be just buying an external mic pre-amp.
 - [cool colors, i like them](https://coolors.co/30bced-303036-fffaff-fc5130-050401)
 - [Differences-between-Mic-Line-and-Instrument-level](https://support.focusrite.com/hc/en-gb/articles/115004171025-Differences-between-Mic-Line-and-Instrument-level)
