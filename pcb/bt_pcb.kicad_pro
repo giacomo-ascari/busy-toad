@@ -499,6 +499,10 @@
     [
       "bae6fe41-6b3e-4efe-adb1-b463a7ee58e1",
       "USB Interface"
+    ],
+    [
+      "dc98d12f-0323-4fbb-9954-b3059d58104c",
+      "Output HP"
     ]
   ],
   "text_variables": {}
