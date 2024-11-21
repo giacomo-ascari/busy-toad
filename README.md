@@ -72,7 +72,11 @@ Honorable mentions:
   - MCP6001/1R/1U/2/4: low power opamp used in gt
   - Quad Analog Switch/ Multiplexer/Demultiplexer MC74HC4066A
 - For the switching circuitry
-  - MC74HC4066A (same as the focusrite, but apparently a little bit noisy) 
+  - MC74HC4066A (same as the focusrite, but apparently a little bit noisy)
+  - TS5A3157
+  - DG409 / DG410
+  - MAX4617 (chatgpt likes this)
+  - ADG406 (chatgpt likes this)
 - Available in lab
   - CA3140 (opamp)
   - MCP6294 (quad opamp)
