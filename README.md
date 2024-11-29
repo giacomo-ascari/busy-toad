@@ -76,7 +76,7 @@ Honorable mentions:
   - TS5A3157
   - DG409 / DG410
   - MAX4617 (chatgpt likes this)
-  - ADG736 / ADG734 / ADG1606
+  - ADG736 (I like this one!) / ADG734 / ADG1606
   - TS5A3157
   - MAX14689
 - Available in lab
