@@ -481,28 +481,24 @@
       "Codec and audio IO"
     ],
     [
-      "fb924787-351e-471a-8373-66e7df7b6a71",
-      "Input A"
-    ],
-    [
-      "393cdf85-7f27-4cef-b6a8-755ca71a41cd",
-      "Input B"
-    ],
-    [
-      "60bf59a0-253f-4ea1-81da-7746e9b04190",
-      "Output A"
-    ],
-    [
-      "fa59e647-d5eb-4f6f-a20b-bde1796e2368",
-      "Output B"
-    ],
-    [
       "bae6fe41-6b3e-4efe-adb1-b463a7ee58e1",
       "USB Interface"
     ],
     [
+      "4fcd5c8c-58b7-4ce7-9521-e6e7fa7f5f34",
+      "User Interface"
+    ],
+    [
       "dc98d12f-0323-4fbb-9954-b3059d58104c",
-      "Output HP"
+      "Audio HP output"
+    ],
+    [
+      "92a88d42-e0ca-481e-a77e-2117fd7dfc0f",
+      "Audio ouput"
+    ],
+    [
+      "aa7abd67-f1bd-4ae8-bc05-bae360f4c6c7",
+      "Audio input"
     ]
   ],
   "text_variables": {}
