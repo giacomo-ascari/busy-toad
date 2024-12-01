@@ -2621,7 +2621,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3_Switch") (at 30.48 99.695 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71b62897-1817-4882-a1f0-578cc8901a78)
-    (property "Reference" "J7" (at 28.575 111.125 0)
+    (property "Reference" "J8" (at 28.575 111.125 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack3_Switch" (at 28.575 108.585 0)
@@ -2641,9 +2641,6 @@
     (pin "TN" (uuid d74991ef-e644-46f7-8546-ffa48faeeaab))
     (instances
       (project "bt_pcb"
-        (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b/92a88d42-e0ca-481e-a77e-2117fd7dfc0f"
-          (reference "J7") (unit 1)
-        )
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b/aa7abd67-f1bd-4ae8-bc05-bae360f4c6c7"
           (reference "J8") (unit 1)
         )
@@ -2871,7 +2868,7 @@
   (symbol (lib_id "Connector_Audio:AudioJack3_Switch") (at 31.115 26.67 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 91cbe3d2-3c5d-473d-aec5-0807a4749ac6)
-    (property "Reference" "J7" (at 29.21 38.1 0)
+    (property "Reference" "J5" (at 29.21 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AudioJack3_Switch" (at 29.21 35.56 0)
@@ -2891,9 +2888,6 @@
     (pin "TN" (uuid 0285b40e-21f6-4b4f-b937-26acb4d98bc8))
     (instances
       (project "bt_pcb"
-        (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b/92a88d42-e0ca-481e-a77e-2117fd7dfc0f"
-          (reference "J7") (unit 1)
-        )
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b/aa7abd67-f1bd-4ae8-bc05-bae360f4c6c7"
           (reference "J5") (unit 1)
         )
