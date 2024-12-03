@@ -12,7 +12,7 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 - Two audio instr/line outputs as TRS Jack (differential or single-ended)
 - One stereo output for headphones, hardwired to the two outputs
 - OLED display, power LED, some non-assigned (yet) LEDs
-- Two rotary encoders with push buttons
+- A lot of buttons and One rotary encoder with push button
 - Volume knobs for heaphones
 - Two digital inputs as TS Jack (e.g. stomp buttons)
 - Two analog inputs as TRS Jack (e.g. expression pedals)
