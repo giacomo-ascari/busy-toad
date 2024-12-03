@@ -33,6 +33,7 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 
 - LQFP100 14x14x1.4mm
 - ARM Cortex-M7, 480MHz, FPU, 128kB flash, 1024kB RAM
+- Gotta use the CMSIS-DSP library!!!
 - [mouser link](https://www.mouser.dk/ProductDetail/STMicroelectronics/STM32H750VBT6?qs=sGAEpiMZZMuI9neUTtPr7zWYd8yNnBbm60PgquT%2FyNhWon6x3TDxMg%3D%3D)
 
 ### CODEC - CS4272
