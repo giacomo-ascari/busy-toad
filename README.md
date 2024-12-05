@@ -12,7 +12,7 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 - Two audio instr/line outputs as TRS Jack (differential or single-ended)
 - One stereo output for headphones, hardwired to the two outputs
 - OLED display, power LED, some non-assigned (yet) LEDs
-- Two rotary encoders with push buttons
+- A lot of buttons and One rotary encoder with push button
 - Volume knobs for heaphones
 - Two digital inputs as TS Jack (e.g. stomp buttons)
 - Two analog inputs as TRS Jack (e.g. expression pedals)
@@ -33,6 +33,7 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 
 - LQFP100 14x14x1.4mm
 - ARM Cortex-M7, 480MHz, FPU, 128kB flash, 1024kB RAM
+- Gotta use the CMSIS-DSP library!!!
 - [mouser link](https://www.mouser.dk/ProductDetail/STMicroelectronics/STM32H750VBT6?qs=sGAEpiMZZMuI9neUTtPr7zWYd8yNnBbm60PgquT%2FyNhWon6x3TDxMg%3D%3D)
 
 ### CODEC - CS4272
