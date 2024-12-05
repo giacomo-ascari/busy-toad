@@ -457,6 +457,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,
@@ -479,10 +487,6 @@
     [
       "4ada0139-8712-47ce-9d4c-ab8fef312f7b",
       "Codec and audio IO"
-    ],
-    [
-      "bae6fe41-6b3e-4efe-adb1-b463a7ee58e1",
-      "USB Interface"
     ],
     [
       "4fcd5c8c-58b7-4ce7-9521-e6e7fa7f5f34",
