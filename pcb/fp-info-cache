@@ -1,4 +1,4 @@
-22648402504644326
+22658806726668021
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85764,12 +85764,40 @@ rotary encoder
 7
 6
 SamacSys_Parts
+ADPL16000BATA
+8-PIN TDFN-CU_2024
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+ESDAULC63BP6
+ESDAULC6-3BP6-2
+TVS Diode (Bi-directional)
+0
+6
+6
+SamacSys_Parts
 NE555DR
 D (R-PDSO-G8)
 Integrated Circuit
 0
 8
 8
+SamacSys_Parts
+QFN50P400X400X80-21N-D
+S-PWQFN-N20
+Integrated Circuit
+0
+21
+21
+SamacSys_Parts
+QFN50P700X700X60-49N-D
+UFQFPN48 package information (A0B9)
+Integrated Circuit
+0
+49
+49
 SamacSys_Parts
 QFP50P1600X1600X160-100N
 LQFP100-14x14
@@ -85791,6 +85819,13 @@ Integrated Circuit
 0
 9
 9
+SamacSys_Parts
+SOP50P490X110-10N
+RM-10 (MSOP)
+Integrated Circuit
+0
+10
+10
 SamacSys_Parts
 SOP65P640X120-28N
 PW(R-PDSO-G28)
@@ -93078,3 +93113,10 @@ Varistor VF
 0
 2
 2
+library
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8

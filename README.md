@@ -29,12 +29,18 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 
 ## Hardware
 
-### MCU - STM32H750VBT6
+### DSP MCU - STM32H750VBT6
 
 - LQFP100 14x14x1.4mm
 - ARM Cortex-M7, 480MHz, FPU, 128kB flash, 1024kB RAM
 - Gotta use the CMSIS-DSP library!!!
 - [mouser link](https://www.mouser.dk/ProductDetail/STMicroelectronics/STM32H750VBT6?qs=sGAEpiMZZMuI9neUTtPr7zWYd8yNnBbm60PgquT%2FyNhWon6x3TDxMg%3D%3D)
+
+### UI MCU - STM32H523CEU6
+
+- UFQFPN-48
+- ARM Cortex M33, 250MHz, FPU, 512kB flash, 272kB RAM
+- [mouser link](https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32H523CEU6?qs=ZcfC38r4Pot%2FWfU8ati%252BDA%3D%3D)
 
 ### CODEC - CS4272
 
@@ -63,7 +69,6 @@ Honorable mentions:
 
 - STM32 Cube IDE because yes.
 - Debugging is done with cortex 4-wire-jtag/swd 10 pin connection.
-- This version will only feature one MCU. I feel like this should be a mix of prototype/learning experience and functional product.
 - For the Eq: Linkwitz–Riley filters
 - circuitry for codec I/O:
   - INA116: instrumentation amplifier with extremely low input bias

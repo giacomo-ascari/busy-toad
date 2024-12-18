@@ -1,0 +1,75 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP STM32H523CEU6
+D ARM Microcontrollers - MCU High-performance Arm Cortex-M33 MCU 512-Kbyte Flash 272-Kbyte RAM 250 MHz CPU
+K
+F https://www.arrow.com/en/products/stm32h523ceu6/stmicroelectronics?region=nac
+$ENDCMP
+#
+$CMP STM32H750VBT6
+D ARM Microcontrollers - MCU High-performance and DSP with DP-FPU, Arm Cortex-M7 MCU with 128 Kbytes of Flash memory, 1MB RAM, 400 MHz CPU, L1 cache, external memory interface, JPEG codec, HW crypto, large set of peripherals
+K
+F https://www.st.com/resource/en/datasheet/stm32h750vb.pdf
+$ENDCMP
+#
+$CMP LM3940IMP-3.3_NOPB
+D LM3940IMP-3.3/NOPB, Low Dropout Voltage Regulator, 1A, 3.3 V, 4.5  7.5 Vin, 4-Pin SOT-223
+K
+F http://www.ti.com/lit/ds/symlink/lm3940.pdf
+$ENDCMP
+#
+$CMP ADPL16000BATA+
+D 60V, 400mA, Ultra-Small, Hi gh-Efficiency, Synchronous Step-Down DC-DC Converters
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/adpl16000.pdf
+$ENDCMP
+#
+$CMP ESDAULC6-3BP6
+D STMicroelectronics ESDAULC6-3BP6, Triple-Element Bi-Directional ESD Protection Array, 6-Pin SOT-666
+K
+F https://www.st.com/resource/en/datasheet/esdaulc6-3bp6.pdf
+$ENDCMP
+#
+$CMP ADG736BRM
+D Analog Switch Dual SPDT Automotive 10-Pin MSOP Tube
+K
+F https://www.arrow.com/en/products/adg736brm/analog-devices?region=nac
+$ENDCMP
+#
+$CMP W25Q512JVEIM
+D SON8
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q512JVEIM&type=datasheet
+$ENDCMP
+#
+$CMP W25Q512JVFJQ
+D 512Mb Serial NOR Flash 133MHz SOP16
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q512JVFJQ&type=datasheet
+$ENDCMP
+#
+$CMP TLV76150DCYR
+D Linear Voltage Regulators 1-A 16-V high-PSRR linear voltage regulator
+K
+F https://www.ti.com/lit/ds/symlink/tlv761.pdf
+$ENDCMP
+#
+$CMP TPA6130A2RTJR
+D TEXAS INSTRUMENTS - TPA6130A2RTJR . - Audio Power Amplifier, 138 mW, AB, 2 Channel, 2.5V to 5.5V, QFN, 20 Pins
+K
+F https://www.ti.com/lit/ds/symlink/tpa6130a2.pdf
+$ENDCMP
+#
+$CMP PCM3060PWR
+D 24-bit Asynchronous Stereo Audio Codec with 96/192kHz sampling rate
+K
+F https://www.ti.com/lit/ds/symlink/pcm3060.pdf?ts=1606824200789&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DPCM3060PWR%2526keyMatch%253DPCM3060PWR%2526tisearch%253DSearch-EN-everything%2526usecase%253DOPN
+$ENDCMP
+#
+#End Doc Library
