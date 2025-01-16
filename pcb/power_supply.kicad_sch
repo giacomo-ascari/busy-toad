@@ -883,7 +883,7 @@
     (stroke (width 0) (type default))
     (uuid 5bb05339-8c0a-4788-854f-51bd496e1f18)
   )
-  (wire (pts (xy 69.85 93.345) (xy 80.01 93.345))
+  (wire (pts (xy 60.96 93.345) (xy 65.405 93.345))
     (stroke (width 0) (type default))
     (uuid 605994f5-6b22-4422-ac31-02402c192836)
   )
@@ -954,6 +954,10 @@
   (wire (pts (xy 181.61 91.44) (xy 181.61 107.315))
     (stroke (width 0) (type default))
     (uuid 986d5dc9-b96d-4a1d-a130-257e00abeaa8)
+  )
+  (wire (pts (xy 73.025 93.345) (xy 80.01 93.345))
+    (stroke (width 0) (type default))
+    (uuid 9e6ac1ac-5f11-4722-8aa6-bf448da9555b)
   )
   (wire (pts (xy 102.235 55.88) (xy 102.235 66.675))
     (stroke (width 0) (type default))
@@ -1072,10 +1076,10 @@
     (uuid ffd39f11-4d4d-4cce-afa2-68a9e353eccd)
   )
 
-  (global_label "VBUS" (shape input) (at 69.85 93.345 180) (fields_autoplaced)
+  (global_label "VBUS" (shape input) (at 60.96 93.345 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 2925a101-763d-4493-851d-cf84b601c464)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 61.9662 93.345 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 53.0762 93.345 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1095,8 +1099,8 @@
     (property "Datasheet" "~" (at 112.395 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 66612137-73d4-475b-bbed-64c96536412f))
     (pin "1" (uuid 709ef9ec-dcc6-499c-ac97-c512e81ed707))
+    (pin "2" (uuid 66612137-73d4-475b-bbed-64c96536412f))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -1115,7 +1119,7 @@
     (property "Value" "LM3940IMP-3.3_NOPB" (at 220.345 86.995 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOT230P700X180-4N" (at 231.775 186.36 0)
+    (property "Footprint" "library:SOT230P700X180-4N" (at 231.775 186.36 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm3940.pdf" (at 231.775 286.36 0)
@@ -1143,9 +1147,9 @@
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (pin "1" (uuid 810b21be-34cc-4d0a-885a-5a6b1db74280))
-    (pin "4" (uuid ad268b96-7b75-4db0-9a4f-31eff3631080))
     (pin "2" (uuid 58edb7cb-3be5-4aaf-a8b5-1852d3631530))
     (pin "3" (uuid 371d7079-22c9-4e0e-afc8-69c9e59c4e1f))
+    (pin "4" (uuid ad268b96-7b75-4db0-9a4f-31eff3631080))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -1257,6 +1261,32 @@
     )
   )
 
+  (symbol (lib_id "Device:D_Schottky") (at 69.215 93.345 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 31b73610-5279-4404-a85d-73271e0595b5)
+    (property "Reference" "D4" (at 68.2625 90.17 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "D_Schottky" (at 70.8025 90.17 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (at 69.215 93.345 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 69.215 93.345 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9a294fdc-874c-4a4f-bf98-f7f8f1eb6548))
+    (pin "2" (uuid af86aa79-6128-4ca2-93c4-92e87dafa092))
+    (instances
+      (project "bt_pcb"
+        (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
+          (reference "D4") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 128.905 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3e342b67-50c2-494c-a3ac-73a72d80a96f)
@@ -1342,7 +1372,7 @@
     (property "Value" "ADPL16000BATA+" (at 86.995 131.445 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ADPL16000BATA" (at 100.965 230.81 0)
+    (property "Footprint" "library:ADPL16000BATA" (at 100.965 230.81 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adpl16000.pdf" (at 100.965 330.81 0)
@@ -1369,14 +1399,14 @@
     (property "Arrow Price/Stock" "" (at 100.965 1130.81 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "8" (uuid a60302c1-1e27-40ec-9b58-deb29864b4d5))
-    (pin "3" (uuid f271f3d6-b1e2-4406-abcf-f61a5b337571))
-    (pin "2" (uuid 70df9e11-44da-4ec7-b6bf-7a0c93279086))
     (pin "1" (uuid 91fb8906-e152-47bc-a9ff-c40b664f4502))
+    (pin "2" (uuid 70df9e11-44da-4ec7-b6bf-7a0c93279086))
+    (pin "3" (uuid f271f3d6-b1e2-4406-abcf-f61a5b337571))
+    (pin "4" (uuid 2354cbf7-c31d-4fe2-9bf9-6518f8974570))
+    (pin "5" (uuid 90bd4864-c369-450a-b621-4b47cc4e4515))
     (pin "6" (uuid 04836c59-53df-455c-bca9-6352fcd75457))
     (pin "7" (uuid 118edc13-f5ae-4d0d-b45c-29f3653f82a9))
-    (pin "5" (uuid 90bd4864-c369-450a-b621-4b47cc4e4515))
-    (pin "4" (uuid 2354cbf7-c31d-4fe2-9bf9-6518f8974570))
+    (pin "8" (uuid a60302c1-1e27-40ec-9b58-deb29864b4d5))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -1453,8 +1483,8 @@
     (property "Datasheet" "~" (at 101.6 149.225 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid a59a76c1-6041-4bcf-91c3-119c48f5672a))
     (pin "1" (uuid 50f101c8-b1a1-4cfc-87b9-2120e172654d))
+    (pin "2" (uuid a59a76c1-6041-4bcf-91c3-119c48f5672a))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
@@ -1907,7 +1937,7 @@
     (property "Value" "TLV76150DCYR" (at 117.475 60.96 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOT230P700X180-4N" (at 128.905 -39.04 0)
+    (property "Footprint" "library:SOT230P700X180-4N" (at 128.905 -39.04 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv761.pdf" (at 128.905 -139.04 0)
@@ -1934,10 +1964,10 @@
     (property "Arrow Price/Stock" "https://www.arrow.com/en/products/tlv76150dcyr/texas-instruments?region=nac" (at 128.905 -939.04 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "4" (uuid 078fdee8-ce6e-42a8-a43c-99fed4c8fde9))
-    (pin "2" (uuid f16aa6b9-4dd1-4095-81d4-e40e6255d719))
     (pin "1" (uuid 1973b87b-9b52-4650-8f0d-d1d35d844b1d))
+    (pin "2" (uuid f16aa6b9-4dd1-4095-81d4-e40e6255d719))
     (pin "3" (uuid beee859a-4082-453f-989c-42abe75c8aea))
+    (pin "4" (uuid 078fdee8-ce6e-42a8-a43c-99fed4c8fde9))
     (instances
       (project "bt_pcb"
         (path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"

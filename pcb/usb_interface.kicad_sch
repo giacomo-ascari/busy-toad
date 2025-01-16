@@ -873,7 +873,7 @@
     (property "Value" "ESDAULC6-3BP6" (at 146.685 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "ESDAULC63BP6" (at 156.845 208.585 0)
+    (property "Footprint" "library:ESDAULC63BP6" (at 156.845 208.585 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/esdaulc6-3bp6.pdf" (at 156.845 308.585 0)
@@ -902,9 +902,9 @@
     )
     (pin "1" (uuid 928998e6-4589-4374-84f7-6fee142c37cf))
     (pin "2" (uuid 06f384b9-c01a-4f4a-a8f7-32ebc1669a58))
+    (pin "3" (uuid ebd6b6da-fb26-46d2-870e-cf62e2982559))
     (pin "4" (uuid 954f41c5-99a1-4855-a52e-85e0271944e0))
     (pin "5" (uuid 342e8229-bd45-4364-8f93-591472f9127c))
-    (pin "3" (uuid ebd6b6da-fb26-46d2-870e-cf62e2982559))
     (pin "6" (uuid c010887f-e206-442d-947f-eba62115d5b8))
     (instances
       (project "bt_pcb"
