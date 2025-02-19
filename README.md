@@ -70,6 +70,7 @@ Honorable mentions:
 - STM32 Cube IDE because yes.
 - Debugging is done with cortex 4-wire-jtag/swd 10 pin connection.
 - For the Eq: Linkwitz–Riley filters
+- Denoising for 5v: either LDOs, or a lot of filtering (pi filter and ferrite beads like BLM21PG102SH1D)
 - circuitry for codec I/O:
   - INA116: instrumentation amplifier with extremely low input bias
   - INA105 and 106: differential amplifiers with unit and fixed gain
