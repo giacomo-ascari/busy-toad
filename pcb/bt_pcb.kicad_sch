@@ -8,7 +8,7 @@
   )
 
 
-  (text "busy-toad rev. 0\n\nTODO LIST:\n- configurare secondo MCU (senza connettivita')\n- riformattare passivi attorno MCUs\n- aggiungere ESD a input (audio e controlli)\n\nEVG's NOTES:\n- usare cs per spi (display e touch)\n- usare un mcu per grafica\n- cercare un altro schermo (dfrobot, dfr0665)\n- sistemare 9v->5v (anche un ldo, tma05120, adpl16000)\n- compattare audio analog\n  - usare uno switch per cambiare modo di uso opamp (adg611) \n  - usare uno switch per spegnere e accendere opamp\n  - cambiare switch perche' obsoleto\n"
+  (text "busy-toad\n\nTODO LIST:\n- configurare secondo MCU (senza connettivita')\n- riformattare passivi attorno MCUs\n- aggiungere ESD a input (audio e controlli)\n\nEVG's NOTES:\n- usare cs per spi (display e touch)\n- usare un mcu per grafica\n- cercare un altro schermo (dfrobot, dfr0665)\n- sistemare 9v->5v (anche un ldo, tma05120, adpl16000)\n- compattare audio analog\n  - usare uno switch per cambiare modo di uso opamp (adg611) \n  - usare uno switch per spegnere e accendere opamp\n  - cambiare switch perche' obsoleto\n"
     (at 115.57 145.415 0)
     (effects (font (size 2.54 2.54) italic) (justify left bottom))
     (uuid 4b4436d0-c848-4a13-885f-59cd111d9165)
