@@ -1,115 +1,236 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid eb787481-08cd-41a4-a128-173fa6227c32)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (text "busy-toad\n\nTODO LIST:\n- configurare secondo MCU (senza connettivita')\n- riformattare passivi attorno MCUs\n- aggiungere ESD a input (audio e controlli)\n\nEVG's NOTES:\n- usare cs per spi (display e touch)\n- usare un mcu per grafica\n- cercare un altro schermo (dfrobot, dfr0665)\n- sistemare 9v->5v (anche un ldo, tma05120, adpl16000)\n- compattare audio analog\n  - usare uno switch per cambiare modo di uso opamp (adg611) \n  - usare uno switch per spegnere e accendere opamp\n  - cambiare switch perche' obsoleto\n"
-    (at 115.57 145.415 0)
-    (effects (font (size 2.54 2.54) italic) (justify left bottom))
-    (uuid 4b4436d0-c848-4a13-885f-59cd111d9165)
-  )
-  (text "for stm32h750\n- WS word select 1xFS\n- CK bit clock resxFS\n- SDI input from ADC\n- SDO output to DAC\n- MCK 256xFS???"
-    (at 65.405 134.62 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c832a800-aadf-4725-8569-105bd45309d5)
-  )
-  (text "from wikipedia for i2s specs:\n- SCK == BCLK\n- WS == LRCLK or FS\n- SD == SDIN or SDOUT\n- MCK == 256xLRCLK\n"
-    (at 66.04 119.38 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c8bd48ee-66b0-43c5-bcf3-56a45c01c127)
-  )
-
-  (sheet (at 25.4 76.2) (size 38.1 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4ada0139-8712-47ce-9d4c-ab8fef312f7b)
-    (property "Sheetname" "Codec and audio IO" (at 25.4 75.4884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "codec_and_audio.kicad_sch" (at 25.4 95.8346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "bt_pcb"
-        (path "/eb787481-08cd-41a4-a128-173fa6227c32" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 50.8) (size 38.1 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4ec3bf5a-5f62-4a58-b8f9-e874725801fb)
-    (property "Sheetname" "Power Supply" (at 25.4 50.0884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "power_supply.kicad_sch" (at 25.4 70.4346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "bt_pcb"
-        (path "/eb787481-08cd-41a4-a128-173fa6227c32" (page "2"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 101.6) (size 38.1 38.1) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4fcd5c8c-58b7-4ce7-9521-e6e7fa7f5f34)
-    (property "Sheetname" "User Interface" (at 25.4 100.8884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "user_interface.kicad_sch" (at 25.4 140.2846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "bt_pcb"
-        (path "/eb787481-08cd-41a4-a128-173fa6227c32" (page "8"))
-      )
-    )
-  )
-
-  (sheet (at 76.2 25.4) (size 38.1 38.1) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 7b2258ec-f5b6-4970-96d8-f1fb6e4ed567)
-    (property "Sheetname" "MCUs" (at 76.2 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "mcus.kicad_sch" (at 76.2 64.0846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "bt_pcb"
-        (path "/eb787481-08cd-41a4-a128-173fa6227c32" (page "9"))
-      )
-    )
-  )
-
-  (sheet (at 25.4 25.4) (size 38.1 19.05) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 81f44120-5006-4955-ab2c-f15dbf34b899)
-    (property "Sheetname" "USB Interface" (at 25.4 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "usb_interface.kicad_sch" (at 25.4 45.0346 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "bt_pcb"
-        (path "/eb787481-08cd-41a4-a128-173fa6227c32" (page "8"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "eb787481-08cd-41a4-a128-173fa6227c32")
+	(paper "A4")
+	(lib_symbols)
+	(text "busy-toad\n\nTODO LIST:\n- configurare secondo MCU (senza connettivita')\n- riformattare passivi attorno MCUs\n- aggiungere ESD a input (audio e controlli)\n\nEVG's NOTES:\n- usare cs per spi (display e touch)\n- cercare un altro schermo (dfrobot, dfr0665)\n- sistemare 9v->5v (anche un ldo, tma05120, adpl16000)\n- compattare audio analog\n  - usare uno switch per cambiare modo di uso opamp (adg611) \n  - usare uno switch per spegnere e accendere opamp\n  - cambiare switch perche' obsoleto\n"
+		(exclude_from_sim no)
+		(at 115.57 145.415 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(italic yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "4b4436d0-c848-4a13-885f-59cd111d9165")
+	)
+	(sheet
+		(at 25.4 76.2)
+		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ada0139-8712-47ce-9d4c-ab8fef312f7b")
+		(property "Sheetname" "Codec and audio IO"
+			(at 25.4 75.4884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "codec_and_audio.kicad_sch"
+			(at 25.4 95.8346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 50.8)
+		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ec3bf5a-5f62-4a58-b8f9-e874725801fb")
+		(property "Sheetname" "Power Supply"
+			(at 25.4 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_supply.kicad_sch"
+			(at 25.4 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 101.6)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4fcd5c8c-58b7-4ce7-9521-e6e7fa7f5f34")
+		(property "Sheetname" "User Interface"
+			(at 25.4 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "user_interface.kicad_sch"
+			(at 25.4 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 25.4)
+		(size 38.1 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b2258ec-f5b6-4970-96d8-f1fb6e4ed567")
+		(property "Sheetname" "MCUs"
+			(at 76.2 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcus.kicad_sch"
+			(at 76.2 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 25.4)
+		(size 38.1 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81f44120-5006-4955-ab2c-f15dbf34b899")
+		(property "Sheetname" "USB Interface"
+			(at 25.4 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb_interface.kicad_sch"
+			(at 25.4 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

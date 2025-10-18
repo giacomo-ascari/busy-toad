@@ -13,9 +13,8 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 - One stereo output for headphones, hardwired to the two outputs
 - OLED display, power LED, some non-assigned (yet) LEDs
 - A lot of buttons and One rotary encoder with push button
-- Volume knobs for heaphones
-- Two digital inputs as TS Jack (e.g. stomp buttons)
-- Two analog inputs as TRS Jack (e.g. expression pedals)
+- Volume knob for heaphones
+- Four analog inputs as TRS Jack (e.g. expression pedals and stomp buttons)
 - USB C device for power and FS data transfer
 
 ### Features
@@ -24,8 +23,7 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 - Programmable digital/analog inputs as dynamic controls of effects
 - Drum machine (synth + samples)
 - Chromatic tuner
-- Mixing matrix for effect chains and drum machine
-- Display brightness control
+- Mixing matrix for effect chains and drum machinel
 
 ## Hardware
 
@@ -42,13 +40,13 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 - ARM Cortex M33, 250MHz, FPU, 512kB flash, 272kB RAM
 - [mouser link](https://eu.mouser.com/ProductDetail/STMicroelectronics/STM32H523CEU6?qs=ZcfC38r4Pot%2FWfU8ati%252BDA%3D%3D)
 
-### CODEC - CS4272
+### CODEC - ADAU1916
 
-- same codec on some focusrite scarlet interfaces [apparently](https://khronscave.blogspot.com/2019/10/55-focusrite-scarlett-2i2-teardown.html)
-- it just works. no fancy headphone/microphones things. low-power portable electronics are overrated
-- [cirrus logic link](https://www.cirrus.com/products/cs4272/)
+- [analog devices link](https://www.analog.com/media/en/technical-documentation/data-sheets/adau1961.pdf)
 
 Honorable mentions:
+
+- cs4272, [cirrus logic link](https://www.cirrus.com/products/cs4272/), used in some focusrite scarlet interfaces [apparently](https://khronscave.blogspot.com/2019/10/55-focusrite-scarlett-2i2-teardown.html)
 - E.D.'s favorite: tlv320aic3104-21
 - daisy seed's: pcm3060 [ti link](https://www.ti.com/product/PCM3060#features)
 
@@ -78,7 +76,7 @@ Honorable mentions:
   - INA321 and 2321: instrumentation amplifiers, also dual channel
   - MCP6001/1R/1U/2/4: low power opamp used in gt
   - Quad Analog Switch/ Multiplexer/Demultiplexer MC74HC4066A
-- For the switching circuitry
+- For the switching circuitry (might not be needed with ADAU1961!)
   - MC74HC4066A (same as the focusrite, but apparently a little bit noisy)
   - TS5A3157
   - DG409 / DG410
@@ -86,6 +84,12 @@ Honorable mentions:
   - ADG736 (I like this one!) / ADG734 / ADG1606
   - TS5A3157
   - MAX14689
+- Notes for capacitors
+  - 20% is tolerable for PDB, but 10% is better
+  - DC rating at least double the maximum applied voltage
+  - increase cap value to account for derating and tolerance
+  - for audio, avoid class 2 ceramics in signal path.
+  - use NP0/C0G insted, unfortunately only available as small value caps (10nF or less)
 - Available in lab
   - CA3140 (opamp)
   - MCP6294 (quad opamp)

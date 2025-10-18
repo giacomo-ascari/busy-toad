@@ -78,4 +78,22 @@ K
 F https://www.analog.com/ADPL16000/datasheet
 $ENDCMP
 #
+$CMP ADAU1961WBCPZ-R7
+D General Purpose Audio Codec 2ADC / 2DAC Ch Automotive 32-Pin LFCSP EP T/R
+K
+F https://www.arrow.com/en/products/adau1961wbcpz-r7/analog-devices
+$ENDCMP
+#
+$CMP CG0603MLU-12E
+D ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT
+K
+F https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27
+$ENDCMP
+#
+$CMP CG0402MLU-12G
+D ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT
+K
+F https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27
+$ENDCMP
+#
 #End Doc Library
