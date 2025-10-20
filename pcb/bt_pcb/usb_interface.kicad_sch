@@ -936,174 +936,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Filled"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Filled"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, filled shape"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Filled_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Filled_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1538,26 +1370,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "am i even sure it's needed? I need it rated for 1A\n"
-		(exclude_from_sim no)
-		(at 169.418 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1a3901d3-7284-47d6-a5ec-8b6baeb71b48")
-	)
-	(text "to replace with a proper esd protection\nand mayube somewhere else too?\n\nfor ESD: CG0402MLU-12G\nfor reverse: BAT165AX maybe 1PS74SB23-Q"
-		(exclude_from_sim no)
-		(at 147.32 156.718 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a6cca032-a764-4b92-934d-481fd4bcb348")
-	)
 	(junction
 		(at 133.985 96.52)
 		(diameter 0)
@@ -1724,16 +1536,6 @@
 	)
 	(wire
 		(pts
-			(xy 172.085 76.2) (xy 207.645 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4696a683-0c88-4224-a70a-e158607c06b0")
-	)
-	(wire
-		(pts
 			(xy 120.65 76.2) (xy 155.575 76.2)
 		)
 		(stroke
@@ -1774,7 +1576,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 76.2) (xy 164.465 76.2)
+			(xy 155.575 76.2) (xy 207.645 76.2)
 		)
 		(stroke
 			(width 0)
@@ -2815,92 +2617,6 @@
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
 					(reference "#PWR0154")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Filled")
-		(at 168.275 76.2 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9e8b6694-dec5-4db4-800b-95112b5b83c3")
-		(property "Reference" "D14"
-			(at 168.275 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Filled"
-			(at 168.275 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.275 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.275 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, filled shape"
-			(at 168.275 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 168.275 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 168.275 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "46a6f9c4-5975-49d3-a34c-3dd4ede6a453")
-		)
-		(pin "2"
-			(uuid "5f0cd19b-15a2-4be4-9c4e-9f616d4c2024")
-		)
-		(instances
-			(project "bt_pcb"
-				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "D14")
 					(unit 1)
 				)
 			)

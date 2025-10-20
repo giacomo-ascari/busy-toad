@@ -96,4 +96,22 @@ K
 F https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27
 $ENDCMP
 #
+$CMP LM1117MPX-3.3_NOPB
+D Space saving 800-mA low-dropout linear regulator with internal current limit
+K
+F http://www.ti.com/lit/ds/symlink/lm1117.pdf
+$ENDCMP
+#
+$CMP B5819W
+D 40V 1A 600mV @ 1A SOD-123 Schottky Barrier Diodes (SBD)
+K
+F https://datasheet.lcsc.com/szlcsc/Changjiang-Electronics-Tech-CJ-B5819W_C8598.pdf
+$ENDCMP
+#
+$CMP LTC3621EMS8E-25#PBF
+D Buck Switching Regulator IC Positive Fixed 5V 1 Output 1A 8-TSSOP, 8-MSOP (0.118", 3.00mm Width) Exposed Pad
+K
+F https://www.analog.com/LTC3621/datasheet
+$ENDCMP
+#
 #End Doc Library
