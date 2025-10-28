@@ -2498,7 +2498,7 @@
 		)
 	)
 	(global_label "OUTA_SW"
-		(shape output)
+		(shape passive)
 		(at 201.295 42.545 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2509,7 +2509,7 @@
 		)
 		(uuid "e021e8c0-a1a8-40d4-881b-d38b682402fe")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.9641 42.545 0)
+			(at 191.0754 42.545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2563,8 +2563,8 @@
 			)
 		)
 	)
-	(global_label "OUTA_SW"
-		(shape output)
+	(global_label "OUTB_SW"
+		(shape passive)
 		(at 209.55 96.52 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2575,7 +2575,7 @@
 		)
 		(uuid "f1cd9547-9780-47c0-9fc0-cc3b15da92a0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.2191 96.52 0)
+			(at 199.149 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2848,71 +2848,6 @@
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b/92a88d42-e0ca-481e-a77e-2117fd7dfc0f"
 					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 39.37 109.855 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14711016-0e3b-4477-9bf5-fafc794447fb")
-		(property "Reference" "#PWR027"
-			(at 39.37 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 39.37 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4747687d-dd55-4b5e-a27b-0faeb9864b82")
-		)
-		(instances
-			(project "bt_pcb"
-				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b/92a88d42-e0ca-481e-a77e-2117fd7dfc0f"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5605,6 +5540,70 @@
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b/92a88d42-e0ca-481e-a77e-2117fd7dfc0f"
 					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 39.37 109.855 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ed5d2649-eb46-45ba-b212-d5285cb9c6b5")
+		(property "Reference" "#PWR023"
+			(at 39.37 113.665 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3A"
+			(at 39.243 105.029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea86f147-d124-4eee-9fe4-4060370865a0")
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b/92a88d42-e0ca-481e-a77e-2117fd7dfc0f"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
