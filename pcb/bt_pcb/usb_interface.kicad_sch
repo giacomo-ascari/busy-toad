@@ -1374,19 +1374,19 @@
 		)
 	)
 	(junction
-		(at 133.985 96.52)
+		(at 134.62 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bb93e26-a2f0-4a74-b213-98d3c2a01da6")
 	)
 	(junction
-		(at 207.645 76.2)
+		(at 208.28 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e695151-648d-41b8-b477-398ec3cff474")
 	)
 	(junction
-		(at 155.575 76.2)
+		(at 156.21 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66c6bc95-e913-4aee-842b-a71292f8f21e")
@@ -1404,7 +1404,7 @@
 		(uuid "9f82db23-7675-42c1-a5e8-2278c8e24c19")
 	)
 	(junction
-		(at 207.645 85.725)
+		(at 208.28 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "afef92ee-9533-4474-ab2f-77331d32158f")
@@ -1422,7 +1422,7 @@
 		(uuid "d6a11f71-0e12-4c9b-ae4e-0558b2a2c1a8")
 	)
 	(junction
-		(at 155.575 134.62)
+		(at 156.21 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f509feea-ecdd-49e7-936d-30e0576e6c93")
@@ -1469,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 81.28) (xy 196.85 86.995)
+			(xy 196.85 81.28) (xy 196.85 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 134.62) (xy 155.575 134.62)
+			(xy 144.78 134.62) (xy 156.21 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 115.57) (xy 155.575 134.62)
+			(xy 156.21 115.57) (xy 156.21 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 125.095) (xy 144.78 134.62)
+			(xy 144.78 125.73) (xy 144.78 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 133.985 96.52)
+			(xy 120.65 96.52) (xy 134.62 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1539,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 76.2) (xy 155.575 76.2)
+			(xy 120.65 76.2) (xy 156.21 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.645 76.2) (xy 217.805 76.2)
+			(xy 208.28 76.2) (xy 218.44 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.865 83.82) (xy 189.865 86.995)
+			(xy 190.5 83.82) (xy 190.5 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1579,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 76.2) (xy 207.645 76.2)
+			(xy 156.21 76.2) (xy 208.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1599,7 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.645 86.995) (xy 207.645 85.725)
+			(xy 208.28 87.63) (xy 208.28 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1609,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 91.44) (xy 144.78 107.315)
+			(xy 144.78 91.44) (xy 144.78 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.645 85.725) (xy 207.645 84.455)
+			(xy 208.28 86.36) (xy 208.28 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1639,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 83.82) (xy 189.865 83.82)
+			(xy 120.65 83.82) (xy 190.5 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.645 76.835) (xy 207.645 76.2)
+			(xy 208.28 77.47) (xy 208.28 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 155.575 76.2) (xy 155.575 97.79)
+			(xy 156.21 76.2) (xy 156.21 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.645 85.725) (xy 217.805 85.725)
+			(xy 208.28 86.36) (xy 218.44 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1679,7 +1679,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 134.62) (xy 144.78 134.62)
+			(xy 134.62 134.62) (xy 144.78 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1689,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 96.52) (xy 133.985 116.84)
+			(xy 134.62 96.52) (xy 134.62 116.84)
 		)
 		(stroke
 			(width 0)
@@ -1699,7 +1699,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.985 96.52) (xy 168.91 96.52)
+			(xy 134.62 96.52) (xy 168.91 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1731,7 +1731,7 @@
 	)
 	(global_label "VBUS_SENSE"
 		(shape output)
-		(at 217.805 85.725 0)
+		(at 218.44 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1741,7 +1741,7 @@
 		)
 		(uuid "d1a36b07-08f8-459c-aaf3-59df1394a563")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.7039 85.725 0)
+			(at 233.3389 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1775,7 @@
 	)
 	(global_label "VBUS"
 		(shape output)
-		(at 217.805 76.2 0)
+		(at 218.44 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1785,7 +1785,7 @@
 		)
 		(uuid "fccb0152-2f64-4035-8843-7b3f1c7ef55d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.6888 76.2 0)
+			(at 226.3238 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1797,7 +1797,7 @@
 	)
 	(symbol
 		(lib_id "library:CG0402MLU-12G")
-		(at 133.985 134.62 90)
+		(at 134.62 134.62 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1805,8 +1805,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c8a815-89b4-47d6-8cd2-6a8d4a705e5c")
-		(property "Reference" "RV2"
-			(at 137.795 124.4599 90)
+		(property "Reference" "RV1"
+			(at 138.43 124.4599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1815,7 +1815,7 @@
 			)
 		)
 		(property "Value" "CG0402MLU-12G"
-			(at 137.795 126.9999 90)
+			(at 138.43 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1824,7 +1824,7 @@
 			)
 		)
 		(property "Footprint" "library:VARC1005X41N"
-			(at 230.175 120.65 0)
+			(at 230.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1834,7 +1834,7 @@
 			)
 		)
 		(property "Datasheet" "https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27"
-			(at 330.175 120.65 0)
+			(at 330.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1844,7 +1844,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT"
-			(at 133.985 134.62 0)
+			(at 134.62 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1853,7 +1853,7 @@
 			)
 		)
 		(property "Height" "0.41"
-			(at 530.175 120.65 0)
+			(at 530.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1863,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 630.175 120.65 0)
+			(at 630.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1873,7 +1873,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CG0402MLU-12G"
-			(at 730.175 120.65 0)
+			(at 730.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1883,7 +1883,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CG0402MLU-12G"
-			(at 830.175 120.65 0)
+			(at 830.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1893,7 +1893,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D"
-			(at 930.175 120.65 0)
+			(at 930.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1903,7 +1903,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CG0402MLU-12G"
-			(at 1030.175 120.65 0)
+			(at 1030.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1913,7 +1913,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cg0402mlu-12g/bourns?utm_currency=USD&region=nac"
-			(at 1130.175 120.65 0)
+			(at 1130.81 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1931,7 +1931,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "RV2")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -1940,7 +1940,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 155.575 134.62 0)
+		(at 156.21 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1948,8 +1948,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13219943-b7c9-4240-a507-27a9c370ebbb")
-		(property "Reference" "#PWR07"
-			(at 155.575 140.97 0)
+		(property "Reference" "#PWR026"
+			(at 156.21 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,7 +1958,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 155.575 139.7 0)
+			(at 156.21 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,7 +1966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 155.575 134.62 0)
+			(at 156.21 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1975,7 +1975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 155.575 134.62 0)
+			(at 156.21 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1984,7 +1984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 155.575 134.62 0)
+			(at 156.21 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +1998,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR07")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -2014,7 +2014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b725073-cc20-468e-b87e-f5ba49a7f1c4")
-		(property "Reference" "J12"
+		(property "Reference" "J4"
 			(at 105.41 68.58 0)
 			(effects
 				(font
@@ -2134,7 +2134,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "J12")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2142,7 +2142,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 196.85 90.805 0)
+		(at 196.85 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2150,8 +2150,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "31098cda-c3e4-4342-8391-1f683a50807f")
-		(property "Reference" "R46"
-			(at 199.39 89.535 0)
+		(property "Reference" "R4"
+			(at 199.39 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2160,7 +2160,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 199.39 92.075 0)
+			(at 199.39 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2169,7 +2169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.072 90.805 90)
+			(at 195.072 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2178,7 +2178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 196.85 90.805 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2187,7 +2187,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 196.85 90.805 0)
+			(at 196.85 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +2203,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "R46")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -2212,7 +2212,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 207.645 94.615 0)
+		(at 208.28 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2220,8 +2220,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "354cc2c4-530a-457e-b821-54a19fc8f305")
-		(property "Reference" "#PWR050"
-			(at 207.645 100.965 0)
+		(property "Reference" "#PWR029"
+			(at 208.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2230,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 207.645 99.695 0)
+			(at 208.28 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +2238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.645 94.615 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +2247,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.645 94.615 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2256,7 +2256,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.645 94.615 0)
+			(at 208.28 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2270,7 +2270,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR050")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -2279,7 +2279,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 196.85 94.615 0)
+		(at 196.85 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2287,8 +2287,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "50af9eb3-6b52-479c-ae69-99fdd5fdb09b")
-		(property "Reference" "#PWR047"
-			(at 196.85 100.965 0)
+		(property "Reference" "#PWR028"
+			(at 196.85 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2297,7 +2297,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 196.85 99.695 0)
+			(at 196.85 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2305,7 +2305,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 94.615 0)
+			(at 196.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2314,7 +2314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 94.615 0)
+			(at 196.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2323,7 +2323,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 196.85 94.615 0)
+			(at 196.85 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2337,7 +2337,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR047")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -2345,7 +2345,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.865 90.805 0)
+		(at 190.5 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2353,8 +2353,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6544e093-8f2a-4db8-88d6-b5c9702812c0")
-		(property "Reference" "R45"
-			(at 187.325 89.535 0)
+		(property "Reference" "R3"
+			(at 187.96 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2363,7 +2363,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 187.325 92.075 0)
+			(at 187.96 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2372,7 +2372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.643 90.805 90)
+			(at 192.278 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.865 90.805 0)
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.865 90.805 0)
+			(at 190.5 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2406,7 +2406,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "R45")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2414,7 +2414,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.645 80.645 0)
+		(at 208.28 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2422,8 +2422,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a48df7-e156-407a-af80-b44117a73fee")
-		(property "Reference" "R44"
-			(at 210.185 79.375 0)
+		(property "Reference" "R5"
+			(at 210.82 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,7 +2432,7 @@
 			)
 		)
 		(property "Value" "4k7"
-			(at 210.185 81.915 0)
+			(at 210.82 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +2441,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.867 80.645 90)
+			(at 206.502 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +2450,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.645 80.645 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +2459,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.645 80.645 0)
+			(at 208.28 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2475,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "R44")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -2492,7 +2492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1d8f8f6-de82-4bba-90e0-8c122dc35452")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR024"
 			(at 97.79 148.59 0)
 			(effects
 				(font
@@ -2542,7 +2542,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR027")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -2550,7 +2550,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.645 90.805 0)
+		(at 208.28 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2558,8 +2558,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c149f88e-0f63-4c99-b032-85889dd13202")
-		(property "Reference" "R47"
-			(at 210.185 89.535 0)
+		(property "Reference" "R6"
+			(at 210.82 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2568,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 210.185 92.075 0)
+			(at 210.82 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2577,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.867 90.805 90)
+			(at 206.502 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,7 +2586,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.645 90.805 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2595,7 +2595,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 207.645 90.805 0)
+			(at 208.28 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2611,7 +2611,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "R47")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -2619,7 +2619,7 @@
 	)
 	(symbol
 		(lib_id "library:CG0402MLU-12G")
-		(at 155.575 115.57 90)
+		(at 156.21 115.57 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2627,8 +2627,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc698311-12bc-4fed-9006-fb6799f1f5ea")
-		(property "Reference" "RV4"
-			(at 159.385 105.4099 90)
+		(property "Reference" "RV3"
+			(at 160.02 105.4099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2637,7 +2637,7 @@
 			)
 		)
 		(property "Value" "CG0402MLU-12G"
-			(at 159.385 107.9499 90)
+			(at 160.02 107.9499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2646,7 +2646,7 @@
 			)
 		)
 		(property "Footprint" "library:VARC1005X41N"
-			(at 251.765 101.6 0)
+			(at 252.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2656,7 @@
 			)
 		)
 		(property "Datasheet" "https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27"
-			(at 351.765 101.6 0)
+			(at 352.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2666,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT"
-			(at 155.575 115.57 0)
+			(at 156.21 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,7 +2675,7 @@
 			)
 		)
 		(property "Height" "0.41"
-			(at 551.765 101.6 0)
+			(at 552.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2685,7 +2685,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 651.765 101.6 0)
+			(at 652.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2695,7 +2695,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CG0402MLU-12G"
-			(at 751.765 101.6 0)
+			(at 752.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2705,7 +2705,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CG0402MLU-12G"
-			(at 851.765 101.6 0)
+			(at 852.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2715,7 +2715,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D"
-			(at 951.765 101.6 0)
+			(at 952.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2725,7 +2725,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CG0402MLU-12G"
-			(at 1051.765 101.6 0)
+			(at 1052.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2735,7 +2735,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cg0402mlu-12g/bourns?utm_currency=USD&region=nac"
-			(at 1151.765 101.6 0)
+			(at 1152.4 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2753,7 +2753,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "RV4")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -2770,7 +2770,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4b6693c-007d-4b42-9c91-ce7cfdfe3936")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR025"
 			(at 105.41 148.59 0)
 			(effects
 				(font
@@ -2820,7 +2820,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR038")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -2828,7 +2828,7 @@
 	)
 	(symbol
 		(lib_id "library:CG0402MLU-12G")
-		(at 144.78 125.095 90)
+		(at 144.78 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2836,8 +2836,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4fd10bf-6e34-404d-be42-5ee80723bb6d")
-		(property "Reference" "RV3"
-			(at 148.59 114.9349 90)
+		(property "Reference" "RV2"
+			(at 148.59 115.5699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2846,7 +2846,7 @@
 			)
 		)
 		(property "Value" "CG0402MLU-12G"
-			(at 148.59 117.4749 90)
+			(at 148.59 118.1099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2855,7 +2855,7 @@
 			)
 		)
 		(property "Footprint" "library:VARC1005X41N"
-			(at 240.97 111.125 0)
+			(at 240.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2865,7 @@
 			)
 		)
 		(property "Datasheet" "https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27"
-			(at 340.97 111.125 0)
+			(at 340.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2875,7 +2875,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT"
-			(at 144.78 125.095 0)
+			(at 144.78 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +2884,7 @@
 			)
 		)
 		(property "Height" "0.41"
-			(at 540.97 111.125 0)
+			(at 540.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2894,7 +2894,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 640.97 111.125 0)
+			(at 640.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2904,7 +2904,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CG0402MLU-12G"
-			(at 740.97 111.125 0)
+			(at 740.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2914,7 +2914,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CG0402MLU-12G"
-			(at 840.97 111.125 0)
+			(at 840.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +2924,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D"
-			(at 940.97 111.125 0)
+			(at 940.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2934,7 +2934,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CG0402MLU-12G"
-			(at 1040.97 111.125 0)
+			(at 1040.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +2944,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cg0402mlu-12g/bourns?utm_currency=USD&region=nac"
-			(at 1140.97 111.125 0)
+			(at 1140.97 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2962,7 +2962,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "RV3")
+					(reference "RV2")
 					(unit 1)
 				)
 			)
@@ -2971,7 +2971,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 189.865 94.615 0)
+		(at 190.5 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2979,8 +2979,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb37ee8c-c0e0-4be1-b54a-559f1376540b")
-		(property "Reference" "#PWR043"
-			(at 189.865 100.965 0)
+		(property "Reference" "#PWR027"
+			(at 190.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2989,7 +2989,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.865 99.695 0)
+			(at 190.5 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2997,7 +2997,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.865 94.615 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3006,7 +3006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.865 94.615 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +3015,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.865 94.615 0)
+			(at 190.5 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3029,7 +3029,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR043")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
