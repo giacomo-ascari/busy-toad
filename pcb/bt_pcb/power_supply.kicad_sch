@@ -687,167 +687,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C_Polarized"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_Polarized"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Polarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CP_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_Polarized_0_1"
-				(rectangle
-					(start -2.286 0.508)
-					(end 2.286 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 2.286) (xy -0.762 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 2.794) (xy -1.27 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.286 -0.508)
-					(end -2.286 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "C_Polarized_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -2154,6 +1993,16 @@
 		)
 		(uuid "42b2edb0-2b64-4c1f-a8d0-71c886630c02")
 	)
+	(text "DFE252012PD-3R3M=P2\n1008 (2520 metric)"
+		(exclude_from_sim no)
+		(at 149.098 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "edb8b8b9-8e80-474d-905e-40cae45960e9")
+	)
 	(junction
 		(at 184.15 90.17)
 		(diameter 0)
@@ -2207,6 +2056,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39730feb-0030-4f08-83ce-ec78f839abc0")
+	)
+	(junction
+		(at 76.2 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4096b1c5-8d91-4824-b5fd-67dceaeb5fdf")
 	)
 	(junction
 		(at 199.39 41.91)
@@ -2285,12 +2140,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca84982b-fc8e-43df-afb3-ebee7a86859d")
-	)
-	(junction
-		(at 76.2 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0bb3b1c-bc6f-4e53-9e95-c8d20b5c22bc")
 	)
 	(junction
 		(at 186.69 41.91)
@@ -2429,16 +2278,6 @@
 			(type default)
 		)
 		(uuid "25b18314-368a-4c54-8dfe-4aa8ec3dd0f6")
-	)
-	(wire
-		(pts
-			(xy 58.42 48.26) (xy 76.2 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2aa274d2-cf53-4518-8058-cfaaa6b839d2")
 	)
 	(wire
 		(pts
@@ -2712,7 +2551,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 48.26) (xy 83.82 48.26)
+			(xy 58.42 48.26) (xy 76.2 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2982,6 +2821,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 48.26) (xy 83.82 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fab1f7d5-9319-4162-ac74-f9f2cbc316f1")
+	)
+	(wire
+		(pts
 			(xy 198.12 100.33) (xy 214.63 100.33)
 		)
 		(stroke
@@ -3042,7 +2891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ae5cfa3-4509-4d21-b538-2e12fd0acae7")
-		(property "Reference" "C13"
+		(property "Reference" "C11"
 			(at 232.41 92.71 0)
 			(effects
 				(font
@@ -3051,7 +2900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 232.41 95.25 0)
 			(effects
 				(font
@@ -3060,7 +2909,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 229.5652 97.79 0)
 			(effects
 				(font
@@ -3095,7 +2944,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C13")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -3178,7 +3027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d9ff37f-cf6e-4ed7-a58d-74a4493eef91")
-		(property "Reference" "C5"
+		(property "Reference" "C9"
 			(at 180.34 92.71 0)
 			(effects
 				(font
@@ -3187,7 +3036,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 180.34 95.25 0)
 			(effects
 				(font
@@ -3196,7 +3045,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.1152 90.17 0)
 			(effects
 				(font
@@ -3231,7 +3080,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C5")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -3247,7 +3096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25b1926f-4d80-49c5-95d1-fa62c39a638d")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 250.19 27.305 0)
 			(effects
 				(font
@@ -3371,7 +3220,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3402,7 +3251,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 110.49 62.23 0)
 			(effects
 				(font
@@ -3451,7 +3300,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33b0b881-b576-4c68-bac0-3ec7cae8afe4")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 190.5 36.83 0)
 			(effects
 				(font
@@ -3460,7 +3309,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 190.5 39.37 0)
 			(effects
 				(font
@@ -3469,7 +3318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 187.6552 41.91 0)
 			(effects
 				(font
@@ -3504,7 +3353,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -3520,7 +3369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "362c8d29-032d-49a9-8e25-3ec8a776bdf8")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR011"
 			(at 184.15 125.73 0)
 			(effects
 				(font
@@ -3570,7 +3419,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR07")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -3585,7 +3434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41f4555c-53a1-4af4-9077-ea4cd0a55fdf")
-		(property "Reference" "C2"
+		(property "Reference" "C6"
 			(at 86.995 50.8 0)
 			(effects
 				(font
@@ -3594,7 +3443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 86.995 53.34 0)
 			(effects
 				(font
@@ -3603,7 +3452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 84.7852 55.88 0)
 			(effects
 				(font
@@ -3638,7 +3487,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C2")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -3654,7 +3503,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c634556-b238-4806-bf9b-6f85e6b20892")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 215.9 36.83 0)
 			(effects
 				(font
@@ -3663,7 +3512,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10u"
 			(at 215.9 39.37 0)
 			(effects
 				(font
@@ -3672,7 +3521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 213.0552 41.91 0)
 			(effects
 				(font
@@ -3707,7 +3556,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C9")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -3723,7 +3572,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4c7bdd35-3477-436e-8330-3176c0a7fc40")
-		(property "Reference" "C3"
+		(property "Reference" "C7"
 			(at 155.575 59.69 0)
 			(effects
 				(font
@@ -3732,7 +3581,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 155.575 62.23 0)
 			(effects
 				(font
@@ -3741,7 +3590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 157.7848 64.77 0)
 			(effects
 				(font
@@ -3776,7 +3625,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -3792,7 +3641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5287190d-16a9-4957-b19e-e4549a77ffb3")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 80.01 114.935 0)
 			(effects
 				(font
@@ -3916,7 +3765,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -3932,7 +3781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "570e4a71-c78f-47cf-b04a-64a7a8a5d16e")
-		(property "Reference" "C12"
+		(property "Reference" "C4"
 			(at 228.6 36.83 0)
 			(effects
 				(font
@@ -3941,7 +3790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 228.6 39.37 0)
 			(effects
 				(font
@@ -3950,7 +3799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 225.7552 41.91 0)
 			(effects
 				(font
@@ -3985,7 +3834,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C12")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -4001,7 +3850,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5bf34d64-eda8-4331-a78b-48ca98eedc55")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 180.34 130.81 0)
 			(effects
 				(font
@@ -4010,7 +3859,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1u"
 			(at 180.34 133.35 0)
 			(effects
 				(font
@@ -4019,7 +3868,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 185.1152 128.27 0)
 			(effects
 				(font
@@ -4054,7 +3903,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -4071,7 +3920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f54e87b-0006-4768-baca-d6085a18e38d")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 198.12 148.59 0)
 			(effects
 				(font
@@ -4121,7 +3970,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -4138,7 +3987,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6632db47-262f-4fe8-86c3-f51453e84d8f")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR07"
 			(at 184.15 87.63 0)
 			(effects
 				(font
@@ -4188,7 +4037,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR06")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4204,7 +4053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bc54b82-2ab8-4442-be4c-7e4a09b5aa3a")
-		(property "Reference" "C8"
+		(property "Reference" "C2"
 			(at 203.2 36.83 0)
 			(effects
 				(font
@@ -4213,7 +4062,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 203.2 39.37 0)
 			(effects
 				(font
@@ -4222,7 +4071,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 200.3552 41.91 0)
 			(effects
 				(font
@@ -4257,7 +4106,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C8")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -4291,7 +4140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 105.918 52.07 90)
 			(effects
 				(font
@@ -4344,7 +4193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d0dbf9a-b3d8-4c33-a380-a169af610afe")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR02"
 			(at 186.69 49.53 0)
 			(effects
 				(font
@@ -4394,7 +4243,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR08")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -4411,7 +4260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "70566211-4b5d-4ae2-8b36-85b58b257802")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR08"
 			(at 228.6 87.63 0)
 			(effects
 				(font
@@ -4461,7 +4310,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR011")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -4486,7 +4335,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "2.2u"
 			(at 218.44 95.25 0)
 			(effects
 				(font
@@ -4495,7 +4344,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 213.6648 90.17 0)
 			(effects
 				(font
@@ -4547,7 +4396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "796dceba-1a06-43d1-9181-44472d1a6222")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR01"
 			(at 269.24 35.56 0)
 			(effects
 				(font
@@ -4597,7 +4446,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR013")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -4613,7 +4462,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8be2576b-3495-4c13-ad54-9c28ace5c355")
-		(property "Reference" "C11"
+		(property "Reference" "C13"
 			(at 218.44 130.81 0)
 			(effects
 				(font
@@ -4622,7 +4471,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "2.2u"
 			(at 218.44 133.35 0)
 			(effects
 				(font
@@ -4631,7 +4480,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 213.6648 128.27 0)
 			(effects
 				(font
@@ -4666,7 +4515,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C11")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4683,7 +4532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f6c08fa-30fd-41fa-b29d-0f7db1e5d402")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 173.99 52.07 0)
 			(effects
 				(font
@@ -4733,7 +4582,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4750,7 +4599,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96d5b510-671b-4be8-925d-c8570cf3a84d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR05"
 			(at 83.82 68.58 0)
 			(effects
 				(font
@@ -4800,7 +4649,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR02")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4817,7 +4666,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "979aee01-ec03-433d-81f6-d96656bde3ff")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR04"
 			(at 60.96 62.23 0)
 			(effects
 				(font
@@ -4867,7 +4716,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR01")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -4892,7 +4741,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 232.41 133.35 0)
 			(effects
 				(font
@@ -4901,7 +4750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 229.5652 135.89 0)
 			(effects
 				(font
@@ -4953,7 +4802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4537cce-422e-4b8c-8768-5917837b93dd")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR010"
 			(at 99.06 120.65 0)
 			(effects
 				(font
@@ -5003,7 +4852,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR03")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -5091,22 +4940,22 @@
 		(fields_autoplaced yes)
 		(uuid "a7b99e50-ec65-46a5-9e37-1650fd99391e")
 		(property "Reference" "L1"
-			(at 148.59 28.575 90)
+			(at 148.59 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "3.3uH"
-			(at 148.59 31.115 90)
+		(property "Value" "3.3u"
+			(at 148.59 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_12x12mm_H6mm"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric_Pad1.43x2.20mm_HandSolder"
 			(at 148.59 34.29 0)
 			(effects
 				(font
@@ -5389,7 +5238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c022f2e6-35a6-4407-966b-c3ad78e7a6fd")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR06"
 			(at 133.35 77.47 0)
 			(effects
 				(font
@@ -5439,7 +5288,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -5521,7 +5370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e174799a-d200-4ecb-814a-e507270a2e1b")
-		(property "Reference" "C4"
+		(property "Reference" "C8"
 			(at 168.91 59.69 0)
 			(effects
 				(font
@@ -5530,7 +5379,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100n"
 			(at 168.91 62.23 0)
 			(effects
 				(font
@@ -5539,7 +5388,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 166.0652 64.77 0)
 			(effects
 				(font
@@ -5574,77 +5423,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 76.2 52.07 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e95b64d6-8fca-479c-a2c3-8dd44954510c")
-		(property "Reference" "C1"
-			(at 72.39 49.9109 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8.2uF 25V"
-			(at 72.39 52.4509 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 75.2348 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 76.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cf6c52ad-9e33-4995-b0aa-cfb3383d28e9")
-		)
-		(pin "1"
-			(uuid "2e9a52ff-2ce9-4460-9940-42ca03f077af")
-		)
-		(instances
-			(project ""
-				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
-					(reference "C1")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -5712,6 +5491,75 @@
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 52.07 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "edaf1228-39db-4761-a317-af51f5c68970")
+		(property "Reference" "C5"
+			(at 73.025 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 73.025 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 75.2348 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 76.2 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cceaf77a-6313-42d2-8a63-cc459778ea3b")
+		)
+		(pin "2"
+			(uuid "b77fd977-2587-41df-a473-1d894afb52e9")
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ec3bf5a-5f62-4a58-b8f9-e874725801fb"
+					(reference "C5")
 					(unit 1)
 				)
 			)

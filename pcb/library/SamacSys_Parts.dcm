@@ -114,4 +114,16 @@ K
 F https://www.analog.com/LTC3621/datasheet
 $ENDCMP
 #
+$CMP FTSH-107-01-L-DV-K-A
+D 14 position, High Reliability Header Strips, 0.050&quot; pitch, Dual-Row Vertical
+K
+F http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-dv-xxx-xxx-mkt.pdf
+$ENDCMP
+#
+$CMP UJ32-C-H-G-SMT-TR-68
+D Type C, USB 3.2 Gen 2x2, 20 Gbps, 20 Vac, 5 A, Right Angle, Gold Flash, Surface Mount, Black Insulator, IP68, USB Receptacle
+K
+F https://www.sameskydevices.com/product/resource/uj32-c-h-g-smt-tr-68.pdf
+$ENDCMP
+#
 #End Doc Library
