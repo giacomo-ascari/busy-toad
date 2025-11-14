@@ -65,6 +65,7 @@ Honorable mentions:
 
 ## Various notes
 
+- case: [1590XX](https://www.mouser.dk/ProductDetail/Hammond-Manufacturing/1590XXPR?qs=kWu6FN6bAPyKJolG0UKSGg%3D%3D)
 - STM32 Cube IDE because yes.
 - Debugging is done with cortex 4-wire-jtag/swd 10 pin connection.
 - For the Eq: Linkwitz–Riley filters
