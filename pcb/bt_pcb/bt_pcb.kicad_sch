@@ -214,7 +214,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "busy-toad\n\nTODO LIST:\n- configurare secondo MCU (senza connettivita')\n- riformattare passivi attorno MCUs\n- power supply: check usual polarity for pedals and barrel jacks\n\nEVG's NOTES:\n- usare cs per spi (display e touch)\n- cercare un altro schermo (dfrobot, dfr0665)\n- sistemare 9v->5v (anche un ldo, tma05120, adpl16000)\n- compattare audio analog\n  - usare uno switch per cambiare modo di uso opamp (adg611) \n  - usare uno switch per spegnere e accendere opamp\n  - cambiare switch perche' obsoleto\n"
+	(text "busy-toad\n\nTODO LIST:\n"
 		(exclude_from_sim no)
 		(at 115.57 146.05 0)
 		(effects
