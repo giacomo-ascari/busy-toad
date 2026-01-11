@@ -2,7 +2,7 @@
 
 ## Intro
 
-Evolution of the digital pedal geekyToad. This page is a list of features/hardware that I would like to implement. Nothing is set in stone of course, but it's just a place to collect interesting stuff and ideas.
+Evolution of the digital pedal geekyToad. This page is a list of features/hardware that I would like to implement.
 
 ## System
 
@@ -12,18 +12,19 @@ Evolution of the digital pedal geekyToad. This page is a list of features/hardwa
 - Two audio instr/line outputs as TRS Jack (differential or single-ended)
 - One stereo output for headphones, hardwired to the two outputs
 - OLED display, power LED, some non-assigned (yet) LEDs
-- A lot of buttons and One rotary encoder with push button
+- A lot of buttons and One rotary encoder with push buttono
 - Volume knob for heaphones
 - Four analog inputs as TRS Jack (e.g. expression pedals and stomp buttons)
 - USB C device for power and FS data transfer
 
 ### Features
 
-- Two effect chains (primary and secondary)
-- Programmable digital/analog inputs as dynamic controls of effects
+- Effect chains
+- Programmable expression inputs as dynamic controls of effects
 - Drum machine (synth + samples)
 - Chromatic tuner
-- Mixing matrix for effect chains and drum machinel
+- Mixing matrix for effect chains and drum machine
+- Simple cab emulation
 
 ## Hardware
 

@@ -130,206 +130,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x04_1_1"
-				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 2.667)
-					(end 0 2.413)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 -4.953)
-					(end 0 -5.207)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
@@ -4737,6 +4537,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 120.65) (xy 177.8 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3ded33-a0ab-46e2-a501-1ab1e4fe0f4a")
+	)
+	(wire
+		(pts
 			(xy 114.3 45.72) (xy 124.46 45.72)
 		)
 		(stroke
@@ -4877,16 +4687,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 95.25) (xy 101.6 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "380689a3-338a-4182-9afb-d230dc221ebe")
-	)
-	(wire
-		(pts
 			(xy 307.34 167.64) (xy 307.34 173.99)
 		)
 		(stroke
@@ -4997,6 +4797,26 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 133.35) (xy 177.8 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52a3b851-f6fb-41bc-bc9a-06aab447bc59")
+	)
+	(wire
+		(pts
+			(xy 180.34 130.81) (xy 177.8 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "534aa5eb-e0cf-4c63-8c42-f3fbc3435e20")
+	)
+	(wire
+		(pts
 			(xy 116.84 171.45) (xy 116.84 168.91)
 		)
 		(stroke
@@ -5014,6 +4834,16 @@
 			(type default)
 		)
 		(uuid "5447499c-fce7-4f35-a7fb-e093ac10df8f")
+	)
+	(wire
+		(pts
+			(xy 180.34 138.43) (xy 177.8 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "544fdb71-c02f-45f8-a906-e97a6b09de8b")
 	)
 	(wire
 		(pts
@@ -5044,6 +4874,16 @@
 			(type default)
 		)
 		(uuid "5a70ffb5-edd8-486e-94d7-f1b0b9a49647")
+	)
+	(wire
+		(pts
+			(xy 180.34 115.57) (xy 177.8 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d213b0d-7a18-4e2f-8b39-7156bbb947b6")
 	)
 	(wire
 		(pts
@@ -5477,6 +5317,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 113.03) (xy 177.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8be006c-a95f-470a-8f53-740218142db7")
+	)
+	(wire
+		(pts
 			(xy 281.94 114.3) (xy 281.94 116.84)
 		)
 		(stroke
@@ -5597,16 +5447,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 97.79) (xy 101.6 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb9485d1-8360-4ae0-a259-56bccd1be826")
-	)
-	(wire
-		(pts
 			(xy 320.04 170.18) (xy 320.04 147.32)
 		)
 		(stroke
@@ -5644,6 +5484,16 @@
 			(type default)
 		)
 		(uuid "d23ded95-9ed4-43b8-af1e-afffc13b193c")
+	)
+	(wire
+		(pts
+			(xy 180.34 123.19) (xy 177.8 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2d716f8-11be-4de7-ade5-e46770c94de4")
 	)
 	(wire
 		(pts
@@ -5767,6 +5617,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 140.97) (xy 177.8 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8a9d33-b60d-4f8b-a19b-e5a8cb923aee")
+	)
+	(wire
+		(pts
 			(xy 314.96 121.92) (xy 298.45 121.92)
 		)
 		(stroke
@@ -5847,6 +5707,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 135.89) (xy 177.8 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8ddc23b-313d-4283-a826-4891a2b44ed0")
+	)
+	(wire
+		(pts
 			(xy 149.86 250.19) (xy 149.86 252.73)
 		)
 		(stroke
@@ -5884,6 +5754,26 @@
 			(type default)
 		)
 		(uuid "f00e34f1-bd52-4ba5-802b-2c60335046f7")
+	)
+	(wire
+		(pts
+			(xy 180.34 118.11) (xy 177.8 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e0e505-31c9-4177-b447-9a05f5b3b36a")
+	)
+	(wire
+		(pts
+			(xy 180.34 125.73) (xy 177.8 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e2a76d-885f-48d3-aebc-2e6d04342704")
 	)
 	(wire
 		(pts
@@ -5947,6 +5837,16 @@
 	)
 	(wire
 		(pts
+			(xy 180.34 128.27) (xy 177.8 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff86f14e-f535-4d62-9b33-18bd52afa25a")
+	)
+	(wire
+		(pts
 			(xy 347.98 147.32) (xy 347.98 160.02)
 		)
 		(stroke
@@ -5954,6 +5854,16 @@
 			(type default)
 		)
 		(uuid "ff8ed6da-6fc7-46af-95f6-67c3ac3885db")
+	)
+	(label "X"
+		(at 101.6 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "02fcaddb-607f-4ab6-8eee-5bf1da5e3b54")
 	)
 	(label "X"
 		(at 149.86 168.91 270)
@@ -5976,6 +5886,16 @@
 		(uuid "05efed19-942b-411c-9a2c-6d8cfa8dc00a")
 	)
 	(label "X"
+		(at 325.12 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "062359b0-d06e-4331-8337-1b16e71818a3")
+	)
+	(label "X"
 		(at 101.6 118.11 180)
 		(effects
 			(font
@@ -5994,6 +5914,46 @@
 			(justify right bottom)
 		)
 		(uuid "260ba9b2-5d4c-4181-83c9-ffe63d9a2e08")
+	)
+	(label "X"
+		(at 177.8 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2855d5cc-6260-4eba-ab94-dafb7d33997b")
+	)
+	(label "X"
+		(at 101.6 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "28e2ffd3-400c-4851-8230-2566ce4626b1")
+	)
+	(label "X"
+		(at 177.8 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a83e2ce-762f-4eeb-9b36-76a3333e86cb")
+	)
+	(label "X"
+		(at 177.8 151.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "360f8f3b-b5f8-4e4f-b3f6-4cb4f522ece3")
 	)
 	(label "X"
 		(at 101.6 128.27 180)
@@ -6094,6 +6054,16 @@
 			(justify right bottom)
 		)
 		(uuid "706f538e-10cb-4e18-8e9c-0a2044b9b456")
+	)
+	(label "X"
+		(at 327.66 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7114d89e-995d-486b-9a62-3c523931164b")
 	)
 	(label "X"
 		(at 121.92 72.39 90)
@@ -6286,6 +6256,16 @@
 		(uuid "b84d126d-f800-4ec2-880d-eec4681a875c")
 	)
 	(label "X"
+		(at 330.2 147.32 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "beef10e4-2ffe-4427-bc3d-ba15d9020d3c")
+	)
+	(label "X"
 		(at 137.16 72.39 90)
 		(effects
 			(font
@@ -6324,6 +6304,16 @@
 			(justify right bottom)
 		)
 		(uuid "e1c0af84-d14e-4806-b2c3-9600cfa8b6bf")
+	)
+	(label "X"
+		(at 177.8 148.59 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ebeb6d6d-6c84-46e8-a753-df20f537e7c5")
 	)
 	(label "X"
 		(at 127 72.39 90)
@@ -6413,7 +6403,7 @@
 	)
 	(global_label "BTN_6_QB"
 		(shape passive)
-		(at 177.8 130.81 0)
+		(at 180.34 130.81 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6423,29 +6413,7 @@
 		)
 		(uuid "086aac5d-dcd5-4096-b368-593215fe7703")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.9872 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISPLAY_GPIO_3"
-		(shape bidirectional)
-		(at 360.68 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0abc86fa-4b6f-4cba-a80c-a1dab46e5f39")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.9561 111.76 0)
+			(at 191.5272 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6501,7 +6469,7 @@
 	)
 	(global_label "AUX_2_TO_1"
 		(shape input)
-		(at 177.8 113.03 0)
+		(at 180.34 113.03 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6511,7 +6479,7 @@
 		)
 		(uuid "0ffaa51f-6243-4be4-8a52-379d9b6e6e90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.0337 113.03 0)
+			(at 194.5737 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,28 +6573,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISPLAY_GPIO_1"
-		(shape bidirectional)
-		(at 360.68 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "1d89b4a5-e080-4a98-bff6-c998718ed685")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.9561 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -6939,28 +6885,6 @@
 			)
 		)
 	)
-	(global_label "OUTB_SW"
-		(shape passive)
-		(at 99.06 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a5bf42c-c401-458e-8fbd-61d8f65c336d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.659 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CODEC_I2C_SCL"
 		(shape output)
 		(at 160.02 168.91 270)
@@ -7071,46 +6995,24 @@
 			)
 		)
 	)
-	(global_label "EXP_SW_1"
-		(shape passive)
-		(at 177.8 146.05 0)
+	(global_label "DISPLAY_GPIO_3"
+		(shape bidirectional)
+		(at 335.28 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "546b6fd1-aa1b-440d-953e-cd998320b5d0")
+		(uuid "5d33a6f9-a0e2-45ee-aa68-be7a428f814b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.108 146.05 0)
+			(at 335.28 166.5961 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXP_SW_2"
-		(shape passive)
-		(at 177.8 148.59 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5fce9fdf-0714-48ae-b2c9-c1bf680bd624")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.108 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -7139,7 +7041,7 @@
 	)
 	(global_label "LED_3_QB"
 		(shape passive)
-		(at 177.8 128.27 0)
+		(at 180.34 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7149,7 +7051,7 @@
 		)
 		(uuid "649af922-a2f9-44cb-ad56-998c17f2f637")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8662 128.27 0)
+			(at 191.4062 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,9 +7193,31 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_GPIO_2"
+		(shape bidirectional)
+		(at 337.82 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "73112803-d699-4024-9b3a-8145036ad928")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 337.82 166.5961 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_5_QB"
 		(shape passive)
-		(at 177.8 138.43 0)
+		(at 180.34 138.43 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7303,7 +7227,7 @@
 		)
 		(uuid "74da3ce3-519a-4467-9dff-b364a9e52621")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8662 138.43 0)
+			(at 191.4062 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +7261,7 @@
 	)
 	(global_label "BTN_5_QB"
 		(shape passive)
-		(at 177.8 125.73 0)
+		(at 180.34 125.73 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7347,7 +7271,7 @@
 		)
 		(uuid "7c395755-46bb-4f7e-aa88-398aa6fb70f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.9872 125.73 0)
+			(at 191.5272 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7359,7 +7283,7 @@
 	)
 	(global_label "LED_4_QB"
 		(shape passive)
-		(at 177.8 133.35 0)
+		(at 180.34 133.35 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7369,29 +7293,7 @@
 		)
 		(uuid "7c906740-2799-4785-8fd0-0d1678fbaedf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8662 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISPLAY_GPIO_2"
-		(shape bidirectional)
-		(at 360.68 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ce3ffb3-2487-40d7-8a88-9dc0253fe365")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.9561 114.3 0)
+			(at 191.4062 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7425,7 +7327,7 @@
 	)
 	(global_label "BTN_8_QB"
 		(shape passive)
-		(at 177.8 140.97 0)
+		(at 180.34 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7435,7 +7337,7 @@
 		)
 		(uuid "839e337b-44fb-44f0-935d-4d90dcc80a71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.9872 140.97 0)
+			(at 191.5272 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7491,7 +7393,7 @@
 	)
 	(global_label "AUX_1_TO_2"
 		(shape output)
-		(at 177.8 115.57 0)
+		(at 180.34 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7501,29 +7403,7 @@
 		)
 		(uuid "8a06ae08-de8d-4cab-b580-14541d86c9f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.0337 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXP_SW_0"
-		(shape passive)
-		(at 177.8 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8d0d5efa-0d85-4b3d-8101-50b509f607f3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.108 143.51 0)
+			(at 194.5737 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,7 +7415,7 @@
 	)
 	(global_label "USART_1_TO_2"
 		(shape output)
-		(at 177.8 120.65 0)
+		(at 180.34 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7545,7 +7425,7 @@
 		)
 		(uuid "8e967a1d-e21b-4372-8952-002d3d80e980")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.2713 120.65 0)
+			(at 196.8113 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7612,6 +7492,28 @@
 		(uuid "9967f78b-ed9c-44d0-a1a1-41db35fbf89f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 124.46 189.6751 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DISPLAY_GPIO_1"
+		(shape bidirectional)
+		(at 340.36 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9b7019a6-b5e7-44be-8aa5-4a47ac951cca")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.36 166.5961 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7733,7 +7635,7 @@
 	)
 	(global_label "USART_2_TO_1"
 		(shape input)
-		(at 177.8 118.11 0)
+		(at 180.34 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7743,7 +7645,7 @@
 		)
 		(uuid "b24da881-35b5-47f0-a319-331c53547edd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.2713 118.11 0)
+			(at 196.8113 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,28 +7787,6 @@
 			)
 		)
 	)
-	(global_label "DISPLAY_GPIO_0"
-		(shape bidirectional)
-		(at 360.68 119.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d177d687-6adc-4196-b65e-f7efd96e9ce2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.9561 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BTN_2_J"
 		(shape passive)
 		(at 345.44 83.82 90)
@@ -7953,7 +7833,7 @@
 	)
 	(global_label "BTN_7_QB"
 		(shape passive)
-		(at 177.8 135.89 0)
+		(at 180.34 135.89 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7963,34 +7843,12 @@
 		)
 		(uuid "d5fd237b-e272-408a-9ac0-4bcec3ba69a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.9872 135.89 0)
+			(at 191.5272 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "OUTA_SW"
-		(shape passive)
-		(at 99.06 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d7355105-be99-4903-84f9-1c160bcfdcfb")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.8404 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -8017,9 +7875,31 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_GPIO_4"
+		(shape bidirectional)
+		(at 332.74 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc82084c-5cca-4fe3-bed4-c66a228b3970")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 332.74 166.5961 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LED_2_QB"
 		(shape passive)
-		(at 177.8 123.19 0)
+		(at 180.34 123.19 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8029,7 +7909,7 @@
 		)
 		(uuid "de550224-ed52-4876-8699-0d247fdb4e6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.8662 123.19 0)
+			(at 191.4062 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8083,6 +7963,28 @@
 			)
 		)
 	)
+	(global_label "DISPLAY_GPIO_0"
+		(shape bidirectional)
+		(at 342.9 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e46960cc-9a52-4f9f-bbd8-7b970aa1fe8e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 342.9 166.5961 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DISPLAY_SPI_MOSI"
 		(shape output)
 		(at 360.68 121.92 0)
@@ -8096,28 +7998,6 @@
 		(uuid "e4c96a4e-4db4-4bba-91fc-688d020cb0cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 380.8405 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "EXP_SW_3"
-		(shape passive)
-		(at 177.8 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e575a84c-6d13-4bbc-8f3e-7b18ee0000a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 189.108 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8193,28 +8073,6 @@
 			)
 		)
 	)
-	(global_label "DISPLAY_GPIO_4"
-		(shape bidirectional)
-		(at 360.68 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb1fcd7a-425d-4b86-b0ae-9ffb90382065")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 379.9561 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
@@ -8226,7 +8084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052d6f33-af8c-40b3-9708-a8a852558625")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0126"
 			(at 149.86 274.32 0)
 			(effects
 				(font
@@ -8276,7 +8134,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0130")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -8293,7 +8151,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06786c37-4495-4a34-9ece-b553f310266b")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR085"
 			(at 200.66 43.18 0)
 			(effects
 				(font
@@ -8343,7 +8201,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR089")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -8427,7 +8285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a1230b8-b005-4ce5-ae54-b8ff6bd449a1")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0112"
 			(at 77.47 165.1 0)
 			(effects
 				(font
@@ -8477,7 +8335,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0116")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -8494,7 +8352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b914250-8170-423f-b2e8-b885f2e07bfc")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0127"
 			(at 100.33 279.4 0)
 			(effects
 				(font
@@ -8544,7 +8402,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0131")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -8561,7 +8419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6f45a0-5734-43da-baf8-7d06d14b7926")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0106"
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -8611,7 +8469,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0110")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -8628,7 +8486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d4ddea3-21fd-4513-8dbd-b2207590382a")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0119"
 			(at 320.04 195.58 0)
 			(effects
 				(font
@@ -8678,7 +8536,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0123")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -8761,7 +8619,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e5764c-9181-4fb5-876e-ef7e6f9c8638")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR097"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -8811,7 +8669,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0101")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -8827,7 +8685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2672ca10-be81-40cf-a900-9c3ff867f3ae")
-		(property "Reference" "J14"
+		(property "Reference" "J13"
 			(at 193.04 38.1 0)
 			(effects
 				(font
@@ -8888,7 +8746,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "J14")
+					(reference "J13")
 					(unit 1)
 				)
 			)
@@ -8985,7 +8843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "280734b1-de3d-4dff-8193-b79197abe551")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0118"
 			(at 307.34 195.58 0)
 			(effects
 				(font
@@ -9035,7 +8893,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0122")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -9052,7 +8910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28d70b79-3512-4803-a5f2-3da31884a71a")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR096"
 			(at 215.9 86.36 0)
 			(effects
 				(font
@@ -9102,81 +8960,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 340.36 152.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dc93f52-81c4-4e45-9fd6-8ec73f7cc925")
-		(property "Reference" "J16"
-			(at 339.09 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 339.09 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 340.36 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 340.36 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 340.36 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a5e4c435-f66a-4274-a316-0fbdd9772b21")
-		)
-		(pin "1"
-			(uuid "2b312a79-1797-4dbd-973b-def6fcbb1a83")
-		)
-		(pin "3"
-			(uuid "637fa347-1184-475a-8426-2011bc40d876")
-		)
-		(pin "4"
-			(uuid "b0213cd6-3441-461b-97d9-5f9bbb4fb5fa")
-		)
-		(instances
-			(project "bt_pcb"
-				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "J16")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -9192,7 +8976,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f0aff13-bccc-4ed0-9b75-586d97fd9445")
-		(property "Reference" "R41"
+		(property "Reference" "R37"
 			(at 275.59 110.49 90)
 			(effects
 				(font
@@ -9243,7 +9027,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "R41")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -9606,7 +9390,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ccf95b-140a-48e1-9499-2302dcee6569")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0117"
 			(at 177.8 189.23 0)
 			(effects
 				(font
@@ -9656,7 +9440,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0121")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -9672,7 +9456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b9c5a65-27e5-482b-8ea9-993a264e7702")
-		(property "Reference" "R44"
+		(property "Reference" "R40"
 			(at 322.58 176.53 0)
 			(effects
 				(font
@@ -9725,7 +9509,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "R44")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -9742,7 +9526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ea08fa8-b294-41a2-9ef3-7c41751fb0be")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0116"
 			(at 97.79 185.42 0)
 			(effects
 				(font
@@ -9792,7 +9576,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0120")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -9808,7 +9592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46a11b95-629c-4f0f-b695-91d9ee88cb1d")
-		(property "Reference" "J13"
+		(property "Reference" "J12"
 			(at 276.86 33.02 0)
 			(effects
 				(font
@@ -9869,7 +9653,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "J13")
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -9886,7 +9670,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48ee0a5a-6c7c-4652-8b55-7f430207017e")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0115"
 			(at 345.44 182.88 0)
 			(effects
 				(font
@@ -9936,7 +9720,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0119")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -10019,7 +9803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cfaa7fd-5f2c-4e85-93ec-bc8798bef52d")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR088"
 			(at 222.25 58.42 0)
 			(effects
 				(font
@@ -10069,7 +9853,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR092")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -10155,7 +9939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "502f90b2-20b5-4c04-9e4c-7498fc5618cc")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR084"
 			(at 284.48 38.1 0)
 			(effects
 				(font
@@ -10205,7 +9989,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR088")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -10222,7 +10006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5498e4e7-2eeb-4352-b202-d0bb210ad0ca")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0108"
 			(at 53.34 138.43 0)
 			(effects
 				(font
@@ -10272,7 +10056,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0112")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -10355,7 +10139,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "570c0c22-5dec-4ff4-8d8d-5c8a82f2fea9")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0105"
 			(at 281.94 110.49 0)
 			(effects
 				(font
@@ -10405,7 +10189,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0109")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -10422,7 +10206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a916ba4-4157-446c-b72e-a83f4bddedfe")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0102"
 			(at 208.28 109.22 0)
 			(effects
 				(font
@@ -10472,7 +10256,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0106")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -10555,7 +10339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "614390d0-f998-4b35-afdc-49f172b9a723")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR091"
 			(at 325.12 72.39 0)
 			(effects
 				(font
@@ -10605,7 +10389,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR095")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -10758,7 +10542,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f246427-8d5a-41e6-ba75-62a069cbb733")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0123"
 			(at 111.76 212.09 0)
 			(effects
 				(font
@@ -10808,7 +10592,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0127")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -10825,7 +10609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71a01484-ce41-41db-9ca1-f1a91484448f")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR089"
 			(at 345.44 59.69 0)
 			(effects
 				(font
@@ -10875,7 +10659,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR093")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -10892,7 +10676,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "728ba5e2-fc15-4c7b-a81a-5f12cded2b58")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0109"
 			(at 290.83 152.4 0)
 			(effects
 				(font
@@ -10942,7 +10726,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0113")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -10959,7 +10743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "741616fc-ae05-4b6e-b5c9-7960e33764be")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR093"
 			(at 99.06 77.47 0)
 			(effects
 				(font
@@ -11009,7 +10793,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR097")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -11026,7 +10810,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b3cc682-72d3-4d94-a318-fb2f6af8950c")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0111"
 			(at 356.87 156.21 0)
 			(effects
 				(font
@@ -11076,7 +10860,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0115")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -11376,7 +11160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b69c5a-82d7-491b-99b9-2395ccc50bca")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0107"
 			(at 281.94 132.08 0)
 			(effects
 				(font
@@ -11426,7 +11210,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0111")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11443,7 +11227,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae826cd-6707-4288-ab61-36de3211c52f")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0122"
 			(at 165.1 207.01 0)
 			(effects
 				(font
@@ -11493,7 +11277,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0126")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -11643,7 +11427,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c66417c-f7fd-4154-9451-cb3f31724f05")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR090"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -11693,7 +11477,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR094")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -11710,7 +11494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e7be164-ed04-4704-adf6-e5d727eea5fe")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0104"
 			(at 73.66 111.76 0)
 			(effects
 				(font
@@ -11760,7 +11544,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0108")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -11777,7 +11561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "914a7d2f-2f3d-4087-ba2b-2ade71205814")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0114"
 			(at 356.87 166.37 0)
 			(effects
 				(font
@@ -11827,7 +11611,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0118")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -11844,7 +11628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9530fc3c-85d0-4eb5-b837-36204ef0e022")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR087"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -11894,7 +11678,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR091")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -11911,7 +11695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98595b42-2beb-4174-83f6-097cda9dcc92")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0100"
 			(at 82.55 104.14 0)
 			(effects
 				(font
@@ -11961,7 +11745,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0104")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -12046,7 +11830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99661489-752f-4867-b69d-8841aaa6600a")
-		(property "Reference" "R43"
+		(property "Reference" "R39"
 			(at 309.88 176.53 0)
 			(effects
 				(font
@@ -12099,7 +11883,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "R43")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -12115,7 +11899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e643eb7-0766-46b3-867c-46e0f227b187")
-		(property "Reference" "R39"
+		(property "Reference" "R35"
 			(at 118.11 58.42 90)
 			(effects
 				(font
@@ -12166,81 +11950,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 330.2 152.4 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7fcb9f4-73e6-43eb-85ac-49140fb02b58")
-		(property "Reference" "J15"
-			(at 328.93 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 328.93 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
-			(at 330.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 330.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 330.2 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ba27b24c-e399-4e1d-8f8e-2635f19b3c0f")
-		)
-		(pin "1"
-			(uuid "a91d439a-6860-4f07-96fc-1c57310ae89b")
-		)
-		(pin "3"
-			(uuid "2d1c80da-3cb4-4d80-b41b-6dc11b5792fb")
-		)
-		(pin "4"
-			(uuid "01dd615d-63fb-4c04-87f9-148a860b7093")
-		)
-		(instances
-			(project "bt_pcb"
-				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "J15")
+					(reference "R35")
 					(unit 1)
 				)
 			)
@@ -12257,7 +11967,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf0295b-289d-4a29-afcc-105477be1970")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0121"
 			(at 116.84 201.93 0)
 			(effects
 				(font
@@ -12307,7 +12017,86 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0125")
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x05")
+		(at 365.76 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af87a26e-14f3-4725-9fab-12013db72717")
+		(property "Reference" "J14"
+			(at 368.3 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 368.3 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_B5B-PH-K_1x05_P2.00mm_Vertical"
+			(at 365.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 365.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 365.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10460976-2837-4613-901f-452a3d18b5b0")
+		)
+		(pin "2"
+			(uuid "c09d8bdf-4b3d-4684-ac15-9f8018472249")
+		)
+		(pin "5"
+			(uuid "27fe4f46-1bc9-4224-94a5-218e63b1f504")
+		)
+		(pin "3"
+			(uuid "1ec9076c-f03e-49b3-8407-182c354bfe3d")
+		)
+		(pin "4"
+			(uuid "b80dd578-0aad-4df8-a21e-f215de8d43a2")
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -12324,7 +12113,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b52a8d33-1727-4161-8f0e-a0b16304f74f")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0113"
 			(at 88.9 162.56 0)
 			(effects
 				(font
@@ -12374,7 +12163,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0117")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -12391,7 +12180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b65fc11c-4c9e-406c-a311-16cff40c2064")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR095"
 			(at 316.23 87.63 0)
 			(effects
 				(font
@@ -12441,7 +12230,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR099")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -12525,7 +12314,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc625840-8e8c-45d2-b3c8-406a79633c08")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0120"
 			(at 177.8 199.39 0)
 			(effects
 				(font
@@ -12575,7 +12364,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0124")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -12592,7 +12381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7bc5505-6c99-4dfe-b998-452c09cda8e8")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR092"
 			(at 53.34 76.2 0)
 			(effects
 				(font
@@ -12642,7 +12431,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR096")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -12659,7 +12448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad39d50-b71c-4648-8cdd-83f036c038e2")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR098"
 			(at 387.35 96.52 0)
 			(effects
 				(font
@@ -12709,7 +12498,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0102")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -12792,7 +12581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf9701d9-a419-4fd2-8097-5d8b73ecc33a")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0124"
 			(at 149.86 254 0)
 			(effects
 				(font
@@ -12842,7 +12631,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0128")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -12859,7 +12648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b1a8ce-c920-4976-b6cc-0f7f715f2c04")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR099"
 			(at 311.15 101.6 0)
 			(effects
 				(font
@@ -12909,7 +12698,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0103")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -12926,7 +12715,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b348ce-12db-41b5-8c27-8451211ff27e")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0101"
 			(at 60.96 105.41 0)
 			(effects
 				(font
@@ -12976,7 +12765,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0105")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -13059,7 +12848,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d722e7bb-edb3-4a42-bbbd-6080a4c87c1e")
-		(property "Reference" "R40"
+		(property "Reference" "R36"
 			(at 341.63 64.77 90)
 			(effects
 				(font
@@ -13110,7 +12899,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "R40")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -13353,7 +13142,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df4bd689-ca97-4b79-b5af-7102fbf0e778")
-		(property "Reference" "R42"
+		(property "Reference" "R38"
 			(at 46.99 116.84 90)
 			(effects
 				(font
@@ -13404,7 +13193,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "R42")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -13421,7 +13210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e211fb08-fa72-4f32-ab07-afca4b9ce6f2")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0110"
 			(at 302.26 149.86 0)
 			(effects
 				(font
@@ -13471,7 +13260,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0114")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -13488,7 +13277,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f22896f8-485b-4932-8e18-ad337278a12b")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0125"
 			(at 72.39 266.7 0)
 			(effects
 				(font
@@ -13538,7 +13327,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0129")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -13988,7 +13777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6ebb0c6-7731-4564-8883-72e7f62a788f")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR086"
 			(at 306.07 53.34 0)
 			(effects
 				(font
@@ -14038,7 +13827,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR090")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -14055,7 +13844,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faf58a43-01d1-48f5-94b3-155a523fdfb5")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR094"
 			(at 316.23 77.47 0)
 			(effects
 				(font
@@ -14105,7 +13894,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR098")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -14122,7 +13911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff74d6cb-c602-458a-892f-f3ee4a333bfe")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0103"
 			(at 387.35 110.49 0)
 			(effects
 				(font
@@ -14172,7 +13961,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0107")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
