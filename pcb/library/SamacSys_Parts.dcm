@@ -132,4 +132,10 @@ K
 F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/1c153bd2ba42bb51bda59ee4cd9765cd.pdf
 $ENDCMP
 #
+$CMP LV3842XDBVR
+D Switching Voltage Regulators 4-V to 36-V, 600-mA synchronous step-down converter 6-SOT-23 -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/lv3842.pdf?ts=1731937269651&ref_url=https%253A%252F%252Fnl.mouser.com%252F
+$ENDCMP
+#
 #End Doc Library

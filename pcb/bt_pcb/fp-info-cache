@@ -1,4 +1,4 @@
-27330518425844636
+27332289184283499
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108331,6 +108331,13 @@ Integrated Circuit
 0
 28
 28
+library
+SOT95P280X145-6N
+SOT-23 - 1.45 mm max height
+Integrated Circuit
+0
+6
+6
 library
 SOT230P700X180-4N
 DCY (R-PDSO-G4)
