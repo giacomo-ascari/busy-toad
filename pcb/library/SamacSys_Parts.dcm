@@ -138,4 +138,10 @@ K
 F https://www.ti.com/lit/ds/symlink/lv3842.pdf?ts=1731937269651&ref_url=https%253A%252F%252Fnl.mouser.com%252F
 $ENDCMP
 #
+$CMP SRR6040A-180M
+D BOURNS - SRR6040A-180M - INDUCTOR, 18UH, 20%, 1.5A, SHIELDED
+K
+F https://componentsearchengine.com/Datasheets/2/SRR6040A-180M.pdf
+$ENDCMP
+#
 #End Doc Library

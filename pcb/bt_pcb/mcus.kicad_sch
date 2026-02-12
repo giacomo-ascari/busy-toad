@@ -130,6 +130,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
@@ -4405,6 +4512,178 @@
 		(color 0 0 0 0)
 		(uuid "fa73083d-dcdb-42f8-b270-1a526e25957b")
 	)
+	(no_connect
+		(at 129.54 72.39)
+		(uuid "082ba20a-68cc-461d-a613-f278f4f020b9")
+	)
+	(no_connect
+		(at 116.84 72.39)
+		(uuid "0ab83e62-ff4f-4472-9c5e-fe0cc1896ba4")
+	)
+	(no_connect
+		(at 132.08 72.39)
+		(uuid "0eb9b06e-2eba-48a1-ad7f-6952f7540bd0")
+	)
+	(no_connect
+		(at 147.32 168.91)
+		(uuid "10017ee8-d62f-4195-a9a0-e038edb63842")
+	)
+	(no_connect
+		(at 142.24 72.39)
+		(uuid "18def9cb-4626-4eb0-945b-ba7d58cb391f")
+	)
+	(no_connect
+		(at 314.96 111.76)
+		(uuid "26162592-ef4d-41f8-8d64-65d5fa346023")
+	)
+	(no_connect
+		(at 101.6 128.27)
+		(uuid "2ebe1f65-9157-4c41-9434-71eb167f816c")
+	)
+	(no_connect
+		(at 154.94 72.39)
+		(uuid "36ccd4a5-2fea-4153-ad28-2664c1834638")
+	)
+	(no_connect
+		(at 101.6 125.73)
+		(uuid "411e6338-7c33-486e-95e6-1c8de85c01cf")
+	)
+	(no_connect
+		(at 177.8 105.41)
+		(uuid "430e0e3b-b341-41b7-aedb-beeb3d6c8f69")
+	)
+	(no_connect
+		(at 137.16 72.39)
+		(uuid "461f70e7-dd4a-40fa-a100-4e5046a4cf0e")
+	)
+	(no_connect
+		(at 101.6 118.11)
+		(uuid "48e35082-febe-4bd8-bb89-76a65502f58f")
+	)
+	(no_connect
+		(at 157.48 72.39)
+		(uuid "4c726479-5a51-4e9d-b75d-1713cc1d3ff1")
+	)
+	(no_connect
+		(at 101.6 110.49)
+		(uuid "4e4e61e9-6cce-4602-8a6e-c58c217f02f7")
+	)
+	(no_connect
+		(at 160.02 72.39)
+		(uuid "59004a51-ce0f-4e24-8d14-8430307697af")
+	)
+	(no_connect
+		(at 129.54 168.91)
+		(uuid "5d3dcad3-12bc-4fa9-a26f-38331b880ae7")
+	)
+	(no_connect
+		(at 121.92 72.39)
+		(uuid "6023f3dd-1342-4855-b75f-ffd20dc04564")
+	)
+	(no_connect
+		(at 101.6 120.65)
+		(uuid "6071ecae-4130-4a73-a8fd-12b622ca795d")
+	)
+	(no_connect
+		(at 132.08 168.91)
+		(uuid "613ecabd-6004-4609-8082-bf833774944e")
+	)
+	(no_connect
+		(at 119.38 72.39)
+		(uuid "69735ee9-bebd-4e94-aa7d-da72c1345652")
+	)
+	(no_connect
+		(at 332.74 83.82)
+		(uuid "6efab5a4-3916-4e65-896c-4adef6880788")
+	)
+	(no_connect
+		(at 177.8 151.13)
+		(uuid "77d56b32-b5bc-4e22-8be1-1e6aba54a292")
+	)
+	(no_connect
+		(at 177.8 146.05)
+		(uuid "7d87e0f3-6022-4fca-8c07-3ed423cf763e")
+	)
+	(no_connect
+		(at 327.66 147.32)
+		(uuid "86ed6d61-9c59-4d7d-8e3b-52d11dc731b7")
+	)
+	(no_connect
+		(at 177.8 148.59)
+		(uuid "93c82e35-fdfe-4208-9fe1-16d4f725bc52")
+	)
+	(no_connect
+		(at 127 72.39)
+		(uuid "96fb4d9c-f9e7-43fd-9ff0-26db9c35a48d")
+	)
+	(no_connect
+		(at 114.3 72.39)
+		(uuid "97888ba3-fa26-4ab9-beb7-1a7075877825")
+	)
+	(no_connect
+		(at 165.1 72.39)
+		(uuid "9cd1efcc-839b-4792-a1d8-c9c55c6c741a")
+	)
+	(no_connect
+		(at 330.2 147.32)
+		(uuid "9df783b5-737a-4066-9b29-6d0e971ec38b")
+	)
+	(no_connect
+		(at 101.6 100.33)
+		(uuid "9e0f8eac-5055-4819-ab18-722e970e3622")
+	)
+	(no_connect
+		(at 101.6 97.79)
+		(uuid "9f400b7b-89b5-4a37-b373-361e015461ff")
+	)
+	(no_connect
+		(at 101.6 95.25)
+		(uuid "ac07427f-7750-42bb-9c50-4e472289f569")
+	)
+	(no_connect
+		(at 149.86 168.91)
+		(uuid "ad3f893c-c564-4290-81c9-9aeba0f5f151")
+	)
+	(no_connect
+		(at 177.8 143.51)
+		(uuid "b4b402d0-a384-4f29-b348-764ab901290c")
+	)
+	(no_connect
+		(at 139.7 72.39)
+		(uuid "d691f292-945c-4bda-bab1-91c2610574e8")
+	)
+	(no_connect
+		(at 101.6 107.95)
+		(uuid "e2bf0063-51f2-45a5-85ec-e5f254d2fb87")
+	)
+	(no_connect
+		(at 101.6 130.81)
+		(uuid "e58846f7-383a-40b8-b2fd-6dcc9231e1ec")
+	)
+	(no_connect
+		(at 325.12 147.32)
+		(uuid "e93b6371-5606-4655-9ff2-a9abb1793c17")
+	)
+	(no_connect
+		(at 127 168.91)
+		(uuid "ec42ad69-80a1-4e32-8533-8c83162db54d")
+	)
+	(no_connect
+		(at 314.96 114.3)
+		(uuid "ec95658d-a7d7-4156-818c-43aeb1a79efd")
+	)
+	(no_connect
+		(at 134.62 72.39)
+		(uuid "f01ea9c4-f622-4c35-a196-187b8d77f709")
+	)
+	(no_connect
+		(at 101.6 105.41)
+		(uuid "f4f714cc-432c-48d5-8678-dfa699daeb8a")
+	)
+	(no_connect
+		(at 167.64 72.39)
+		(uuid "f5bfa1a2-f8ba-4879-8f71-150cbe56b14d")
+	)
 	(wire
 		(pts
 			(xy 304.8 161.29) (xy 309.88 161.29)
@@ -5856,326 +6135,6 @@
 		(uuid "ff8ed6da-6fc7-46af-95f6-67c3ac3885db")
 	)
 	(label "X"
-		(at 101.6 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "02fcaddb-607f-4ab6-8eee-5bf1da5e3b54")
-	)
-	(label "X"
-		(at 149.86 168.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0481d693-23e3-4890-b0f3-da6f34015a1a")
-	)
-	(label "X"
-		(at 101.6 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "05efed19-942b-411c-9a2c-6d8cfa8dc00a")
-	)
-	(label "X"
-		(at 325.12 147.32 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "062359b0-d06e-4331-8337-1b16e71818a3")
-	)
-	(label "X"
-		(at 101.6 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0c2ae209-21e9-4510-b451-5012ee9d7a0c")
-	)
-	(label "X"
-		(at 101.6 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "260ba9b2-5d4c-4181-83c9-ffe63d9a2e08")
-	)
-	(label "X"
-		(at 177.8 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2855d5cc-6260-4eba-ab94-dafb7d33997b")
-	)
-	(label "X"
-		(at 101.6 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "28e2ffd3-400c-4851-8230-2566ce4626b1")
-	)
-	(label "X"
-		(at 177.8 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a83e2ce-762f-4eeb-9b36-76a3333e86cb")
-	)
-	(label "X"
-		(at 177.8 151.13 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "360f8f3b-b5f8-4e4f-b3f6-4cb4f522ece3")
-	)
-	(label "X"
-		(at 101.6 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4373c292-8d60-437e-961c-2675f17da5e9")
-	)
-	(label "X"
-		(at 101.6 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "43abec93-f78a-4d9c-a2d1-66e84fb87c9e")
-	)
-	(label "X"
-		(at 152.4 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "475fafe9-31d0-4511-9481-22e317709200")
-	)
-	(label "X"
-		(at 154.94 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4af1d17c-1be6-459a-821a-762fbdd935d8")
-	)
-	(label "X"
-		(at 134.62 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "503a76cc-443e-4410-abaa-f10110f68b4f")
-	)
-	(label "X"
-		(at 132.08 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "566b8a6b-b78a-43d2-b7ab-bdaf233c85b9")
-	)
-	(label "X"
-		(at 119.38 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5a38ace8-e409-46ed-87e7-5d23474777dc")
-	)
-	(label "X"
-		(at 101.6 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5d3fd2aa-1b99-477f-a6de-8b33386294b5")
-	)
-	(label "X"
-		(at 114.3 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6a1743d5-296d-46e2-9dc0-022c0246516f")
-	)
-	(label "X"
-		(at 101.6 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "706f538e-10cb-4e18-8e9c-0a2044b9b456")
-	)
-	(label "X"
-		(at 327.66 147.32 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7114d89e-995d-486b-9a62-3c523931164b")
-	)
-	(label "X"
-		(at 121.92 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "720616e1-ad9b-46ad-a339-4a26a6080862")
-	)
-	(label "X"
-		(at 157.48 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "733a4091-00e1-4a0b-a074-ee06c190c3ca")
-	)
-	(label "X"
-		(at 116.84 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7586b437-ff28-4777-81d4-cb5218ee57d0")
-	)
-	(label "X"
-		(at 144.78 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79b5d5e7-c941-4304-bd4f-ea68fab6af08")
-	)
-	(label "X"
-		(at 147.32 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7a75aa46-210c-4509-96da-242a849d5b95")
-	)
-	(label "X"
-		(at 129.54 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7eb96b04-4937-4b56-aa9a-f3bc14058784")
-	)
-	(label "X"
-		(at 177.8 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7f8c0595-e6dc-41b7-a75d-c43d05c4595a")
-	)
-	(label "X"
-		(at 127 168.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "80d8d8be-7995-403d-96d8-2db1bb6dc37f")
-	)
-	(label "X"
-		(at 149.86 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "81be1837-5f21-45cd-bb3d-1def93887f47")
-	)
-	(label "X"
-		(at 132.08 168.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e404181-2314-4cea-956b-dbb125a96186")
-	)
-	(label "X"
-		(at 160.02 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "931423d2-5126-4db7-b76a-0ab5a6c9dd64")
-	)
-	(label "X"
 		(at 50.8 68.58 180)
 		(effects
 			(font
@@ -6184,156 +6143,6 @@
 			(justify right bottom)
 		)
 		(uuid "93c94efd-a89f-4a99-9843-e8bd1890f5e7")
-	)
-	(label "X"
-		(at 101.6 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9587f322-d0c1-4554-8e76-2d6987d9ee75")
-	)
-	(label "X"
-		(at 129.54 168.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96c506d4-1d16-4e8d-83d1-5c133c6bedb1")
-	)
-	(label "X"
-		(at 139.7 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9fbb94b8-af7a-43bd-992c-63674a6ee67e")
-	)
-	(label "X"
-		(at 332.74 83.82 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aef89e35-cf7f-4c57-af40-42fd9b59cdf7")
-	)
-	(label "X"
-		(at 147.32 168.91 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b27c5c34-a496-4328-b671-90fcb88cc965")
-	)
-	(label "X"
-		(at 314.96 111.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b49e4b58-3c23-429a-8e10-793c26095d1d")
-	)
-	(label "X"
-		(at 165.1 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b84d126d-f800-4ec2-880d-eec4681a875c")
-	)
-	(label "X"
-		(at 330.2 147.32 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "beef10e4-2ffe-4427-bc3d-ba15d9020d3c")
-	)
-	(label "X"
-		(at 137.16 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bfad06b6-1a28-4226-83b5-2c9bad955f60")
-	)
-	(label "X"
-		(at 142.24 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d48df773-1014-46b9-9008-643fd4e4ce55")
-	)
-	(label "X"
-		(at 101.6 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d667398b-700c-4ada-aca0-7ea6fa960054")
-	)
-	(label "X"
-		(at 314.96 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e1c0af84-d14e-4806-b2c3-9600cfa8b6bf")
-	)
-	(label "X"
-		(at 177.8 148.59 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ebeb6d6d-6c84-46e8-a753-df20f537e7c5")
-	)
-	(label "X"
-		(at 127 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f61e32e7-c3fe-45bb-8818-06ea171e1597")
-	)
-	(label "X"
-		(at 167.64 72.39 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fbc989d6-536a-4b6a-a200-014e69851b4e")
 	)
 	(global_label "EXP_1"
 		(shape input)
@@ -8084,7 +7893,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "052d6f33-af8c-40b3-9708-a8a852558625")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0129"
 			(at 149.86 274.32 0)
 			(effects
 				(font
@@ -8134,7 +7943,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0128")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -8151,7 +7960,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06786c37-4495-4a34-9ece-b553f310266b")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR088"
 			(at 200.66 43.18 0)
 			(effects
 				(font
@@ -8201,7 +8010,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR087")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -8259,6 +8068,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 316.23 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f43cacd0-807b-46a6-aaef-d96942c9008f")
 		)
@@ -8285,7 +8103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a1230b8-b005-4ce5-ae54-b8ff6bd449a1")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0115"
 			(at 77.47 165.1 0)
 			(effects
 				(font
@@ -8335,7 +8153,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0114")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -8352,7 +8170,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b914250-8170-423f-b2e8-b885f2e07bfc")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0130"
 			(at 100.33 279.4 0)
 			(effects
 				(font
@@ -8402,7 +8220,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0129")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -8419,7 +8237,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c6f45a0-5734-43da-baf8-7d06d14b7926")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0109"
 			(at 53.34 116.84 0)
 			(effects
 				(font
@@ -8469,7 +8287,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0108")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -8486,7 +8304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d4ddea3-21fd-4513-8dbd-b2207590382a")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0122"
 			(at 320.04 195.58 0)
 			(effects
 				(font
@@ -8536,7 +8354,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0121")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -8593,6 +8411,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 281.94 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72e03124-3c1f-4001-825e-c0e06d4a9779")
 		)
@@ -8619,7 +8446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24e5764c-9181-4fb5-876e-ef7e6f9c8638")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0100"
 			(at 215.9 99.06 0)
 			(effects
 				(font
@@ -8669,7 +8496,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR099")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -8680,7 +8507,7 @@
 		(at 193.04 49.53 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8720,6 +8547,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 193.04 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 193.04 49.53 0)
 			(effects
 				(font
@@ -8817,6 +8653,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 320.04 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "831451b8-7c7f-45fd-b387-608ce59bae91")
 		)
@@ -8843,7 +8688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "280734b1-de3d-4dff-8193-b79197abe551")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0121"
 			(at 307.34 195.58 0)
 			(effects
 				(font
@@ -8893,7 +8738,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0120")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -8910,7 +8755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28d70b79-3512-4803-a5f2-3da31884a71a")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR099"
 			(at 215.9 86.36 0)
 			(effects
 				(font
@@ -8960,7 +8805,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR098")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -9018,6 +8863,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 281.94 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9b541f4-922d-4ea9-b030-2afb6357f7ea")
 		)
@@ -9038,7 +8892,7 @@
 		(at 314.96 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9154,6 +9008,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 314.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -9364,6 +9227,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 356.87 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83b3db9c-067b-464a-94c2-5b390db109b7")
 		)
@@ -9390,7 +9262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39ccf95b-140a-48e1-9499-2302dcee6569")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0120"
 			(at 177.8 189.23 0)
 			(effects
 				(font
@@ -9440,7 +9312,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0119")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -9500,6 +9372,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 320.04 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1bc9efb-81f6-4654-bb6c-eb1a7b503a9a")
 		)
@@ -9526,7 +9407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ea08fa8-b294-41a2-9ef3-7c41751fb0be")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0119"
 			(at 97.79 185.42 0)
 			(effects
 				(font
@@ -9576,7 +9457,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0118")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -9587,7 +9468,7 @@
 		(at 276.86 44.45 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -9635,6 +9516,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a2558094-8c0e-4836-9c49-ea813ebcee3f")
 		)
@@ -9670,7 +9560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "48ee0a5a-6c7c-4652-8b55-7f430207017e")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0118"
 			(at 345.44 182.88 0)
 			(effects
 				(font
@@ -9720,7 +9610,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0117")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -9777,6 +9667,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 111.76 201.93 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2094ca7-b6a8-4dfc-beb5-9ef29afde608")
 		)
@@ -9803,7 +9702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4cfaa7fd-5f2c-4e85-93ec-bc8798bef52d")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR091"
 			(at 222.25 58.42 0)
 			(effects
 				(font
@@ -9853,7 +9752,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR090")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -9913,6 +9812,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 325.12 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bb1af979-3e2b-4dc5-b6e9-0aca95d645fc")
 		)
@@ -9939,7 +9847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "502f90b2-20b5-4c04-9e4c-7498fc5618cc")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR087"
 			(at 284.48 38.1 0)
 			(effects
 				(font
@@ -9989,7 +9897,85 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR086")
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5156bd95-708a-4514-a2fa-6126e4be199d")
+		(property "Reference" "TP2"
+			(at 149.86 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 149.86 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 147.32 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd39e2cb-29db-4f8f-9ec4-9d845fc76aec")
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -10006,7 +9992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5498e4e7-2eeb-4352-b202-d0bb210ad0ca")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0111"
 			(at 53.34 138.43 0)
 			(effects
 				(font
@@ -10056,7 +10042,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0110")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -10113,6 +10099,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 215.9 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3b023d66-e88b-4278-b622-268cf9d3c482")
 		)
@@ -10139,7 +10134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "570c0c22-5dec-4ff4-8d8d-5c8a82f2fea9")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0108"
 			(at 281.94 110.49 0)
 			(effects
 				(font
@@ -10189,7 +10184,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0107")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -10206,7 +10201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a916ba4-4157-446c-b72e-a83f4bddedfe")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0105"
 			(at 208.28 109.22 0)
 			(effects
 				(font
@@ -10256,7 +10251,85 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0104")
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5e16683f-a80f-40c9-9561-3f54c60e3d9a")
+		(property "Reference" "TP1"
+			(at 147.32 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 147.32 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 144.78 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6357aca7-3688-4855-ae13-caaa65566cab")
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -10313,6 +10386,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 177.8 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e762df01-3d85-4993-ace3-591030375d11")
 		)
@@ -10339,7 +10421,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "614390d0-f998-4b35-afdc-49f172b9a723")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR094"
 			(at 325.12 72.39 0)
 			(effects
 				(font
@@ -10389,7 +10471,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR093")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -10447,6 +10529,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 208.28 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10516,6 +10607,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 99.06 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f517371c-c763-4046-9c8d-3e78b1181994")
 		)
@@ -10542,7 +10642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6f246427-8d5a-41e6-ba75-62a069cbb733")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0126"
 			(at 111.76 212.09 0)
 			(effects
 				(font
@@ -10592,7 +10692,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0125")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -10609,7 +10709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71a01484-ce41-41db-9ca1-f1a91484448f")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR092"
 			(at 345.44 59.69 0)
 			(effects
 				(font
@@ -10659,7 +10759,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR091")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -10676,7 +10776,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "728ba5e2-fc15-4c7b-a81a-5f12cded2b58")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0112"
 			(at 290.83 152.4 0)
 			(effects
 				(font
@@ -10726,7 +10826,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0111")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -10743,7 +10843,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "741616fc-ae05-4b6e-b5c9-7960e33764be")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR096"
 			(at 99.06 77.47 0)
 			(effects
 				(font
@@ -10793,7 +10893,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR095")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -10810,7 +10910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b3cc682-72d3-4d94-a318-fb2f6af8950c")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0114"
 			(at 356.87 156.21 0)
 			(effects
 				(font
@@ -10860,7 +10960,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0113")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -10918,6 +11018,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 165.1 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10985,6 +11094,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 294.64 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11067,6 +11185,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 307.34 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6eebfa50-a80b-424b-944f-f704788d55a9")
 		)
@@ -11134,6 +11261,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 81.28 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "227c29b2-e868-458b-b117-1bb86fca862d")
 		)
@@ -11160,7 +11296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83b69c5a-82d7-491b-99b9-2395ccc50bca")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0110"
 			(at 281.94 132.08 0)
 			(effects
 				(font
@@ -11210,7 +11346,85 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0109")
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 149.86 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84f55cc7-d397-4a96-a803-6c844c35ba04")
+		(property "Reference" "TP3"
+			(at 152.4 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 152.4 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b684771-a817-4716-a912-f52651afe39f")
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -11227,7 +11441,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ae826cd-6707-4288-ab61-36de3211c52f")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0125"
 			(at 165.1 207.01 0)
 			(effects
 				(font
@@ -11277,7 +11491,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0124")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -11332,6 +11546,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 387.35 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11401,6 +11624,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 294.64 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "224a3d1c-83ab-41d6-8e7d-c7e8f65bfa99")
 		)
@@ -11427,7 +11659,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c66417c-f7fd-4154-9451-cb3f31724f05")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR093"
 			(at 92.71 67.31 0)
 			(effects
 				(font
@@ -11477,7 +11709,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR092")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -11494,7 +11726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e7be164-ed04-4704-adf6-e5d727eea5fe")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0107"
 			(at 73.66 111.76 0)
 			(effects
 				(font
@@ -11544,7 +11776,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0106")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -11561,7 +11793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "914a7d2f-2f3d-4087-ba2b-2ade71205814")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0117"
 			(at 356.87 166.37 0)
 			(effects
 				(font
@@ -11611,7 +11843,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0116")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -11628,7 +11860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9530fc3c-85d0-4eb5-b837-36204ef0e022")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR090"
 			(at 114.3 54.61 0)
 			(effects
 				(font
@@ -11678,7 +11910,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR089")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -11695,7 +11927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98595b42-2beb-4174-83f6-097cda9dcc92")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0103"
 			(at 82.55 104.14 0)
 			(effects
 				(font
@@ -11745,7 +11977,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0102")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -11803,6 +12035,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 345.44 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11874,6 +12115,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 307.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a57d3ef0-851e-4c8e-998c-475912dbef5e")
 		)
@@ -11941,6 +12191,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 124.46 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db8064d2-01d3-4dcb-be5c-181930263445")
 		)
@@ -11967,7 +12226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "abf0295b-289d-4a29-afcc-105477be1970")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0124"
 			(at 116.84 201.93 0)
 			(effects
 				(font
@@ -12017,7 +12276,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0123")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -12028,7 +12287,7 @@
 		(at 365.76 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -12078,6 +12337,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 365.76 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "10460976-2837-4613-901f-452a3d18b5b0")
 		)
@@ -12113,7 +12381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b52a8d33-1727-4161-8f0e-a0b16304f74f")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0116"
 			(at 88.9 162.56 0)
 			(effects
 				(font
@@ -12163,7 +12431,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0115")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -12180,7 +12448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b65fc11c-4c9e-406c-a311-16cff40c2064")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR098"
 			(at 316.23 87.63 0)
 			(effects
 				(font
@@ -12230,7 +12498,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR097")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -12288,6 +12556,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 81.28 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b35e64e8-3ce5-4f75-adf9-a241754a800e")
 		)
@@ -12314,7 +12591,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc625840-8e8c-45d2-b3c8-406a79633c08")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0123"
 			(at 177.8 199.39 0)
 			(effects
 				(font
@@ -12364,7 +12641,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0122")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -12381,7 +12658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7bc5505-6c99-4dfe-b998-452c09cda8e8")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR095"
 			(at 53.34 76.2 0)
 			(effects
 				(font
@@ -12431,7 +12708,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR094")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -12448,7 +12725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cad39d50-b71c-4648-8cdd-83f036c038e2")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0101"
 			(at 387.35 96.52 0)
 			(effects
 				(font
@@ -12498,7 +12775,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0100")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -12555,6 +12832,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 53.34 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e4cecec-6d67-4eb4-8564-994a9e4ef158")
 		)
@@ -12581,7 +12867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf9701d9-a419-4fd2-8097-5d8b73ecc33a")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0127"
 			(at 149.86 254 0)
 			(effects
 				(font
@@ -12631,7 +12917,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0126")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -12648,7 +12934,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b1a8ce-c920-4976-b6cc-0f7f715f2c04")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0102"
 			(at 311.15 101.6 0)
 			(effects
 				(font
@@ -12698,7 +12984,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0101")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -12715,7 +13001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1b348ce-12db-41b5-8c27-8451211ff27e")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0104"
 			(at 60.96 105.41 0)
 			(effects
 				(font
@@ -12765,7 +13051,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0103")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -12822,6 +13108,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 149.86 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12890,6 +13185,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 335.28 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "126cdc6e-5a81-4f75-b282-57e3953569b9")
 		)
@@ -12955,6 +13259,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 64.77 104.14 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13096,6 +13409,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 72.39 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f9eaa42-52eb-41ee-9b50-b0b1fd889133")
 		)
@@ -13184,6 +13506,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 53.34 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9969a67e-07ed-4529-9415-7deee40cf73e")
 		)
@@ -13210,7 +13541,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e211fb08-fa72-4f32-ab07-afca4b9ce6f2")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0113"
 			(at 302.26 149.86 0)
 			(effects
 				(font
@@ -13260,7 +13591,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0112")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -13277,7 +13608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f22896f8-485b-4932-8e18-ad337278a12b")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0128"
 			(at 72.39 266.7 0)
 			(effects
 				(font
@@ -13327,7 +13658,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0127")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -13338,7 +13669,7 @@
 		(at 101.6 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -13454,6 +13785,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 101.6 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13767,6 +14107,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 152.4 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4a531fe-43ed-473d-966e-16e5102f7cca")
+		(property "Reference" "TP4"
+			(at 154.94 67.8179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 154.94 70.3579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 152.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "087bc002-c4e3-4f0d-bd85-5f1cf200b40b")
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 306.07 46.99 0)
@@ -13777,7 +14195,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6ebb0c6-7731-4564-8883-72e7f62a788f")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR089"
 			(at 306.07 53.34 0)
 			(effects
 				(font
@@ -13827,7 +14245,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR088")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -13844,7 +14262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faf58a43-01d1-48f5-94b3-155a523fdfb5")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR097"
 			(at 316.23 77.47 0)
 			(effects
 				(font
@@ -13894,7 +14312,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR096")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -13911,7 +14329,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ff74d6cb-c602-458a-892f-f3ee4a333bfe")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0106"
 			(at 387.35 110.49 0)
 			(effects
 				(font
@@ -13961,7 +14379,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/7b2258ec-f5b6-4970-96d8-f1fb6e4ed567"
-					(reference "#PWR0105")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)

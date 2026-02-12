@@ -1705,6 +1705,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 127 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "25f6c339-6e01-41a6-abbd-7ead1df54f6a")
 		)
@@ -1847,6 +1856,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 163.83 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "50b4f352-0386-421b-b493-64a18091c2a8")
 		)
@@ -1873,7 +1891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13219943-b7c9-4240-a507-27a9c370ebbb")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 185.42 104.14 0)
 			(effects
 				(font
@@ -1923,7 +1941,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -1974,6 +1992,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 96.52 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 96.52 87.63 0)
 			(effects
 				(font
@@ -2053,7 +2080,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "354cc2c4-530a-457e-b821-54a19fc8f305")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR040"
 			(at 231.14 71.12 0)
 			(effects
 				(font
@@ -2103,7 +2130,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR039")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -2120,7 +2147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677d9aa6-8114-49ce-8f2f-794d2c04f366")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 133.35 97.79 0)
 			(effects
 				(font
@@ -2170,7 +2197,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -2230,6 +2257,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 231.14 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9878e03c-71c1-488c-b33c-65ac2e619a3c")
 		)
@@ -2256,7 +2292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bec4034-2c41-4c68-91ce-629b5ff6606a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 96.52 119.38 0)
 			(effects
 				(font
@@ -2306,7 +2342,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2364,6 +2400,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 231.14 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -2508,6 +2553,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 185.42 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "19a4faa0-7825-4bd4-a05b-ad8e8b480bfe")
 		)
@@ -2534,7 +2588,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4bae19b-df7a-48a0-a362-eef3f9a63334")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR044"
 			(at 127 97.79 0)
 			(effects
 				(font
@@ -2584,7 +2638,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR043")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -2717,6 +2771,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 173.99 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6dc34829-b423-4bda-bdb8-ffc003abfabc")
 		)
@@ -2784,6 +2847,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

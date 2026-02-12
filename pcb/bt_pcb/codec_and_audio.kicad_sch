@@ -3058,7 +3058,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "031add03-4b36-45d3-90f6-2c7a60a60964")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR028"
 			(at 62.23 81.28 0)
 			(effects
 				(font
@@ -3108,7 +3108,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3168,6 +3168,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 76.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37cec360-86f3-4a2d-8858-0e45cb2c9dd4")
 		)
@@ -3194,7 +3203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e5351c5-3fc7-429f-90f7-e1bcaba47093")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR026"
 			(at 107.95 72.39 0)
 			(effects
 				(font
@@ -3244,7 +3253,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR025")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -3296,6 +3305,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 53.34 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3371,6 +3389,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 143.51 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "44817a7f-ffbb-4944-ab5d-93b4c76a1cae")
 		)
@@ -3397,7 +3424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "268681fa-9b42-4e85-9534-96643fee3ca4")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 189.23 92.71 0)
 			(effects
 				(font
@@ -3447,7 +3474,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -3507,6 +3534,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 62.23 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb20d4af-0367-4d4d-898b-8c57a72f16c5")
 		)
@@ -3533,7 +3569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "37ddc482-76b2-48b0-8f65-318c915297fe")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR032"
 			(at 110.49 139.7 0)
 			(effects
 				(font
@@ -3583,7 +3619,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -3642,6 +3678,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 93.98 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "165ce8b5-1374-4423-a7fd-b2711a278c51")
 		)
@@ -3668,7 +3713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40785a8a-f0a6-4135-af68-769e5092ad7d")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 62.23 93.98 0)
 			(effects
 				(font
@@ -3718,7 +3763,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -3776,6 +3821,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 87.63 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3846,6 +3900,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 189.23 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c91e74de-79f8-4ea2-9fbf-88a6838a3f48")
 		)
@@ -3912,6 +3975,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 76.2 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -3983,6 +4055,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "76e760d8-8d50-4d97-9560-cf7d18b90745")
 		)
@@ -4008,7 +4089,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "609d3a97-55d7-42df-89e4-bfea23de0055")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR024"
 			(at 74.93 34.29 0)
 			(effects
 				(font
@@ -4058,7 +4139,7 @@
 		(instances
 			(project ""
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR023")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4188,6 +4269,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 101.6 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "18"
 			(uuid "b48c6ff1-8e98-42c3-9fd7-293cac817607")
 		)
@@ -4307,7 +4397,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "75f5a183-f30c-43f0-8fb2-c05f53c2c40b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR033"
 			(at 76.2 154.94 0)
 			(effects
 				(font
@@ -4357,7 +4447,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR032")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -4368,7 +4458,7 @@
 		(at 259.08 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -4410,6 +4500,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 259.08 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 259.08 135.89 0)
 			(effects
 				(font
@@ -4489,6 +4588,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 151.13 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "805fc0d7-6de9-48b8-bdf2-ea6c2a7d2cfb")
 		)
@@ -4550,6 +4658,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 60.96 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 60.96 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,6 +4742,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 88.9 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "72579d80-7c23-4dc9-879f-33aaf1dadfba")
 		)
@@ -4651,7 +4777,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ada7f44-fb77-43ca-9290-0a0e44eaac54")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR025"
 			(at 74.93 52.07 0)
 			(effects
 				(font
@@ -4701,7 +4827,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR024")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -4759,6 +4885,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 100.33 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4830,6 +4965,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 74.93 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eee7fb3a-093f-4b68-8830-986fc75716f8")
 		)
@@ -4850,7 +4994,7 @@
 		(at 66.04 104.14 180)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "d43f2942-5941-4f43-a11f-9c821261aa43")
@@ -4889,6 +5033,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 66.04 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -4963,6 +5116,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 36.83 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "797a5be8-8567-440e-8267-8be8bd030e35")
 		)
@@ -5031,6 +5193,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 173.99 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "91a919f0-e6c2-47de-874f-fc3558423b14")
 		)
@@ -5057,7 +5228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e5807cda-ab59-44c5-a6db-9334414c600c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -5107,7 +5278,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5167,6 +5338,15 @@
 				)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 49.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "936fba32-938e-4ef8-b642-d0d12913031a")
 		)
@@ -5193,7 +5373,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9ab7ff8-3fb1-4037-992d-47f24e4dd184")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR031"
 			(at 173.99 105.41 0)
 			(effects
 				(font
@@ -5243,7 +5423,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/4ada0139-8712-47ce-9d4c-ab8fef312f7b"
-					(reference "#PWR030")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)

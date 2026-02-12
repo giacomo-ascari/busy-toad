@@ -347,6 +347,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 38.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a1167d3-84af-45df-94f2-22f91c756c79")
 		)
@@ -406,6 +415,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 63.5 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 63.5 179.07 0)
 			(effects
 				(font
@@ -547,6 +565,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 63.5 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6ebd1f01-64fb-4911-b413-7ef363f00c68")
 		)
@@ -680,6 +707,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 38.1 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "736f3a34-5342-4075-96e3-9d10213da474")
 		)
@@ -739,6 +775,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 88.9 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 88.9 166.37 0)
 			(effects
 				(font
@@ -1004,6 +1049,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 88.9 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
 			(at 88.9 179.07 0)
 			(effects
 				(font
