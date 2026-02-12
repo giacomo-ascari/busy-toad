@@ -214,7 +214,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "busy-toad\n\nTODO LIST:\n- all smd components mounted on one side\n- no copper pour required on top cu audio\n  section (actually never required for any\n  signal layer)\n"
+	(text "busy-toad\n\nTODO LIST:\n"
 		(exclude_from_sim no)
 		(at 115.57 146.05 0)
 		(effects
