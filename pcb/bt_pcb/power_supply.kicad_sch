@@ -2282,16 +2282,6 @@
 		)
 		(uuid "42b2edb0-2b64-4c1f-a8d0-71c886630c02")
 	)
-	(text "SWPA5020S\n\nsunlord inductor"
-		(exclude_from_sim no)
-		(at 132.588 28.956 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "76e28244-b1fe-4b19-b87c-05052adf9d4d")
-	)
 	(text "Rfbt     88.7k     100k\nRfbb     22.1k   47k||47k\n          5V      5.25V"
 		(exclude_from_sim no)
 		(at 87.122 57.404 0)
@@ -3391,12 +3381,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DPD"
 			(at 260.35 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -3536,12 +3527,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -3763,12 +3755,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 189.23 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -3906,12 +3899,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 105.41 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -3984,12 +3978,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 214.63 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -4442,12 +4437,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 227.33 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -4520,12 +4516,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 215.9 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -4811,12 +4808,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 201.93 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -5023,12 +5021,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DPD"
 			(at 246.38 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -5448,12 +5447,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 100.33 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -5818,12 +5818,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "APD"
 			(at 246.38 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -5896,12 +5897,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 147.32 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -5974,12 +5976,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 158.75 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -6052,12 +6055,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "APD"
 			(at 260.35 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -6874,12 +6878,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "POWERSUPPLY"
 			(at 115.57 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""

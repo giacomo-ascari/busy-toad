@@ -3160,12 +3160,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DPD"
 			(at 76.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -3526,12 +3527,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DPD"
 			(at 62.23 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -3778,6 +3780,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "42e2f0c4-d4e7-4053-8c9d-aa05c2d14f6c")
 		(property "Reference" "C20"
 			(at 84.074 35.433 0)
@@ -3815,12 +3818,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "APD"
 			(at 87.63 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -3892,12 +3896,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DPD"
 			(at 189.23 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -3969,12 +3974,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AUDIO"
 			(at 76.2 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -4010,6 +4016,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "5865c990-72f1-4fc3-944d-6a4f681a6469")
 		(property "Reference" "C18"
 			(at 58.674 35.433 0)
@@ -4047,12 +4054,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "APD"
 			(at 62.23 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -4734,12 +4742,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "AUDIO"
 			(at 88.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -4842,6 +4851,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ad08ebd3-7dd5-4467-9474-fb521e5a8be5")
 		(property "Reference" "C21"
 			(at 96.774 35.433 0)
@@ -4879,12 +4889,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "APD"
 			(at 100.33 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -4920,6 +4931,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bee3921c-ebd0-4bea-b169-5089ca284bd4")
 		(property "Reference" "C19"
 			(at 71.12 35.56 0)
@@ -4957,12 +4969,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "APD"
 			(at 74.93 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -5071,6 +5084,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d7ea3b69-4a9f-4b78-bdab-584867e867dd")
 		(property "Reference" "C16"
 			(at 33.02 35.56 0)
@@ -5108,12 +5122,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "APD"
 			(at 36.83 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -5185,12 +5200,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "DPD"
 			(at 173.99 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
@@ -5293,6 +5309,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ee7409fe-1c69-4f75-9d08-fc6a06116c0b")
 		(property "Reference" "C17"
 			(at 45.974 35.433 0)
@@ -5330,12 +5347,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "APD"
 			(at 49.53 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Sim.Device" ""
