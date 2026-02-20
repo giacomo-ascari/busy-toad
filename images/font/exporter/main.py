@@ -17,8 +17,18 @@ E.g.: 10x16 --> 120x128
 Read from up to down, left to right
 '''
 
+import os
+import argparse
+from PIL import Image
+
 def main():
     print("Hello from exporter!")
+
+    parser = argparse.ArgumentParser(prog='font exporter', description='', epilog='')
+    parser.add_argument("input", type=str, help="")
+    parser.add_argument("output", type=str, help="")
+    parser.add_argument("scale", type=str, help="", nargs='?')
+    args = parser.parse_args()
 
 
 if __name__ == "__main__":
