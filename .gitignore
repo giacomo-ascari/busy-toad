@@ -1,1 +1,9 @@
 pcb_copy
+.venv
+.env
+.west
+
+src/*/bootloader
+src/*/modules
+src/*/tools
+src/*/zephyr
