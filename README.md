@@ -50,6 +50,7 @@ Honorable mentions:
 - cs4272, [cirrus logic link](https://www.cirrus.com/products/cs4272/), used in some focusrite scarlet interfaces [apparently](https://khronscave.blogspot.com/2019/10/55-focusrite-scarlett-2i2-teardown.html)
 - E.D.'s favorite: tlv320aic3104-21
 - daisy seed's: pcm3060 [ti link](https://www.ti.com/product/PCM3060#features)
+- PCM1863 [ti link](https://www.ti.com/product/PCM1863) 
 
 ### FLASH - W25Q512JV
 
