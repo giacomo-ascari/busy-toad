@@ -144,4 +144,16 @@ K
 F https://componentsearchengine.com/Datasheets/2/SRR6040A-180M.pdf
 $ENDCMP
 #
+$CMP CS4282P
+D High performance two-channel codec  Differential analog architecture  High-resolution 32-bit digital architecture  Low-latency digital filters and digital volume control  Current-mode output for optimal dynamic range into application-specific output buffer  PLL supports range of external system-clock references  Sample timing alignment across multiple devices  Synchronized control of external preamplifier gain  Audio serial port (ASP) sample rates up to 768 kHz  I2S, left-justified, and TDM data f
+K
+F https://statics.cirrus.com/pubs/proDatasheet/CS4282P_DS1318F1.pdf
+$ENDCMP
+#
+$CMP STM32H523CET6
+D Arm Cortex-M33 32-bit MCU + TrustZone + FPU, 375 DMIPS, 250 MHz, 512-Kbyte flash, 272-Kbyte RAM
+K
+F https://www.st.com/resource/en/datasheet/stm32h523ce.pdf
+$ENDCMP
+#
 #End Doc Library
