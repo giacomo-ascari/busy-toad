@@ -156,4 +156,22 @@ K
 F https://www.st.com/resource/en/datasheet/stm32h523ce.pdf
 $ENDCMP
 #
+$CMP TLV320DAC3101IRHBT
+D Low-Power Stereo Audio DAC With Stereo Class-D Speaker Amplifier
+K
+F http://www.ti.com/lit/gpn/TLV320DAC3101
+$ENDCMP
+#
+$CMP TLV320DAC3101IRHBR
+D Low-Power Stereo Audio DAC With Stereo Class-D Speaker Amplifier 
+K
+F http://www.ti.com/lit/gpn/tlv320dac3101
+$ENDCMP
+#
+$CMP TLV320DAC3203IRGER
+D Interface - CODECs Ultra Low Pwr Stereo Audio Codec
+K
+F https://www.ti.com/lit/ds/symlink/tlv320dac3203.pdf?ts=1619846970680&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTLV320DAC3203%253FkeyMatch%253DTLV320DAC3203IRGER%2526tisearch%253Dsearch-everything%2526usecase%253DOPN
+$ENDCMP
+#
 #End Doc Library
