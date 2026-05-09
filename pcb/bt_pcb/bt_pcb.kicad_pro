@@ -50,7 +50,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.1
         }
       },
       "diff_pair_dimensions": [
@@ -484,7 +484,7 @@
       "similar_labels": "warning",
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
-      "single_global_label": "ignore",
+      "single_global_label": "warning",
       "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
@@ -549,7 +549,7 @@
     "annotate_start_num": 0,
     "annotation": {
       "method": 0,
-      "sort_order": 0
+      "sort_order": 1
     },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
@@ -745,7 +745,7 @@
         "uuid": "eb787481-08cd-41a4-a128-173fa6227c32"
       }
     ],
-    "used_designators": "SW1-11,RV1-4,L1,IC1-5,H1-6,J1-17,U1-7,D1-18,C1-99,JP1-2,R1-67,R71-72,TP1-4,#PWR1-158",
+    "used_designators": "U1-5,SW1-11,RV1-4,L1,R1-68,JP1-2,J1-17,IC1-6,H1-6,#PWR1-163,D1-18,C1-106",
     "variants": []
   },
   "sheets": [

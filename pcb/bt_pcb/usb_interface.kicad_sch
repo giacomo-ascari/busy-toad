@@ -707,7 +707,7 @@
 							)
 						)
 					)
-					(number "S1"
+					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1218,28 +1218,16 @@
 		(uuid "0e695151-648d-41b8-b477-398ec3cff474")
 	)
 	(junction
-		(at 185.42 49.53)
+		(at 146.05 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1ac1a4a6-fc96-47cc-a7b5-accd8b88118f")
+		(uuid "3068958d-fc22-4d9f-9cbc-8d7033a2487b")
 	)
 	(junction
-		(at 173.99 52.07)
+		(at 113.03 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1fd7c901-c1d3-4db5-a54f-96c4f8b3164d")
-	)
-	(junction
-		(at 163.83 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37e617ac-1393-4130-b654-3ad5d8f456e5")
-	)
-	(junction
-		(at 173.99 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4efe3fa6-3832-4346-bcda-d87c7bf4330c")
+		(uuid "42357704-b88d-448d-a73b-a9f3a9781e6f")
 	)
 	(junction
 		(at 231.14 57.15)
@@ -1248,26 +1236,66 @@
 		(uuid "54da9977-1bce-43b5-9725-90bda0be9975")
 	)
 	(junction
-		(at 96.52 110.49)
+		(at 113.03 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "588b79ff-81cd-4a3d-9057-e346e7179d94")
+	)
+	(junction
+		(at 185.42 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e842e56-c87e-4130-9cb9-422af487cbb8")
+	)
+	(junction
+		(at 95.25 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d6a23d7-4935-4876-90c7-6425e0f5195e")
 	)
 	(junction
-		(at 111.76 102.87)
+		(at 110.49 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84d15e32-12e6-4fb5-8b21-b52a07b62863")
 	)
 	(junction
-		(at 185.42 96.52)
+		(at 163.83 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "deaf4b50-957e-402f-81e6-9ec14374874d")
+		(uuid "952c74f4-a668-4b65-a68e-7338f49418c6")
+	)
+	(junction
+		(at 185.42 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8ddc361-2bd7-449f-a582-678c3722cc66")
+	)
+	(junction
+		(at 173.99 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0ebbb0d-5dee-481e-b10a-f21e0035d027")
+	)
+	(junction
+		(at 173.99 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3380a98-c3d6-4bee-8d37-64841c561c27")
 	)
 	(wire
 		(pts
-			(xy 173.99 96.52) (xy 185.42 96.52)
+			(xy 173.99 62.23) (xy 173.99 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a33852f-b5fb-4ce2-a184-cd3b47e11a15")
+	)
+	(wire
+		(pts
+			(xy 173.99 104.14) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1277,7 +1305,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 76.2) (xy 185.42 96.52)
+			(xy 185.42 88.9) (xy 185.42 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1287,27 +1315,27 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 52.07) (xy 173.99 71.12)
+			(xy 146.05 57.15) (xy 146.05 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19fe579d-47e2-44bb-baad-64833f7609e9")
+		(uuid "2b909805-1ecc-4017-b805-d39dc4680fe7")
 	)
 	(wire
 		(pts
-			(xy 173.99 88.9) (xy 173.99 96.52)
+			(xy 137.16 57.15) (xy 146.05 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c74885e-f4cf-4243-8a9d-fe150b5579c5")
+		(uuid "2ecbc470-93b1-40a3-893a-e9012678360b")
 	)
 	(wire
 		(pts
-			(xy 111.76 102.87) (xy 111.76 110.49)
+			(xy 110.49 80.01) (xy 110.49 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1317,7 +1345,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 110.49) (xy 96.52 110.49)
+			(xy 87.63 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1327,7 +1355,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 52.07) (xy 173.99 52.07)
+			(xy 113.03 67.31) (xy 163.83 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1337,7 +1365,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 100.33) (xy 111.76 102.87)
+			(xy 110.49 77.47) (xy 110.49 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1357,7 +1385,17 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 96.52) (xy 185.42 97.79)
+			(xy 110.49 49.53) (xy 185.42 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64fa05a9-c5a5-40d9-b611-1d4476e2574e")
+	)
+	(wire
+		(pts
+			(xy 185.42 104.14) (xy 185.42 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1367,17 +1405,17 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 52.07) (xy 198.12 52.07)
+			(xy 113.03 62.23) (xy 173.99 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "67906e3b-2507-4f5e-a19f-214ec2c982ac")
+		(uuid "66e65a1e-3db9-4293-a86b-7b604f7a2691")
 	)
 	(wire
 		(pts
-			(xy 111.76 85.09) (xy 114.3 85.09)
+			(xy 110.49 62.23) (xy 113.03 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1387,17 +1425,27 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 49.53) (xy 231.14 49.53)
+			(xy 163.83 67.31) (xy 198.12 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7cc4136f-f932-4339-93a0-c4f955ab6ac1")
+		(uuid "7aa60bc9-0ec2-4c2d-a4bb-4098a5b0c223")
 	)
 	(wire
 		(pts
-			(xy 111.76 110.49) (xy 96.52 110.49)
+			(xy 173.99 62.23) (xy 198.12 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d4deb7d-cf15-414d-81d8-4d6a7bf25299")
+	)
+	(wire
+		(pts
+			(xy 110.49 87.63) (xy 95.25 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1407,17 +1455,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 54.61) (xy 163.83 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8281be24-b1a8-4ee1-8a22-c806dbe20937")
-	)
-	(wire
-		(pts
-			(xy 114.3 87.63) (xy 114.3 85.09)
+			(xy 113.03 64.77) (xy 113.03 62.23)
 		)
 		(stroke
 			(width 0)
@@ -1427,7 +1465,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 80.01) (xy 127 80.01)
+			(xy 110.49 57.15) (xy 129.54 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1437,7 +1475,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 90.17) (xy 114.3 90.17)
+			(xy 185.42 49.53) (xy 231.14 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b45a47b-f28c-43bb-8982-75255d7394cd")
+	)
+	(wire
+		(pts
+			(xy 110.49 67.31) (xy 113.03 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1447,7 +1495,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 90.17) (xy 114.3 92.71)
+			(xy 185.42 49.53) (xy 185.42 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90b0f3a-6fac-44c8-a011-6a2ee7883130")
+	)
+	(wire
+		(pts
+			(xy 113.03 67.31) (xy 113.03 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1457,17 +1515,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 54.61) (xy 163.83 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b913f1bf-6400-44ed-a4b0-02f6eecf8304")
-	)
-	(wire
-		(pts
-			(xy 111.76 87.63) (xy 114.3 87.63)
+			(xy 110.49 64.77) (xy 113.03 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1477,23 +1525,23 @@
 	)
 	(wire
 		(pts
-			(xy 127 80.01) (xy 127 83.82)
+			(xy 163.83 67.31) (xy 163.83 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c6400a2c-56bf-40e6-b71b-167e0a93df59")
+		(uuid "c5c7af92-08a8-434b-92e8-7933b6c35a0f")
 	)
 	(wire
 		(pts
-			(xy 185.42 49.53) (xy 185.42 58.42)
+			(xy 173.99 96.52) (xy 173.99 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e035afb3-ab7f-45f7-a742-06a6f70dc40e")
+		(uuid "c68335cf-2915-46da-a51c-0694b4b4eb32")
 	)
 	(wire
 		(pts
@@ -1507,7 +1555,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 96.52) (xy 173.99 96.52)
+			(xy 163.83 104.14) (xy 173.99 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1517,7 +1565,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 92.71) (xy 114.3 92.71)
+			(xy 110.49 69.85) (xy 113.03 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1527,27 +1575,17 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 77.47) (xy 133.35 83.82)
+			(xy 146.05 54.61) (xy 146.05 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eeee5689-eec4-4a44-8cac-1835d9ce514b")
+		(uuid "f6100062-dc12-4767-87b6-0317493b8532")
 	)
 	(wire
 		(pts
-			(xy 161.29 49.53) (xy 185.42 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0052d65-d1b2-4024-8a0f-d5ad839343c9")
-	)
-	(wire
-		(pts
-			(xy 111.76 77.47) (xy 133.35 77.47)
+			(xy 110.49 54.61) (xy 138.43 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1557,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 110.49) (xy 96.52 113.03)
+			(xy 95.25 87.63) (xy 95.25 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1565,79 +1603,9 @@
 		)
 		(uuid "fb8cabb3-4ca2-47ce-906a-a667e63d3b21")
 	)
-	(wire
-		(pts
-			(xy 163.83 54.61) (xy 198.12 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feef9028-7896-4a46-91fb-2d8e7efcfb40")
-	)
-	(label "DN"
-		(at 114.3 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6f5a8322-4499-41b9-be5a-7ef62eed6c94")
-	)
-	(label "DP"
-		(at 161.29 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "79831b60-7774-4d72-b3ab-c54a98a786f9")
-	)
-	(label "DN"
-		(at 161.29 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8328044-475d-492e-b368-9466703ab24d")
-	)
-	(label "DP"
-		(at 114.3 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a915dccc-a1c1-4657-958a-83f9d1468b2c")
-	)
-	(label "VB"
-		(at 111.76 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bd68d802-38e0-4a43-8e93-7ee1fff2cf87")
-	)
-	(label "VB"
-		(at 161.29 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c337e639-c6a7-47e8-a7c4-8e1aa56fdd8c")
-	)
-	(global_label "USB_D+"
+	(global_label "USB_D-"
 		(shape bidirectional)
-		(at 198.12 54.61 0)
+		(at 198.12 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1645,9 +1613,33 @@
 			)
 			(justify left)
 		)
-		(uuid "548bd031-b8a7-4885-8902-464337dbddf0")
+		(uuid "30a8a34e-24af-48d1-a28f-38ed57da5775")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.8365 54.61 0)
+			(at 209.8365 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "USB_D+"
+		(shape bidirectional)
+		(at 198.12 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b7611c6-880a-4692-8975-6a632ec42bd9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.8365 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1672,30 +1664,6 @@
 		(uuid "d1a36b07-08f8-459c-aaf3-59df1394a563")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 256.1989 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "USB_D-"
-		(shape bidirectional)
-		(at 198.12 52.07 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e8d92962-9da4-411b-859b-1ec3c7cadd08")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.8365 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1732,100 +1700,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 127 87.63 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "091d9346-3817-4f9c-a6de-919e7851153e")
-		(property "Reference" "R16"
-			(at 124.46 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5k1"
-			(at 124.46 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 128.778 87.63 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 127 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" ""
-			(at 127 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "25f6c339-6e01-41a6-abbd-7ead1df54f6a")
-		)
-		(pin "2"
-			(uuid "0017af9f-d47c-4c4b-9e77-61e6dcf69e50")
-		)
-		(instances
-			(project "bt_pcb"
-				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "library:CG0402MLU-12G")
-		(at 163.83 96.52 90)
+		(at 163.83 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1835,8 +1711,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "11c8a815-89b4-47d6-8cd2-6a8d4a705e5c")
-		(property "Reference" "RV1"
-			(at 167.64 86.3599 90)
+		(property "Reference" "RV3"
+			(at 167.64 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1847,7 +1723,7 @@
 			)
 		)
 		(property "Value" "CG0402MLU-12G"
-			(at 167.64 88.8999 90)
+			(at 167.64 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1858,7 +1734,7 @@
 			)
 		)
 		(property "Footprint" "library:VARC1005X41N"
-			(at 260.02 82.55 0)
+			(at 260.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1870,7 +1746,7 @@
 			)
 		)
 		(property "Datasheet" "https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27"
-			(at 360.02 82.55 0)
+			(at 360.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1882,7 +1758,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT"
-			(at 163.83 96.52 0)
+			(at 163.83 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1893,7 +1769,7 @@
 			)
 		)
 		(property "Height" "0.41"
-			(at 560.02 82.55 0)
+			(at 560.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1905,7 +1781,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 660.02 82.55 0)
+			(at 660.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1917,7 +1793,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CG0402MLU-12G"
-			(at 760.02 82.55 0)
+			(at 760.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1929,7 +1805,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CG0402MLU-12G"
-			(at 860.02 82.55 0)
+			(at 860.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1941,7 +1817,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D"
-			(at 960.02 82.55 0)
+			(at 960.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1953,7 +1829,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CG0402MLU-12G"
-			(at 1060.02 82.55 0)
+			(at 1060.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1965,7 +1841,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cg0402mlu-12g/bourns?utm_currency=USD&region=nac"
-			(at 1160.02 82.55 0)
+			(at 1160.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1977,7 +1853,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 163.83 96.52 90)
+			(at 163.83 104.14 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1996,7 +1872,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "RV1")
+					(reference "RV3")
 					(unit 1)
 				)
 			)
@@ -2005,7 +1881,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 185.42 97.79 0)
+		(at 185.42 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2015,8 +1891,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13219943-b7c9-4240-a507-27a9c370ebbb")
-		(property "Reference" "#PWR077"
-			(at 185.42 104.14 0)
+		(property "Reference" "#PWR070"
+			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2027,7 +1903,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 102.87 0)
+			(at 185.42 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2037,7 +1913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 97.79 0)
+			(at 185.42 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2048,7 +1924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 97.79 0)
+			(at 185.42 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2059,7 +1935,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 97.79 0)
+			(at 185.42 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2075,7 +1951,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR077")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -2083,7 +1959,7 @@
 	)
 	(symbol
 		(lib_id "Connector:USB_C_Receptacle_USB2.0_16P")
-		(at 96.52 87.63 0)
+		(at 95.25 64.77 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2094,7 +1970,7 @@
 		(fields_autoplaced yes)
 		(uuid "31fb0327-a9df-46c8-8fd3-dbe120a400c9")
 		(property "Reference" "J7"
-			(at 96.52 64.77 0)
+			(at 95.25 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2104,7 +1980,7 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_16P"
-			(at 96.52 67.31 0)
+			(at 95.25 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2114,7 +1990,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
-			(at 100.33 87.63 0)
+			(at 99.06 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2125,7 +2001,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
-			(at 100.33 87.63 0)
+			(at 99.06 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2136,7 +2012,7 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
-			(at 96.52 87.63 0)
+			(at 95.25 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2147,7 +2023,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 96.52 87.63 0)
+			(at 95.25 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2157,7 +2033,7 @@
 				)
 			)
 		)
-		(pin "S1"
+		(pin "SH"
 			(uuid "be6e43a1-8222-4c76-9b4c-d7b6a05edefb")
 		)
 		(pin "B6"
@@ -2230,7 +2106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "354cc2c4-530a-457e-b821-54a19fc8f305")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR063"
 			(at 231.14 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -2290,7 +2166,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR081")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2299,7 +2175,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 133.35 91.44 0)
+		(at 146.05 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2309,8 +2185,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "677d9aa6-8114-49ce-8f2f-794d2c04f366")
-		(property "Reference" "#PWR064"
-			(at 133.35 97.79 0)
+		(property "Reference" "#PWR062"
+			(at 146.05 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2321,7 +2197,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 133.35 96.52 0)
+			(at 146.05 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2331,7 +2207,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 91.44 0)
+			(at 146.05 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2342,7 +2218,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 91.44 0)
+			(at 146.05 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2353,7 +2229,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 133.35 91.44 0)
+			(at 146.05 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2369,7 +2245,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR064")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -2387,7 +2263,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68a48df7-e156-407a-af80-b44117a73fee")
-		(property "Reference" "R26"
+		(property "Reference" "R8"
 			(at 233.68 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2461,7 +2337,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "R26")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2470,7 +2346,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 96.52 113.03 0)
+		(at 95.25 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2480,8 +2356,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6bec4034-2c41-4c68-91ce-629b5ff6606a")
-		(property "Reference" "#PWR058"
-			(at 96.52 119.38 0)
+		(property "Reference" "#PWR067"
+			(at 95.25 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2492,7 +2368,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 118.11 0)
+			(at 95.25 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2502,7 +2378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 113.03 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2513,7 +2389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 113.03 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2524,7 +2400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 113.03 0)
+			(at 95.25 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2540,7 +2416,96 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR058")
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 133.35 57.15 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a65ee51d-fcd8-4ac5-a8f5-4afcb28c6a8c")
+		(property "Reference" "R10"
+			(at 133.35 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5k1"
+			(at 133.35 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 133.35 58.928 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 133.35 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 133.35 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab0cbf41-6bdb-4b0e-9dc2-ccbb0353de82")
+		)
+		(pin "2"
+			(uuid "8b2432ff-062c-4c7d-916e-de6810e4f79a")
+		)
+		(instances
+			(project "bt_pcb"
+				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2558,7 +2523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c149f88e-0f63-4c99-b032-85889dd13202")
-		(property "Reference" "R27"
+		(property "Reference" "R11"
 			(at 233.68 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2632,7 +2597,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "R27")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2640,7 +2605,7 @@
 	)
 	(symbol
 		(lib_id "library:CG0402MLU-12G")
-		(at 185.42 76.2 90)
+		(at 185.42 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2650,8 +2615,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc698311-12bc-4fed-9006-fb6799f1f5ea")
-		(property "Reference" "RV3"
-			(at 189.23 66.0399 90)
+		(property "Reference" "RV1"
+			(at 189.23 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2662,7 +2627,7 @@
 			)
 		)
 		(property "Value" "CG0402MLU-12G"
-			(at 189.23 68.5799 90)
+			(at 189.23 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2673,7 +2638,7 @@
 			)
 		)
 		(property "Footprint" "library:VARC1005X41N"
-			(at 281.61 62.23 0)
+			(at 281.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2685,7 +2650,7 @@
 			)
 		)
 		(property "Datasheet" "https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27"
-			(at 381.61 62.23 0)
+			(at 381.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2697,7 +2662,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT"
-			(at 185.42 76.2 0)
+			(at 185.42 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2708,7 +2673,7 @@
 			)
 		)
 		(property "Height" "0.41"
-			(at 581.61 62.23 0)
+			(at 581.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2720,7 +2685,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 681.61 62.23 0)
+			(at 681.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2732,7 +2697,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CG0402MLU-12G"
-			(at 781.61 62.23 0)
+			(at 781.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2744,7 +2709,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CG0402MLU-12G"
-			(at 881.61 62.23 0)
+			(at 881.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2756,7 +2721,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D"
-			(at 981.61 62.23 0)
+			(at 981.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2768,7 +2733,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CG0402MLU-12G"
-			(at 1081.61 62.23 0)
+			(at 1081.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2780,7 +2745,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cg0402mlu-12g/bourns?utm_currency=USD&region=nac"
-			(at 1181.61 62.23 0)
+			(at 1181.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2792,7 +2757,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 185.42 76.2 90)
+			(at 185.42 88.9 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,86 +2776,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "RV3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "GND_1")
-		(lib_id "power:GND")
-		(at 127 91.44 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e4bae19b-df7a-48a0-a362-eef3f9a63334")
-		(property "Reference" "#PWR063"
-			(at 127 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 127 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 127 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 127 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "69c5d7f9-f11f-4103-8258-67642bf1cab7")
-		)
-		(instances
-			(project "bt_pcb"
-				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "#PWR063")
+					(reference "RV1")
 					(unit 1)
 				)
 			)
@@ -2898,7 +2784,7 @@
 	)
 	(symbol
 		(lib_id "library:CG0402MLU-12G")
-		(at 173.99 88.9 90)
+		(at 173.99 96.52 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2909,7 +2795,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4fd10bf-6e34-404d-be42-5ee80723bb6d")
 		(property "Reference" "RV2"
-			(at 177.8 78.7399 90)
+			(at 177.8 86.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2920,7 +2806,7 @@
 			)
 		)
 		(property "Value" "CG0402MLU-12G"
-			(at 177.8 81.2799 90)
+			(at 177.8 88.8999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2931,7 +2817,7 @@
 			)
 		)
 		(property "Footprint" "library:VARC1005X41N"
-			(at 270.18 74.93 0)
+			(at 270.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2943,7 +2829,7 @@
 			)
 		)
 		(property "Datasheet" "https://bourns.com/docs/product-datasheets/mlu.pdf?sfvrsn=1940d498_27"
-			(at 370.18 74.93 0)
+			(at 370.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2955,7 +2841,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes CHIP GUARD 12VOLT"
-			(at 173.99 88.9 0)
+			(at 173.99 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2966,7 +2852,7 @@
 			)
 		)
 		(property "Height" "0.41"
-			(at 570.18 74.93 0)
+			(at 570.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2978,7 +2864,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Bourns"
-			(at 670.18 74.93 0)
+			(at 670.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2990,7 +2876,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CG0402MLU-12G"
-			(at 770.18 74.93 0)
+			(at 770.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3002,7 +2888,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CG0402MLU-12G"
-			(at 870.18 74.93 0)
+			(at 870.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3014,7 +2900,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Bourns/CG0402MLU-12G?qs=m8myXnDJXpUNz33UIHxVhA%3D%3D"
-			(at 970.18 74.93 0)
+			(at 970.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3026,7 +2912,7 @@
 			)
 		)
 		(property "Arrow Part Number" "CG0402MLU-12G"
-			(at 1070.18 74.93 0)
+			(at 1070.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3038,7 +2924,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cg0402mlu-12g/bourns?utm_currency=USD&region=nac"
-			(at 1170.18 74.93 0)
+			(at 1170.18 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3050,7 +2936,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 173.99 88.9 90)
+			(at 173.99 96.52 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3077,7 +2963,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 87.63 0)
+		(at 142.24 54.61 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3087,30 +2973,28 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f915bfca-c19a-47a7-acfc-02805cfd5219")
-		(property "Reference" "R17"
-			(at 135.89 86.36 0)
+		(property "Reference" "R9"
+			(at 142.24 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "5k1"
-			(at 135.89 88.9 0)
+			(at 142.24 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 131.572 87.63 90)
+			(at 142.24 56.388 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3121,7 +3005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 87.63 0)
+			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3132,7 +3016,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 133.35 87.63 0)
+			(at 142.24 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3142,7 +3026,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 133.35 87.63 0)
+			(at 142.24 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3161,7 +3045,7 @@
 		(instances
 			(project "bt_pcb"
 				(path "/eb787481-08cd-41a4-a128-173fa6227c32/81f44120-5006-4955-ab2c-f15dbf34b899"
-					(reference "R17")
+					(reference "R9")
 					(unit 1)
 				)
 			)
