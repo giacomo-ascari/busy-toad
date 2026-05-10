@@ -1595,7 +1595,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 87.63) (xy 95.25 90.17)
+			(xy 95.25 87.63) (xy 95.25 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2346,7 +2346,7 @@
 	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
-		(at 95.25 90.17 0)
+		(at 95.25 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2357,7 +2357,7 @@
 		(fields_autoplaced yes)
 		(uuid "6bec4034-2c41-4c68-91ce-629b5ff6606a")
 		(property "Reference" "#PWR067"
-			(at 95.25 96.52 0)
+			(at 95.25 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2368,7 +2368,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 95.25 0)
+			(at 95.25 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2378,7 +2378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 90.17 0)
+			(at 95.25 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2389,7 +2389,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 90.17 0)
+			(at 95.25 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2400,7 +2400,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 90.17 0)
+			(at 95.25 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
