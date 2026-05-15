@@ -3092,16 +3092,6 @@
 		)
 		(uuid "3f746104-1051-481b-a849-fdf2c3bd83c5")
 	)
-	(text "This was done thx to SOME SUGGESTIONS\nschottky B5819W ???\nanalog 3v3 AMS1117-3.3  --> replaced with TLV76133DCY\n5v buck MP2451DT-LF-Z\nfrom https://www.youtube.com/watch?v=n7kUYVMZIos&list=PLXSyc11qLa1ZGY3nD7to5eQGKGMREhNGl&index=8"
-		(exclude_from_sim no)
-		(at 83.82 151.638 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "42b2edb0-2b64-4c1f-a8d0-71c886630c02")
-	)
 	(text "Rfbt     88.7k     100k\nRfbb     22.1k   47k||47k\n          5V      5.25V"
 		(exclude_from_sim no)
 		(at 87.122 57.404 0)
@@ -3112,16 +3102,6 @@
 			(justify left)
 		)
 		(uuid "982c91c6-1559-40db-8f3f-6824a90688f4")
-	)
-	(text "DFE252012PD-3R3M=P2\n1008 (2520 metric)\n3.3uH\nNOT ANYMORE\nFIND SOMETHING ELSE"
-		(exclude_from_sim no)
-		(at 65.278 33.02 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b69e6428-19e2-4d48-a0a9-708c4b863993")
 	)
 	(junction
 		(at 227.33 36.83)
