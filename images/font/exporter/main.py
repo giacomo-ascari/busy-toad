@@ -17,18 +17,70 @@ E.g.: 10x16 --> 120x128
 Read from up to down, left to right
 '''
 
+# unset GTK_PATH
+# uv run main.py ../font_mediumshaded_10x14.png 10 14 4
+
 import os
 import argparse
 from PIL import Image
+import math
+
+def getlevel(image, x, y, fd):
+    greyscale = 0
+    for channel in range(3):
+        greyscale += image.getpixel((x,y))[channel]
+    greyscale = greyscale // 3
+    levels = []
+    for i in range(fd):
+        levels.append(i * 255 // (fd - 1))
+    if greyscale in levels:
+        return levels.index(greyscale)
+    return 0
 
 def main():
     print("Hello from exporter!")
 
     parser = argparse.ArgumentParser(prog='font exporter', description='', epilog='')
-    parser.add_argument("input", type=str, help="")
-    parser.add_argument("output", type=str, help="")
-    parser.add_argument("scale", type=str, help="", nargs='?')
+    parser.add_argument("input", type=str)
+    parser.add_argument("font_width", type=int)
+    parser.add_argument("font_height", type=int)
+    parser.add_argument("depth", type=int)
     args = parser.parse_args()
+
+    print(args.input, args.font_width, args.font_height, args.depth)
+
+    fw = args.font_width
+    fh = args.font_height
+    fd = args.depth
+
+    horizontal_count = 12
+    vertical_count = 8
+
+    bit_depth = int(math.log2(args.depth))
+
+    with Image.open(args.input) as image:
+        assert image.width / fw == horizontal_count, "wrong width"
+        assert image.height / fh == vertical_count, "wrong height"
+
+        bits_string = ""
+        proc = []
+
+        for i in range (horizontal_count):
+            for j in range (vertical_count):
+                for h in range(fh):
+                    for w in range(fw):
+                        x = w + i * fw
+                        y = h + j * fh
+                        level = getlevel(image, x, y, fd)
+                        bits_string += "{0:b}".format(level)
+
+        for i in range(len(bits_string) // 8):
+            index = i * 8
+            proc.append(int(bits_string[index:index+8], 2))
+        
+        for p in proc:
+            print("{0:x}, ".format(p), end="")
+        print()
 
 
 if __name__ == "__main__":
