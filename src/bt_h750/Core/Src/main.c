@@ -18,10 +18,10 @@
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include <string.h>
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
+#include <string.h>
 
 /* USER CODE END Includes */
 
@@ -34,13 +34,19 @@
 /* USER CODE BEGIN PD */
 #define HP_BUFFER_SIZE 512
 #define HP_BLOCK_SIZE (HP_BUFFER_SIZE / 2)
+#define HP_SR_F 48950.0f
+#define HP_SR_I 48950
+
+#define CODEC_BUFFER_SIZE 512
+#define CODEC_BLOCK_SIZE (CODEC_BUFFER_SIZE / 2)
+#define CODEC_SR_F 48950.0f
+#define CODEC_SR_I 48950
 
 #define FLOAT_TO_INT16 (32768.0f)
 #define INT16_TO_FLOAT (1.0f / 32768.0f)
 #define FLOAT_TO_INT32 (2147483648.0f)
 #define INT32_TO_FLOAT (1.0f / 2147483648.0f)
-#define HP_SR_F 48950.0f
-#define HP_SR_I 48950
+
 #define PI 3.14159265f
 #define STARTUP_RAMP_MS 100U
 #define STARTUP_RAMP_SAMPLES ((uint32_t)(HP_SR_F * STARTUP_RAMP_MS / 1000.0f))
@@ -59,6 +65,8 @@ I2C_HandleTypeDef hi2c2;
 
 I2S_HandleTypeDef hi2s1;
 I2S_HandleTypeDef hi2s2;
+DMA_HandleTypeDef hdma_spi1_rx;
+DMA_HandleTypeDef hdma_spi1_tx;
 DMA_HandleTypeDef hdma_spi2_tx;
 
 SD_HandleTypeDef hsd1;
@@ -68,6 +76,8 @@ UART_HandleTypeDef huart3;
 PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 /* USER CODE BEGIN PV */
+CS4282P_HandleTypeDef hcs4282p;
+
 /* DMA1 cannot access DTCMRAM, so this buffer must live in AXI SRAM (see .dma_buffer in the linker script) */
 
 /* TO PUT ON LINE ~233. DMA-accessible buffers: DTCMRAM is not reachable by DMA1/DMA2 on STM32H7, so place these in AXI SRAM instead */
@@ -81,7 +91,11 @@ PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
 __attribute__((section(".dma_buffer"))) int32_t hpDacData[HP_BUFFER_SIZE];
 static volatile int32_t* hpOutBuf = &hpDacData[0];
-uint8_t dataReady = 0;
+uint8_t hpDataReady = 0;
+
+__attribute__((section(".dma_buffer"))) int32_t codecDacData[CODEC_BUFFER_SIZE];
+static volatile int32_t* codecOutBuf = &codecDacData[0];
+uint8_t codecOutDataReady = 0;
 
 /* USER CODE END PV */
 
@@ -108,14 +122,32 @@ static void MX_USART3_UART_Init(void);
 void HAL_I2S_TxCpltCallback(I2S_HandleTypeDef *hi2s) {
   if (hi2s == &hi2s2) {
     hpOutBuf = &hpDacData[HP_BLOCK_SIZE];
-    dataReady = 1;
+    hpDataReady = 1;
+  } else if (hi2s == &hi2s1) {
+    codecOutBuf = &codecDacData[CODEC_BLOCK_SIZE];
+    codecOutDataReady = 1;
   }
 }
 
 void HAL_I2S_TxHalfCpltCallback(I2S_HandleTypeDef *hi2s) {
   if (hi2s == &hi2s2) {
     hpOutBuf = &hpDacData[0];
-    dataReady = 1;
+    hpDataReady = 1;
+  } else if (hi2s == &hi2s1) {
+    codecOutBuf = &codecDacData[0];
+    codecOutDataReady = 1;
+  }
+}
+
+void HAL_I2S_RxCpltCallback(I2S_HandleTypeDef *hi2s) {
+  if (hi2s == &hi2s1) {
+    // something
+  }
+}
+
+void HAL_I2S_RxHalfCpltCallback(I2S_HandleTypeDef *hi2s) {
+  if (hi2s == &hi2s1) {
+    // something
   }
 }
 
@@ -125,7 +157,7 @@ void HAL_I2S_ErrorCallback(I2S_HandleTypeDef *hi2s) {
   }
 }
 
-void processData() {
+void processHpData() {
   static uint32_t sample = 0;
   static float gain, sine, leftOut, rightOut, ramp;
   for (uint32_t i = 0; i < HP_BLOCK_SIZE; i += 2) {
@@ -140,8 +172,6 @@ void processData() {
     hpOutBuf[i+1] = (int32_t)(FLOAT_TO_INT32 * rightOut);
     sample++;
   }
-
-  
   sample %= HP_SR_I;
 }
 
@@ -192,12 +222,16 @@ int main(void)
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
   memset(hpDacData, 0, sizeof(hpDacData));
+  memset(codecDacData, 0, sizeof(codecDacData));
   HAL_SD_CardInfoTypeDef CardInfo;
   if (HAL_SD_GetCardInfo(&hsd1, &CardInfo) == HAL_OK)
   {
     /* Card info successfully retrieved */
   }
-  HAL_StatusTypeDef hpDacStatus = HAL_I2S_Transmit_DMA(&hi2s2, (uint16_t*)hpDacData,HP_BUFFER_SIZE);
+
+  CS4282P_Init(&hcs4282p, &hi2c2, &hi2s1, CODEC_RESET_GPIO_Port, CODEC_RESET_Pin);
+
+  HAL_I2S_Transmit_DMA(&hi2s2, (uint16_t*)hpDacData,HP_BUFFER_SIZE);
 
   uint32_t tick = 0;
   /* USER CODE END 2 */
@@ -209,18 +243,18 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-    /*tick = HAL_GetTick();
+    tick = HAL_GetTick();
     if (tick % 1000 > 500 && tick % 4 == 0) {
       HAL_GPIO_WritePin(GPIOB, LED_A_Pin | LED_B_Pin, GPIO_PIN_SET);
       HAL_GPIO_WritePin(GPIOD, LED_C_Pin | LED_D_Pin, GPIO_PIN_SET);
     } else {
       HAL_GPIO_WritePin(GPIOB, LED_A_Pin | LED_B_Pin, GPIO_PIN_RESET);
       HAL_GPIO_WritePin(GPIOD, LED_C_Pin | LED_D_Pin, GPIO_PIN_RESET);
-    }*/
+    }
 
-    if (dataReady) {
-      processData();
-      dataReady = 0;
+    if (hpDataReady) {
+      processHpData();
+      hpDataReady = 0;
     }
 
     /*sd_detect = HAL_GPIO_ReadPin(SD_DETECT_GPIO_Port, SD_DETECT_Pin);
@@ -466,7 +500,7 @@ static void MX_I2S1_Init(void)
   hi2s1.Instance = SPI1;
   hi2s1.Init.Mode = I2S_MODE_MASTER_FULLDUPLEX;
   hi2s1.Init.Standard = I2S_STANDARD_PHILIPS;
-  hi2s1.Init.DataFormat = I2S_DATAFORMAT_24B;
+  hi2s1.Init.DataFormat = I2S_DATAFORMAT_32B;
   hi2s1.Init.MCLKOutput = I2S_MCLKOUTPUT_ENABLE;
   hi2s1.Init.AudioFreq = I2S_AUDIOFREQ_48K;
   hi2s1.Init.CPOL = I2S_CPOL_LOW;
@@ -648,6 +682,12 @@ static void MX_DMA_Init(void)
   /* DMA1_Stream0_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(DMA1_Stream0_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(DMA1_Stream0_IRQn);
+  /* DMA1_Stream1_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Stream1_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Stream1_IRQn);
+  /* DMA1_Stream2_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Stream2_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Stream2_IRQn);
 
 }
 
