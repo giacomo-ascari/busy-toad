@@ -60,6 +60,8 @@
 
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
+ADC_HandleTypeDef hadc3;
+DMA_HandleTypeDef hdma_adc1;
 
 I2C_HandleTypeDef hi2c2;
 
@@ -71,7 +73,11 @@ DMA_HandleTypeDef hdma_spi2_tx;
 
 SD_HandleTypeDef hsd1;
 
+TIM_HandleTypeDef htim2;
+
 UART_HandleTypeDef huart3;
+DMA_HandleTypeDef hdma_usart3_rx;
+DMA_HandleTypeDef hdma_usart3_tx;
 
 PCD_HandleTypeDef hpcd_USB_OTG_FS;
 
@@ -97,6 +103,14 @@ __attribute__((section(".dma_buffer"))) int32_t codecDacData[CODEC_BUFFER_SIZE];
 static volatile int32_t* codecOutBuf = &codecDacData[0];
 uint8_t codecOutDataReady = 0;
 
+__attribute__((section(".dma_buffer"))) int32_t codecAdcData[CODEC_BUFFER_SIZE];
+static volatile int32_t* codecInBuf = &codecAdcData[0];
+uint8_t codecInDataReady = 0;
+
+__attribute__((section(".dma_buffer"))) uint16_t expData[4] = {1, 2, 3, 4};
+
+
+
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -112,6 +126,8 @@ static void MX_I2S1_Init(void);
 static void MX_I2S2_Init(void);
 static void MX_SDMMC1_SD_Init(void);
 static void MX_USART3_UART_Init(void);
+static void MX_ADC3_Init(void);
+static void MX_TIM2_Init(void);
 /* USER CODE BEGIN PFP */
 // https://youtu.be/zlGSxZGwj-E?t=823
 
@@ -123,9 +139,6 @@ void HAL_I2S_TxCpltCallback(I2S_HandleTypeDef *hi2s) {
   if (hi2s == &hi2s2) {
     hpOutBuf = &hpDacData[HP_BLOCK_SIZE];
     hpDataReady = 1;
-  } else if (hi2s == &hi2s1) {
-    codecOutBuf = &codecDacData[CODEC_BLOCK_SIZE];
-    codecOutDataReady = 1;
   }
 }
 
@@ -133,27 +146,36 @@ void HAL_I2S_TxHalfCpltCallback(I2S_HandleTypeDef *hi2s) {
   if (hi2s == &hi2s2) {
     hpOutBuf = &hpDacData[0];
     hpDataReady = 1;
-  } else if (hi2s == &hi2s1) {
+  }
+}
+
+void HAL_I2SEx_TxRxCpltCallback(I2S_HandleTypeDef *hi2s) {
+  if (hi2s == &hi2s1) {
+    codecInBuf = &codecAdcData[CODEC_BLOCK_SIZE];
+    codecInDataReady = 1;
+    codecOutBuf = &codecDacData[CODEC_BLOCK_SIZE];
+    codecOutDataReady = 1;
+  }
+}
+
+void HAL_I2SEx_TxRxHalfCpltCallback(I2S_HandleTypeDef *hi2s) {
+  if (hi2s == &hi2s1) {
+    codecInBuf = &codecAdcData[0];
+    codecInDataReady = 1;
     codecOutBuf = &codecDacData[0];
     codecOutDataReady = 1;
   }
 }
 
-void HAL_I2S_RxCpltCallback(I2S_HandleTypeDef *hi2s) {
-  if (hi2s == &hi2s1) {
-    // something
-  }
-}
-
-void HAL_I2S_RxHalfCpltCallback(I2S_HandleTypeDef *hi2s) {
-  if (hi2s == &hi2s1) {
-    // something
-  }
-}
-
 void HAL_I2S_ErrorCallback(I2S_HandleTypeDef *hi2s) {
   if (hi2s->ErrorCode != HAL_I2S_ERROR_NONE) {
-    // Handle I2S error
+    Error_Handler();
+  }
+}
+
+void HAL_I2SEx_ErrorCallback(I2S_HandleTypeDef *hi2s) {
+  if (hi2s->ErrorCode != HAL_I2S_ERROR_NONE) {
+    Error_Handler();
   }
 }
 
@@ -173,6 +195,30 @@ void processHpData() {
     sample++;
   }
   sample %= HP_SR_I;
+}
+
+static volatile uint32_t codecBusy = 0;
+
+void processCodecData() {
+  uint32_t codecStart = HAL_GetTick();
+  static uint32_t sample = 0;
+  static float gain, sine, leftOut, rightOut, ramp;
+  for (uint32_t i = 0; i < CODEC_BLOCK_SIZE; i += 2) {
+    ramp = sample < STARTUP_RAMP_SAMPLES
+      ? (float)sample / (float)STARTUP_RAMP_SAMPLES
+      : 1.0f;
+    gain = 0.2f;
+    sine = sinf(2.f * PI * 440.f * (float)sample / CODEC_SR_F) * gain;
+    leftOut = sine * ramp;
+    rightOut = sine * ramp;
+    codecOutBuf[i] = (int32_t)(FLOAT_TO_INT32 * leftOut); // this doesnt
+    codecOutBuf[i+1] = (int32_t)(FLOAT_TO_INT32 * rightOut); // this channel works
+    //codecOutBuf[i] = codecInBuf[i];
+    //codecOutBuf[i+1] = codecInBuf[i+1];
+    sample++;
+  }
+  sample %= CODEC_SR_I;
+  codecBusy = HAL_GetTick() - codecStart;
 }
 
 /* USER CODE END 0 */
@@ -220,20 +266,36 @@ int main(void)
   MX_I2S2_Init();
   MX_SDMMC1_SD_Init();
   MX_USART3_UART_Init();
+  MX_ADC3_Init();
+  MX_TIM2_Init();
   /* USER CODE BEGIN 2 */
-  memset(hpDacData, 0, sizeof(hpDacData));
-  memset(codecDacData, 0, sizeof(codecDacData));
   HAL_SD_CardInfoTypeDef CardInfo;
-  if (HAL_SD_GetCardInfo(&hsd1, &CardInfo) == HAL_OK)
-  {
-    /* Card info successfully retrieved */
+  if (HAL_SD_GetCardInfo(&hsd1, &CardInfo) != HAL_OK) {
+    Error_Handler();
   }
 
-  CS4282P_Init(&hcs4282p, &hi2c2, &hi2s1, CODEC_RESET_GPIO_Port, CODEC_RESET_Pin);
-
+  memset(hpDacData, 0, sizeof(hpDacData));
+  memset(codecDacData, 0, sizeof(codecDacData));
+  memset(codecAdcData, 0, sizeof(codecAdcData));
   HAL_I2S_Transmit_DMA(&hi2s2, (uint16_t*)hpDacData,HP_BUFFER_SIZE);
+  HAL_I2SEx_TransmitReceive_DMA(&hi2s1, (const uint16_t *)codecDacData, (uint16_t *)codecAdcData, CODEC_BUFFER_SIZE);
+
+  HAL_StatusTypeDef codecStatus = CS4282P_Init(&hcs4282p, &hi2c2, &hi2s1, CODEC_RESET_GPIO_Port, CODEC_RESET_Pin);
+  if (codecStatus != HAL_OK) {
+    Error_Handler();
+  }
+
+  if (HAL_ADC_Start_DMA(&hadc1, (uint32_t*)expData, 4) != HAL_OK) {
+    Error_Handler();
+  }
+  if (HAL_TIM_Base_Start(&htim2) != HAL_OK) {
+    Error_Handler();
+  }
+
+  HAL_Delay(1000); // Give some time for the codec PLL to stabilize after init
 
   uint32_t tick = 0;
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -255,6 +317,11 @@ int main(void)
     if (hpDataReady) {
       processHpData();
       hpDataReady = 0;
+    }
+
+    if (codecInDataReady) {
+      processCodecData();
+      codecInDataReady = 0;
     }
 
     /*sd_detect = HAL_GPIO_ReadPin(SD_DETECT_GPIO_Port, SD_DETECT_Pin);
@@ -387,17 +454,17 @@ static void MX_ADC1_Init(void)
   /** Common config
   */
   hadc1.Instance = ADC1;
-  hadc1.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV1;
+  hadc1.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV4;
   hadc1.Init.Resolution = ADC_RESOLUTION_16B;
-  hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
+  hadc1.Init.ScanConvMode = ADC_SCAN_ENABLE;
   hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   hadc1.Init.LowPowerAutoWait = DISABLE;
   hadc1.Init.ContinuousConvMode = DISABLE;
-  hadc1.Init.NbrOfConversion = 1;
+  hadc1.Init.NbrOfConversion = 4;
   hadc1.Init.DiscontinuousConvMode = DISABLE;
-  hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
-  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
-  hadc1.Init.ConversionDataManagement = ADC_CONVERSIONDATA_DR;
+  hadc1.Init.ExternalTrigConv = ADC_EXTERNALTRIG_T2_TRGO;
+  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_RISING;
+  hadc1.Init.ConversionDataManagement = ADC_CONVERSIONDATA_DMA_CIRCULAR;
   hadc1.Init.Overrun = ADC_OVR_DATA_PRESERVED;
   hadc1.Init.LeftBitShift = ADC_LEFTBITSHIFT_NONE;
   hadc1.Init.OversamplingMode = DISABLE;
@@ -417,9 +484,9 @@ static void MX_ADC1_Init(void)
 
   /** Configure Regular Channel
   */
-  sConfig.Channel = ADC_CHANNEL_17;
+  sConfig.Channel = ADC_CHANNEL_14;
   sConfig.Rank = ADC_REGULAR_RANK_1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_1CYCLE_5;
+  sConfig.SamplingTime = ADC_SAMPLETIME_387CYCLES_5;
   sConfig.SingleDiff = ADC_SINGLE_ENDED;
   sConfig.OffsetNumber = ADC_OFFSET_NONE;
   sConfig.Offset = 0;
@@ -428,9 +495,96 @@ static void MX_ADC1_Init(void)
   {
     Error_Handler();
   }
+
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_15;
+  sConfig.Rank = ADC_REGULAR_RANK_2;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_16;
+  sConfig.Rank = ADC_REGULAR_RANK_3;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_17;
+  sConfig.Rank = ADC_REGULAR_RANK_4;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
   /* USER CODE BEGIN ADC1_Init 2 */
 
   /* USER CODE END ADC1_Init 2 */
+
+}
+
+/**
+  * @brief ADC3 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC3_Init(void)
+{
+
+  /* USER CODE BEGIN ADC3_Init 0 */
+
+  /* USER CODE END ADC3_Init 0 */
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN ADC3_Init 1 */
+
+  /* USER CODE END ADC3_Init 1 */
+
+  /** Common config
+  */
+  hadc3.Instance = ADC3;
+  hadc3.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV4;
+  hadc3.Init.Resolution = ADC_RESOLUTION_16B;
+  hadc3.Init.ScanConvMode = ADC_SCAN_DISABLE;
+  hadc3.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+  hadc3.Init.LowPowerAutoWait = DISABLE;
+  hadc3.Init.ContinuousConvMode = DISABLE;
+  hadc3.Init.NbrOfConversion = 1;
+  hadc3.Init.DiscontinuousConvMode = DISABLE;
+  hadc3.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc3.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+  hadc3.Init.ConversionDataManagement = ADC_CONVERSIONDATA_DR;
+  hadc3.Init.Overrun = ADC_OVR_DATA_PRESERVED;
+  hadc3.Init.LeftBitShift = ADC_LEFTBITSHIFT_NONE;
+  hadc3.Init.OversamplingMode = DISABLE;
+  hadc3.Init.Oversampling.Ratio = 1;
+  if (HAL_ADC_Init(&hadc3) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_1;
+  sConfig.Rank = ADC_REGULAR_RANK_1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_1CYCLE_5;
+  sConfig.SingleDiff = ADC_SINGLE_ENDED;
+  sConfig.OffsetNumber = ADC_OFFSET_NONE;
+  sConfig.Offset = 0;
+  sConfig.OffsetSignedSaturation = DISABLE;
+  if (HAL_ADC_ConfigChannel(&hadc3, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN ADC3_Init 2 */
+
+  /* USER CODE END ADC3_Init 2 */
 
 }
 
@@ -586,6 +740,64 @@ static void MX_SDMMC1_SD_Init(void)
 }
 
 /**
+  * @brief TIM2 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_TIM2_Init(void)
+{
+
+  /* USER CODE BEGIN TIM2_Init 0 */
+
+  /* USER CODE END TIM2_Init 0 */
+
+  TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+  TIM_MasterConfigTypeDef sMasterConfig = {0};
+  TIM_OC_InitTypeDef sConfigOC = {0};
+
+  /* USER CODE BEGIN TIM2_Init 1 */
+
+  /* USER CODE END TIM2_Init 1 */
+  htim2.Instance = TIM2;
+  htim2.Init.Prescaler = 2048-1;
+  htim2.Init.CounterMode = TIM_COUNTERMODE_UP;
+  htim2.Init.Period = 2048-1;
+  htim2.Init.ClockDivision = TIM_CLOCKDIVISION_DIV1;
+  htim2.Init.AutoReloadPreload = TIM_AUTORELOAD_PRELOAD_DISABLE;
+  if (HAL_TIM_Base_Init(&htim2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sClockSourceConfig.ClockSource = TIM_CLOCKSOURCE_INTERNAL;
+  if (HAL_TIM_ConfigClockSource(&htim2, &sClockSourceConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  if (HAL_TIM_PWM_Init(&htim2) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sMasterConfig.MasterOutputTrigger = TIM_TRGO_UPDATE;
+  sMasterConfig.MasterSlaveMode = TIM_MASTERSLAVEMODE_DISABLE;
+  if (HAL_TIMEx_MasterConfigSynchronization(&htim2, &sMasterConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sConfigOC.OCMode = TIM_OCMODE_PWM1;
+  sConfigOC.Pulse = 0;
+  sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
+  sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
+  if (HAL_TIM_PWM_ConfigChannel(&htim2, &sConfigOC, TIM_CHANNEL_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN TIM2_Init 2 */
+
+  /* USER CODE END TIM2_Init 2 */
+
+}
+
+/**
   * @brief USART3 Initialization Function
   * @param None
   * @retval None
@@ -688,6 +900,18 @@ static void MX_DMA_Init(void)
   /* DMA1_Stream2_IRQn interrupt configuration */
   HAL_NVIC_SetPriority(DMA1_Stream2_IRQn, 0, 0);
   HAL_NVIC_EnableIRQ(DMA1_Stream2_IRQn);
+  /* DMA1_Stream3_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Stream3_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Stream3_IRQn);
+  /* DMA1_Stream4_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Stream4_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Stream4_IRQn);
+  /* DMA1_Stream5_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Stream5_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Stream5_IRQn);
+  /* DMAMUX1_OVR_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMAMUX1_OVR_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMAMUX1_OVR_IRQn);
 
 }
 
@@ -800,9 +1024,6 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-  /*AnalogSwitch Config */
-  HAL_SYSCFG_AnalogSwitchConfig(SYSCFG_SWITCH_PC3, SYSCFG_SWITCH_PC3_OPEN);
 
   /* USER CODE BEGIN MX_GPIO_Init_2 */
 

@@ -76,6 +76,13 @@
 #define CS4282P_REG_PAD_LVL 0x3D28U
 // CLIP_DETECT
 #define CS4282P_REG_CLIP_WARN 0x3E1CU
+
+typedef struct {
+    uint8_t inputMute[2];
+    uint8_t inputVolume[2];
+    uint8_t outputMute[2];
+    uint8_t outputVolume[2];
+} CS4282P_VolumeTypeDef;
  
 typedef struct {
     I2C_HandleTypeDef* hi2c;
@@ -83,7 +90,16 @@ typedef struct {
     GPIO_TypeDef* resetPort;
     uint16_t resetPin;
     uint8_t initialized;
+    CS4282P_VolumeTypeDef volume;
 } CS4282P_HandleTypeDef;
 
-uint8_t CS4282P_Init(CS4282P_HandleTypeDef* hcs4282p, I2C_HandleTypeDef* hi2c, I2S_HandleTypeDef* hi2s, GPIO_TypeDef* resetPort, uint16_t resetPin);
+HAL_StatusTypeDef CS4282P_Init(CS4282P_HandleTypeDef* hcs4282p, I2C_HandleTypeDef* hi2c, I2S_HandleTypeDef* hi2s, GPIO_TypeDef* resetPort, uint16_t resetPin);
 void CS4282P_Reset(CS4282P_HandleTypeDef* hcs4282p);
+
+HAL_StatusTypeDef CS4282P_Enable(CS4282P_HandleTypeDef* hcs4282p);
+HAL_StatusTypeDef CS4282P_Disable(CS4282P_HandleTypeDef* hcs4282p);
+HAL_StatusTypeDef CS4282P_ApplyVolume(CS4282P_HandleTypeDef* hcs4282p);
+uint8_t CS4282P_CalculateVolumeFromDB(float volumeDB);
+HAL_StatusTypeDef CS4282P_MuteAll(CS4282P_HandleTypeDef* hcs4282p);
+HAL_StatusTypeDef CS4282P_UnmuteAll(CS4282P_HandleTypeDef* hcs4282p);
+

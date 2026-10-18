@@ -60,14 +60,14 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "STM32_Drivers::@768a070a0fe75716b479",
-					"jsonFile" : "target-STM32_Drivers-Debug-ce6c4320b43b307b2ece.json",
+					"jsonFile" : "target-STM32_Drivers-Debug-48338c54ef1856284fd5.json",
 					"name" : "STM32_Drivers",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "bt_h523::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-bt_h523-Debug-c2c23e031ec5428535f5.json",
+					"jsonFile" : "target-bt_h523-Debug-7f06df52bdcf98d75c2a.json",
 					"name" : "bt_h523",
 					"projectIndex" : 0
 				}
